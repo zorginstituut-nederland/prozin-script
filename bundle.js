@@ -51531,18 +51531,6 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
         }
       }
     },
-    findScrollContainer: function findScrollContainer(el) {
-      var direction = this.options.direction;
-      var scrollable = $(el).parents().filter(function () {
-        return ['auto', 'scroll'].indexOf($(this).css('overflow')) > -1 || direction === 'top' && ['auto', 'scroll'].indexOf($(this).css('overflow-y')) > -1 || direction === 'left' && ['auto', 'scroll'].indexOf($(this).css('overflow-x')) > -1;
-      }).first();
-
-      if (typeof scrollable[0] === 'undefined') {
-        scrollable = $('html, body');
-      }
-
-      return scrollable;
-    },
     smoothScroll: function smoothScroll() {
       var href, fragment;
       var scroll = this.options.direction == "top" ? 'scrollTop' : 'scrollLeft',
@@ -51553,10 +51541,6 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
         // apply scroll options directly
         scrollable = this.options.selector ? $(this.options.selector) : this.$el;
         options[scroll] = this.options.offset;
-      } else if (this.options.selector === "top") {
-        // Just scroll up, period.
-        scrollable = this.findScrollContainer(this.$el);
-        options['scrollTop'] = 0;
       } else {
         // Get the first element with overflow (the scroll container)
         // starting from the *target*
@@ -51566,7 +51550,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
           fragment = this.options.selector;
         } else {
           href = this.$el.attr('href');
-          fragment = href.indexOf('#') !== -1 ? '#' + href.split('#').pop() : undefined;
+          fragment = href.indexOf('#') !== -1 && '#' + href.split('#').pop() || undefined;
         }
 
         var target = $(fragment);
@@ -51575,9 +51559,19 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
           return;
         }
 
-        scrollable = this.findScrollContainer(target);
+        scrollable = $(target.parents().filter(function () {
+          return $(this).css('overflow') === 'auto' || $(this).css('overflow') === 'scroll';
+        }).first());
 
-        if (scroll === "scrollTop") {
+        if (typeof scrollable[0] === 'undefined') {
+          scrollable = $('html, body'); // positioning context is document
+
+          if (scroll === "scrollTop") {
+            options[scroll] = Math.floor(target.safeOffset().top);
+          } else {
+            options[scroll] = Math.floor(target.safeOffset().left);
+          }
+        } else if (scroll === "scrollTop") {
           // difference between target top and scrollable top becomes 0
           options[scroll] = Math.floor(scrollable.scrollTop() + target.safeOffset().top - scrollable.safeOffset().top);
         } else {
