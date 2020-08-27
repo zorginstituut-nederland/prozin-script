@@ -81,12 +81,39 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 210);
+/******/ 	return __webpack_require__(__webpack_require__.s = 208);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 210:
+/***/ 11:
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
+/***/ 208:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Polyfills for older browsers, most notably IE11.
@@ -94,9 +121,9 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Polyfills for
 //   require(["pat-polyfills"]);
 
 !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-    __webpack_require__(211),
-    __webpack_require__(215),
-    __webpack_require__(216),
+    __webpack_require__(209),
+    __webpack_require__(213),
+    __webpack_require__(214),
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function (PromisePolyfill, IntersectionObserverPolyfill, URLPolyfill) {
     // Dummy return to not break jshint rules and to include the polyfills in the compiled bundle.
     return {
@@ -110,7 +137,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Polyfills for
 
 /***/ }),
 
-/***/ 211:
+/***/ 209:
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(setImmediate, global) {(function (global, factory) {
@@ -414,11 +441,11 @@ if (!('Promise' in globalNS)) {
 
 })));
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(212).setImmediate, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(210).setImmediate, __webpack_require__(11)))
 
 /***/ }),
 
-/***/ 212:
+/***/ 210:
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
@@ -474,7 +501,7 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(213);
+__webpack_require__(211);
 // On some exotic environments, it's not clear which object `setimmediate` was
 // able to install onto.  Search each possibility in the same order as the
 // `setimmediate` library.
@@ -485,11 +512,11 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                          (typeof global !== "undefined" && global.clearImmediate) ||
                          (this && this.clearImmediate);
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(11)))
 
 /***/ }),
 
-/***/ 213:
+/***/ 211:
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -679,11 +706,11 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(8), __webpack_require__(214)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(11), __webpack_require__(212)))
 
 /***/ }),
 
-/***/ 214:
+/***/ 212:
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -874,7 +901,7 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
-/***/ 215:
+/***/ 213:
 /***/ (function(module, exports) {
 
 /**
@@ -1607,7 +1634,7 @@ window.IntersectionObserverEntry = IntersectionObserverEntry;
 
 /***/ }),
 
-/***/ 216:
+/***/ 214:
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {(function(global) {
@@ -2102,34 +2129,7 @@ window.IntersectionObserverEntry = IntersectionObserverEntry;
     : ((typeof self !== 'undefined') ? self : this))
 );
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(8)))
-
-/***/ }),
-
-/***/ 8:
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || new Function("return this")();
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(11)))
 
 /***/ })
 
