@@ -44,7 +44,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "chunks/" + chunkId + "." + {"3":"d4b1828427c3caead0a6","4":"29c28b505620509bfd1a","5":"9ce8191de03a8c5943ee","6":"c750829197d404ed93b6","7":"2dcf5e5e307654f61f44","8":"c6381f656268216420ec","9":"ad121ba334d413d8a4d4","10":"714254f728e95c09abcd","11":"96e62f3e0c692326f2c6","12":"0edac301f805224c3819","13":"673066745f955dd8fa11","14":"3f55a45e5ec4b5aa7b36","15":"4160c5fe06c94c73921e","16":"3f1b83168d3252d46cc0","17":"cc975c0b9b118e11c999","18":"df7f9a1aad203f4d1543","19":"f4cefa6abeaff7bd2491","20":"3ad38cac0d86caddf689","21":"e5b56ce0dcf52a45880a","22":"a18053e6c612c02c7bd4","23":"bb76a3fffe6f01380cfb","24":"9f9011ccaa6e627ad1e1","25":"ad205f4853a2f432fce5","26":"4d1a8001b6f378297e1a","27":"e070f0c6868f4642b671","28":"df4d60ac65d3ff06473e","29":"d9d468a4a8c5fef9adcc","30":"b506f25ba5f0405c1297","31":"de02447954e2ef5279c1","32":"82d51ceba69f89719e5c","33":"1ab106b112e362cc1825","34":"ba6e4ce2e5e9c37a04ed","35":"b167299bc244324914a6","36":"2b243d7cc71e1f1558aa","37":"915f3e0434f5c85c3eeb","38":"2cade82443c3dd0efc6f","39":"87f6d0ba782e90540075","40":"cf3432600cdfd645ae9e","41":"90bc82dfee5b1f344e05","42":"58ee3592adc05554c597","43":"c4042dded1f51e217960","44":"a2ed32f90dae53c3e24d","45":"9a055350a4a62fa802f0","46":"ee8542f92c4171aa5efc","47":"00c8d3d7ee6569f1d909","48":"319eb2ef4e3eb454a124","49":"b1081574c2faaf382be5","50":"b4a80591103d900ea22d","51":"652bdaf4dab9037f1e26","52":"b7c56b21adb0d80ebf74","53":"4831702470ee861b0552","54":"e7e1c80e0a68d29e4e0a","55":"5786be4803f925a714c1","56":"2f572eb452d4ab7137cd","57":"7ef6bbaa97848fff1386","58":"0c0d7257288dbddd87a6","59":"105e4e153a1b4b1040af","60":"953b94617b6a791bad90","61":"5579ea566f28cfe21954","62":"fc865e4954f021acd047","63":"ec734a1970446eb27816","64":"f49dda96fbdce1306a56","65":"6ee1f15dee3adbecbf2b","66":"f6df4ccee337cd741cbe","67":"7c47529093b2c4d57c55","68":"2fafead26c941b6a489b","69":"61ad56bdcbe6b7ad075a","70":"7f421040f2a03332b16f","71":"0f44ef359dd8732fb455","72":"13881cee8f8db4ce92f7","73":"7d891b31d57ff9b56b86","74":"4d8fc5ca37fa68db4cda","75":"8decf61ff14a632d2fd8","76":"a286f7a598069087c44c","77":"f827604ec3d8573bbe64","78":"eb061fa05317e7a9d0bf","79":"bb21dc8afb1e979bd304","80":"a1595c2f0f85981617f3","81":"43541ad539a41195950f","82":"4bc5cad4aeded31dfb08","83":"70eb9a7872d33284e125","84":"79a4e9af455e4727a14c","85":"6806bd491399a12b55b4","86":"2137d242053fc4dfafe3","87":"1407e83a922623e160b0","88":"ad32fdd605178ac457c4","89":"256e8828e5be187d8507","90":"3ca0f7a119751b9d9cf8","91":"276f82ce2878ff8e1b43","92":"1da8837069fb7bdf147d","93":"f7d2f7503d432d854242","94":"f269db15273f5a572741","95":"5d0ff10c6943fba1332e","96":"1646e402196e91f76c8b","97":"9680e98618f757e204b0","98":"1286bb9bf8844d6b3dba","99":"67f5ddc62f2dbc3e8f15","100":"1b2ca6ce9a1636bf7765","101":"a6bc7eeb54bd5c5aa4b8","102":"6e39d55976f787094be4","103":"b80ba0d938372fdcbce2","104":"abcdbc067859f4535b60","105":"c3f672b610a05784d254","106":"69654585c3ddc28085b7","107":"adf3954802f786dcb3bc","108":"4278b8aa3aa28f694d02","109":"acfe2ab4952e5634be35","110":"28afb744651d1fd42390","111":"c8521f3b519472c7f0b9","112":"0bf031943e9c3ba9ab38","113":"4fd165457d394b366371","114":"9e3209aba0a94f431ab4","115":"ff25da9d37fd3e5f6b53","116":"05ad6b50510e1363f1e2","117":"50a15c074c19dd81fcac","118":"16cb958f8939ba45488e","119":"d686f75cade95f22450f","120":"b380eb28b63a8a1e944a","121":"a960fa7afed61a397270","122":"9b2aeb89fac9baed6598","123":"73744561a518f58b3bb5","124":"f467480b392c5a32533e","125":"f8888c2f05ecece3489c","126":"6342182e1776dedb0a23","127":"80debc8831b825101527","128":"497ad8e726a2a238cdb8","129":"700b19a28d903294913b","130":"f835ccff3f12d2e94292","131":"e34cfe3a310a98055f34","132":"ad9b342957d85e68d5b2","133":"0c568033186a84e20c97","134":"3759d66d6043b8c8f6d3","135":"9246435aaf6c7be01bfe"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "chunks/" + chunkId + "." + {"3":"b5d03f1499d4048a7e81","4":"77d99155882eced9d82e","5":"c64193605fd8aad864f3","6":"7b011bca5118af446d89","7":"55b7b861906714e0c24d","8":"b8e755b17a5432dda8bf","9":"8a37a225095453d68176","10":"dd24a7ef72197e49c210","11":"4e39ca835b49f408c878","12":"1ddeda1a0e00c49f36ad","13":"0ef00a8dd1ca591927b9","14":"d7ed7ba928221f47819e","15":"79c4cc9b61c0e851b16e","16":"3f04820d99c835625b34","17":"d8100e542eceb9d16c23","18":"d3db76a7bb306a87422b","19":"daab0609ea1865364604","20":"7eee71a16f832cf14618","21":"96c730f4e446b996770e","22":"4b01b68dfc33fbc6027d","23":"ba43e8cb687c1287634e","24":"719ed6eebfc78473baa7","25":"384db7c2b978ca061e67","26":"526de9e799e6e358d3cf","27":"91376808e72e0cb60f10","28":"e09531bb756753abbd89","29":"1b5979f648f0f7d855ef","30":"91fa58eefc9decd3de27","31":"29a0013c8131896f4867","32":"efc1ea05fb484105905f","33":"85dee686195f41f3e316","34":"90a97359c31dc58a2cc0","35":"e381c824810bcb285b7c","36":"802f9467e52932e6a35a","37":"07a8ed92dc5854687ff9","38":"61d18c9f10a4945da0ce","39":"7cd826f5f64f85cabd4b","40":"3523799a93893373999d","41":"8e765bd5c28150e3786a","42":"3f5684ff8b551140ee1f","43":"072d86d419b71a146ad0","44":"b6d8d651e3e93f5bf75f","45":"b5c8ce5dff6997d643bd","46":"43f6685c83f47362df12","47":"b8250cd27eefc89d070e","48":"43d1a8fb2091c3198dcc","49":"f9b454b4d4676c604a00","50":"414b1879ecead777dd9a","51":"2c6ad182890a4200e27c","52":"5f2a9ac9b970eab9b9bd","53":"91fcf3ee30e2b503580c","54":"e888bd42713dbaf8d538","55":"32b36a204da9bd9f166e","56":"1c9378ce38f339072a96","57":"041a94b8690ed40f5ce6","58":"012e9e86c928517980eb","59":"a4420ff4c8aa3c87a388","60":"720b488ed909303b04a3","61":"5734a30a78aac3bcc005","62":"9bf192e8308bf6d97812","63":"de69bf919c3bea3e4708","64":"b5bb4cf880e199fe00bd","65":"7640141efe6dd4ab256c","66":"131f0f3addf24dc7b1e3","67":"cb738a355d9825d7bae6","68":"e535302cb735a1dd422c","69":"55885fbabaa323044d59","70":"d1f542aa6d4b2db9d913","71":"6d434ae7133fbd3adbe4","72":"1a1edc634ba45933530a","73":"53d6d33b36914f66d6e6","74":"effd0132a45fb02a5934","75":"58ef61b0ecb7ea036a7d","76":"270bc252480f59796f2e","77":"99051fc230264704337b","78":"58385ba802534f54ab38","79":"881da57fd5da5c0d2d5c","80":"a84df7477ed3693943f7","81":"4ff03751a8a39144bbfb","82":"9a2da8eff8783b4146ba","83":"f1d9ba56d723072ac565","84":"0f3cafe7173db231c269","85":"cfbd9291ed79637ed75b","86":"9899b801640265538ff5","87":"876669bd3e6d95fe31c1","88":"898e92debe3c63dc571a","89":"697bf71d6447bfcba912","90":"bdd830b5c568ce00f753","91":"80b3052d5745e4fb6bb7","92":"937ba8d76d1056086f32","93":"564945f0d98f22d446b3","94":"481abd17600e32490394","95":"df8f2362ace8b1ccd9ed","96":"886f613a237b9de21752","97":"8ffa9845b0f6c0331d56","98":"05347e3c9e0f16138e9b","99":"a2565f3b0777f3155aa2","100":"50b40209f3b464ffa7d1","101":"b779b4dd93e2b081a9db","102":"d0c9b32d34bec98c25f6","103":"c31b187b50253998df91","104":"bae396918344159f915c","105":"f8eee54343c6d52ec624","106":"de83396c93d58ff706a1","107":"6748e7688ce482bd797f","108":"c9465bc97dbf43a927e3","109":"b526bbddf98386e98596","110":"70184c54103205ad940d","111":"ac9b7b81dee92ab31fb4","112":"681cd8db90272a4f3632","113":"b7196eb85476939ca808","114":"8bdf88c71555e25d24f1","115":"76bc815adab3cc9000b7","116":"91c7ab6ebef3b664f374","117":"7016ffa0bc6ced0fe4eb","118":"5ca840e278255b33a177","119":"32d580bd583078919e9d","120":"aa543d083a63ec747ed4","121":"25dae076f3e810f4b36c","122":"74ea7a2608cfbdfc0cd3","123":"b9c6b9862ce9b864d0ac","124":"ebd6b248255f3e4fc3d3","125":"b3847413e06676aa5c4c","126":"9161823373df705b2be1","127":"52fb26beb62ad31caa2e","128":"97648f6123830f18c911","129":"d085cba45f6c37c3e95a","130":"8c28a20ebbab38269bd5","131":"fec258ef04ffb2d8f854","132":"e9f331323cb092aeb123","133":"eea6940ca523d7eb5423","134":"c002c5bd9dd3e7d05c4d","135":"678337640693aedcd196"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -30025,535 +30025,535 @@ process.umask = function() { return 0; };
 
 var map = {
 	"./af.js": [
-		81,
+		82,
 		3
 	],
 	"./ar-dz.js": [
-		82,
+		83,
 		4
 	],
 	"./ar-kw.js": [
-		83,
+		84,
 		48
 	],
 	"./ar-ly.js": [
-		84,
+		85,
 		59
 	],
 	"./ar-ma.js": [
-		85,
+		86,
 		70
 	],
 	"./ar-sa.js": [
-		86,
+		87,
 		81
 	],
 	"./ar-tn.js": [
-		87,
+		88,
 		92
 	],
 	"./ar.js": [
-		88,
+		89,
 		103
 	],
 	"./az.js": [
-		89,
+		90,
 		114
 	],
 	"./be.js": [
-		90,
+		91,
 		125
 	],
 	"./bg.js": [
-		91,
+		92,
 		5
 	],
 	"./bm.js": [
-		92,
+		93,
 		16
 	],
 	"./bn.js": [
-		93,
+		94,
 		27
 	],
 	"./bo.js": [
-		94,
+		95,
 		38
 	],
 	"./br.js": [
-		95,
+		96,
 		42
 	],
 	"./bs.js": [
-		96,
+		97,
 		43
 	],
 	"./ca.js": [
-		97,
+		98,
 		44
 	],
 	"./cs.js": [
-		98,
+		99,
 		45
 	],
 	"./cv.js": [
-		99,
+		100,
 		46
 	],
 	"./cy.js": [
-		100,
+		101,
 		47
 	],
 	"./da.js": [
-		101,
+		102,
 		49
 	],
 	"./de-at.js": [
-		102,
+		103,
 		50
 	],
 	"./de-ch.js": [
-		103,
+		104,
 		51
 	],
 	"./de.js": [
-		104,
+		105,
 		52
 	],
 	"./dv.js": [
-		105,
+		106,
 		53
 	],
 	"./el.js": [
-		106,
+		107,
 		54
 	],
 	"./en-au.js": [
-		107,
+		108,
 		55
 	],
 	"./en-ca.js": [
-		108,
+		109,
 		56
 	],
 	"./en-gb.js": [
-		109,
+		110,
 		57
 	],
 	"./en-ie.js": [
-		110,
+		111,
 		58
 	],
 	"./en-il.js": [
-		111,
+		112,
 		60
 	],
 	"./en-in.js": [
-		112,
+		113,
 		61
 	],
 	"./en-nz.js": [
-		113,
+		114,
 		62
 	],
 	"./en-sg.js": [
-		114,
+		115,
 		63
 	],
 	"./eo.js": [
-		115,
+		116,
 		64
 	],
 	"./es-do.js": [
-		116,
+		117,
 		65
 	],
 	"./es-us.js": [
-		117,
+		118,
 		66
 	],
 	"./es.js": [
-		118,
+		119,
 		67
 	],
 	"./et.js": [
-		119,
+		120,
 		68
 	],
 	"./eu.js": [
-		120,
+		121,
 		69
 	],
 	"./fa.js": [
-		121,
+		122,
 		71
 	],
 	"./fi.js": [
-		122,
+		123,
 		72
 	],
 	"./fil.js": [
-		123,
+		124,
 		73
 	],
 	"./fo.js": [
-		124,
+		125,
 		74
 	],
 	"./fr-ca.js": [
-		125,
+		126,
 		75
 	],
 	"./fr-ch.js": [
-		126,
+		127,
 		76
 	],
 	"./fr.js": [
-		127,
+		128,
 		77
 	],
 	"./fy.js": [
-		128,
+		129,
 		78
 	],
 	"./ga.js": [
-		129,
+		130,
 		79
 	],
 	"./gd.js": [
-		130,
+		131,
 		80
 	],
 	"./gl.js": [
-		131,
+		132,
 		82
 	],
 	"./gom-deva.js": [
-		132,
+		133,
 		83
 	],
 	"./gom-latn.js": [
-		133,
+		134,
 		84
 	],
 	"./gu.js": [
-		134,
+		135,
 		85
 	],
 	"./he.js": [
-		135,
+		136,
 		86
 	],
 	"./hi.js": [
-		136,
+		137,
 		87
 	],
 	"./hr.js": [
-		137,
+		138,
 		88
 	],
 	"./hu.js": [
-		138,
+		139,
 		89
 	],
 	"./hy-am.js": [
-		139,
+		140,
 		90
 	],
 	"./id.js": [
-		140,
+		141,
 		91
 	],
 	"./is.js": [
-		141,
+		142,
 		93
 	],
 	"./it-ch.js": [
-		142,
+		143,
 		94
 	],
 	"./it.js": [
-		143,
+		144,
 		95
 	],
 	"./ja.js": [
-		144,
+		145,
 		96
 	],
 	"./jv.js": [
-		145,
+		146,
 		97
 	],
 	"./ka.js": [
-		146,
+		147,
 		98
 	],
 	"./kk.js": [
-		147,
+		148,
 		99
 	],
 	"./km.js": [
-		148,
+		149,
 		100
 	],
 	"./kn.js": [
-		149,
+		150,
 		101
 	],
 	"./ko.js": [
-		150,
+		151,
 		102
 	],
 	"./ku.js": [
-		151,
+		152,
 		104
 	],
 	"./ky.js": [
-		152,
+		153,
 		105
 	],
 	"./lb.js": [
-		153,
+		154,
 		106
 	],
 	"./lo.js": [
-		154,
+		155,
 		107
 	],
 	"./lt.js": [
-		155,
+		156,
 		108
 	],
 	"./lv.js": [
-		156,
+		157,
 		109
 	],
 	"./me.js": [
-		157,
+		158,
 		110
 	],
 	"./mi.js": [
-		158,
+		159,
 		111
 	],
 	"./mk.js": [
-		159,
+		160,
 		112
 	],
 	"./ml.js": [
-		160,
+		161,
 		113
 	],
 	"./mn.js": [
-		161,
+		162,
 		115
 	],
 	"./mr.js": [
-		162,
+		163,
 		116
 	],
 	"./ms-my.js": [
-		163,
+		164,
 		117
 	],
 	"./ms.js": [
-		164,
+		165,
 		118
 	],
 	"./mt.js": [
-		165,
+		166,
 		119
 	],
 	"./my.js": [
-		166,
+		167,
 		120
 	],
 	"./nb.js": [
-		167,
+		168,
 		121
 	],
 	"./ne.js": [
-		168,
+		169,
 		122
 	],
 	"./nl-be.js": [
-		169,
+		170,
 		123
 	],
 	"./nl.js": [
-		170,
+		171,
 		124
 	],
 	"./nn.js": [
-		171,
+		172,
 		126
 	],
 	"./oc-lnc.js": [
-		172,
+		173,
 		127
 	],
 	"./pa-in.js": [
-		173,
+		174,
 		128
 	],
 	"./pl.js": [
-		174,
+		175,
 		129
 	],
 	"./pt-br.js": [
-		175,
+		176,
 		130
 	],
 	"./pt.js": [
-		176,
+		177,
 		131
 	],
 	"./ro.js": [
-		177,
+		178,
 		132
 	],
 	"./ru.js": [
-		178,
+		179,
 		133
 	],
 	"./sd.js": [
-		179,
+		180,
 		134
 	],
 	"./se.js": [
-		180,
+		181,
 		135
 	],
 	"./si.js": [
-		181,
+		182,
 		6
 	],
 	"./sk.js": [
-		182,
+		183,
 		7
 	],
 	"./sl.js": [
-		183,
+		184,
 		8
 	],
 	"./sq.js": [
-		184,
+		185,
 		9
 	],
 	"./sr-cyrl.js": [
-		185,
+		186,
 		10
 	],
 	"./sr.js": [
-		186,
+		187,
 		11
 	],
 	"./ss.js": [
-		187,
+		188,
 		12
 	],
 	"./sv.js": [
-		188,
+		189,
 		13
 	],
 	"./sw.js": [
-		189,
+		190,
 		14
 	],
 	"./ta.js": [
-		190,
+		191,
 		15
 	],
 	"./te.js": [
-		191,
+		192,
 		17
 	],
 	"./tet.js": [
-		192,
+		193,
 		18
 	],
 	"./tg.js": [
-		193,
+		194,
 		19
 	],
 	"./th.js": [
-		194,
+		195,
 		20
 	],
 	"./tk.js": [
-		195,
+		196,
 		21
 	],
 	"./tl-ph.js": [
-		196,
+		197,
 		22
 	],
 	"./tlh.js": [
-		197,
+		198,
 		23
 	],
 	"./tr.js": [
-		198,
+		199,
 		24
 	],
 	"./tzl.js": [
-		199,
+		200,
 		25
 	],
 	"./tzm-latn.js": [
-		200,
+		201,
 		26
 	],
 	"./tzm.js": [
-		201,
+		202,
 		28
 	],
 	"./ug-cn.js": [
-		202,
+		203,
 		29
 	],
 	"./uk.js": [
-		203,
+		204,
 		30
 	],
 	"./ur.js": [
-		204,
+		205,
 		31
 	],
 	"./uz-latn.js": [
-		205,
+		206,
 		32
 	],
 	"./uz.js": [
-		206,
+		207,
 		33
 	],
 	"./vi.js": [
-		207,
+		208,
 		34
 	],
 	"./x-pseudo.js": [
-		208,
+		209,
 		35
 	],
 	"./yo.js": [
-		209,
+		210,
 		36
 	],
 	"./zh-cn.js": [
-		210,
+		211,
 		37
 	],
 	"./zh-hk.js": [
-		211,
+		212,
 		39
 	],
 	"./zh-mo.js": [
-		212,
+		213,
 		40
 	],
 	"./zh-tw.js": [
-		213,
+		214,
 		41
 	]
 };
@@ -30826,35 +30826,35 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Patterns bund
     // "pat-image-crop",
     __webpack_require__(8),
     __webpack_require__(14),
-    // "pat-legend",
     __webpack_require__(56),
-    __webpack_require__(58),
-    __webpack_require__(26),
+    __webpack_require__(57),
     __webpack_require__(59),
+    __webpack_require__(26),
     __webpack_require__(60),
     __webpack_require__(61),
+    __webpack_require__(62),
     // "pat-placeholder",
-    __webpack_require__(67),
     __webpack_require__(68),
+    __webpack_require__(69),
     // "pat-slides",
     // "pat-slideshow-builder",
     // "pat-sortable",
-    __webpack_require__(69),
     __webpack_require__(70),
-    __webpack_require__(72),
+    __webpack_require__(71),
     __webpack_require__(73),
+    __webpack_require__(74),
     // "pat-syntax-highlight",
     // "pat-tabs",
-    __webpack_require__(74),
     __webpack_require__(75),
+    __webpack_require__(76),
     // "pat-url",
-    __webpack_require__(77)
+    __webpack_require__(78)
     // "pat-zoom"
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function ($, registry) {
     // Since we are in a non-AMD env, register a few useful utilites
-    var window = __webpack_require__(79);
+    var window = __webpack_require__(80);
     window.jQuery = $;
-    __webpack_require__(80);
+    __webpack_require__(81);
 
     $(function () {
         registry.init();
@@ -45281,12 +45281,51 @@ module.exports = "<!-- Root element of PhotoSwipe. Must have class pswp. -->\n<d
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
     __webpack_require__(0),
+    __webpack_require__(1)
+], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, registry) {
+    var legend = {
+        name: "legend",
+        trigger: "legend",
+
+        _convertToIframes: function($root) {
+            $root.findInclusive("object[type='text/html']").each(function() {
+                var $object = $(this),
+                    $iframe = $("<iframe allowtransparency='true'/>");
+
+                $iframe
+                    .attr("id", $object.attr("id"))
+                    .attr("class", $object.attr("class"))
+                    .attr("src", $object.attr("data"))
+                    .attr("frameborder", "0")
+                    .attr("style", "background-color:transparent");
+                $object.replaceWith($iframe);
+            });
+        },
+
+        transform: function($root) {
+            $root.findInclusive("legend:not(.cant-touch-this)").each(function() {
+                $(this).replaceWith("<p class='legend'>"+$(this).html()+"</p>");
+            });
+        }
+    };
+    registry.register(legend);
+    return legend;
+}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+
+
+/***/ }),
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+    __webpack_require__(0),
     __webpack_require__(3),
     __webpack_require__(1),
     __webpack_require__(4),
     __webpack_require__(5),
     __webpack_require__(8),
-    __webpack_require__(57),
+    __webpack_require__(58),
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, logger, registry, utils, Base, inject, Showdown) {
     var log = logger.getLogger("pat.markdown");
     var is_markdown_resource = /\.md$/;
@@ -45400,7 +45439,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;;/*! showdown v 1.9.1 - 02-11-2019 */
@@ -50544,7 +50583,7 @@ if (true) {
 
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
@@ -50611,7 +50650,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
@@ -50738,7 +50777,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -50965,7 +51004,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -50974,7 +51013,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
  */
 (function (root, factory) {
   if (true) {
-    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(0), __webpack_require__(3), __webpack_require__(1), __webpack_require__(2), __webpack_require__(5), __webpack_require__(4), __webpack_require__(62), __webpack_require__(16)], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(0), __webpack_require__(3), __webpack_require__(1), __webpack_require__(2), __webpack_require__(5), __webpack_require__(4), __webpack_require__(63), __webpack_require__(16)], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
       return factory.apply(this, arguments);
     }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -51108,7 +51147,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 });
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -51128,7 +51167,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
   /*globals define, module, require */
   if (true) {
     // AMD
-    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(63), __webpack_require__(18)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(64), __webpack_require__(18)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -51347,7 +51386,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 });
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -51365,8 +51404,8 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
     !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
         __webpack_require__(17),
         __webpack_require__(18),
-        __webpack_require__(64),
-        __webpack_require__(66)
+        __webpack_require__(65),
+        __webpack_require__(67)
       ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( EvEmitter, getSize, utils, Item ) {
         return factory( window, EvEmitter, getSize, utils, Item);
       }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
@@ -52273,7 +52312,7 @@ return Outlayer;
 
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -52290,7 +52329,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
   if ( true ) {
     // AMD
     !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-      __webpack_require__(65)
+      __webpack_require__(66)
     ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( matchesSelector ) {
       return factory( window, matchesSelector );
     }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
@@ -52509,7 +52548,7 @@ return utils;
 
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -52566,7 +52605,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -53114,7 +53153,7 @@ return Item;
 
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -53298,7 +53337,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 // vim: sw=4 expandtab
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -53375,7 +53414,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -53500,7 +53539,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* pat-sticky - A pattern for a sticky polyfill */
@@ -53511,7 +53550,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
     __webpack_require__(5),
     __webpack_require__(3),
     __webpack_require__(4),
-    __webpack_require__(71)
+    __webpack_require__(72)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function(_, Parser, registry, Base, logger, utils, Stickyfill) {
     "use strict";
     var parser = new Parser("sticky");
@@ -53557,7 +53596,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(0)))
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -54110,7 +54149,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 })(window, document);
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -54242,7 +54281,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -54369,7 +54408,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -54603,7 +54642,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -54621,7 +54660,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
     __webpack_require__(4),
     __webpack_require__(2),
     __webpack_require__(8),
-    __webpack_require__(76)
+    __webpack_require__(77)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, logger, registry, utils, Parser, inject) {
     var log = logger.getLogger("tooltip"),
         parser = new Parser("tooltip");
@@ -55257,7 +55296,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -55282,7 +55321,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -55298,7 +55337,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
     __webpack_require__(5),
     __webpack_require__(4),
     __webpack_require__(9),
-    __webpack_require__(78),
+    __webpack_require__(79),
     __webpack_require__(11)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, _, Parser, Base, utils, moment, validate, Modernizr) {
     "use strict";
@@ -55707,7 +55746,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module) {/*!
@@ -56888,13 +56927,13 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(12)(module)))
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports) {
 
 module.exports = window;
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*** IMPORTS FROM imports-loader ***/
