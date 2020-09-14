@@ -30793,10 +30793,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Patterns bund
  */
 !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
     __webpack_require__(0),
+    __webpack_require__(1),
     __webpack_require__(19),
     __webpack_require__(20),
     __webpack_require__(24),
-    __webpack_require__(1),
     __webpack_require__(11),
     // "prefixfree",
     __webpack_require__(13),
