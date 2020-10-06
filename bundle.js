@@ -44,7 +44,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "chunks/" + chunkId + "." + {"3":"e23a2cd365b23cdf06f5","4":"ea15ec93216233f68323","5":"92b249978122f1fd63f3","6":"cd8b462eaa9d568c85e0","7":"9ad5a1d4f76ed486414e","8":"c68e71b403daf311c4ce","9":"eacb6041231a01521b94","10":"d5abbfeec8ec4b5f17f7","11":"e4d40e71d555e537dc43","12":"cac28cff3b5f8f9049a3","13":"fe5cdc415808fb6f3e43","14":"c74188016826e335d068","15":"fba0679845a4718dee71","16":"d1a169af2212446836e7","17":"18dd73403feb6ad84264","18":"27a41018792c351e6d90","19":"779217f3cd5842d59b18","20":"f006b799cf29799789d1","21":"50012ef0a90969c8c397","22":"8f6cdd61fca3da2b51c1","23":"1de4b3e7189934428d6f","24":"07ac4638f72ab3031477","25":"316a906ba888a5d12849","26":"1c0b8124dc44cdb5dee4","27":"cf4d0d84f65254f101fd","28":"36ec03a421d1e59bbcc8","29":"b90ec0eb74f23042a266","30":"17cd0c9903f081062b42","31":"aa7edc5c76f688dbc832","32":"d180496e9d244271bc12","33":"633513fbd28ea06f069f","34":"2fd64eba6679e2f2c58c","35":"99f4d59b100e17ed4e75","36":"3ddb5ce2140d9357602e","37":"ff207894d29b317b6a14","38":"21538480f6a0fc4df2fb","39":"2e251d53999521f49001","40":"c796667b3b5b774be6b3","41":"b3466afccf402a066792","42":"dfd18463bde54967971e","43":"819c4d41d32bf945ee3d","44":"fe0ac4dc5735325a720f","45":"c8a9053f77af82ffb986","46":"877d448aee5ded4f84f0","47":"7c94e4e85f016c73059c","48":"61dbe7c5e20ff84fcd62","49":"0e41630c5fb24a486811","50":"ccdf55371576fa75cba9","51":"a9858ce6427ec2b20bd6","52":"b288b675a212b471638e","53":"79c20f8e213df40712fa","54":"26d3bdaaac3b40d52d88","55":"678af754c57083b7cea1","56":"ed8237e5ac19d90ec0e4","57":"b8d1907fcf2f87537460","58":"28610d1cb92f2ff12b87","59":"fc199b07cd809ffdbb45","60":"2c973a7631c591c099b6","61":"7483a14ece8bfc6f10e2","62":"8460051975967d7d252c","63":"cdd730d55f62b8cb6623","64":"3e089e21880e852c6036","65":"84998c2afbf5fe1466e3","66":"7615cf3e50418a2a8d13","67":"eb8b32f19037346c4f3d","68":"653cbbe67daa989edec6","69":"9d35147385abdddec337","70":"ea4eca1795d8ea0b4c60","71":"2a8f5ea50ed67f574fe4","72":"3da384024392adf90bc4","73":"034833abbe7088924ac9","74":"b120d0a1b5f14333e64c","75":"0d0cf1aefc669629cfa5","76":"32e0eaafe6600bcc1273","77":"8b2e1d6d41ec852ed425","78":"30ded640f7d784dd3777","79":"240eaf7307ecbdd3f556","80":"fbc9e702d14a4e76eb0a","81":"e3c7176ffc680209c737","82":"556579cf38ef62b5a411","83":"efa4f876544073a4644b","84":"e98d85de31724700ca20","85":"ccaeb222b9c615c6255f","86":"01341954785c80787226","87":"06acacec569fc91bf82f","88":"7f9ea851acf8cd261e28","89":"d23d8efa4fe135cf462c","90":"9c3947a1531a98dc6e21","91":"eac75ce34f336036373f","92":"1941c36b75440817f722","93":"fbc15699e142b3c30301","94":"1a1daa3b4c9b716c9534","95":"f038e1f9363f369f47d3","96":"271a1585dd6538773872","97":"e364157cb3d2bf3986f1","98":"95bd6979e444e7360608","99":"6d30a7d20a94d674042d","100":"7f454876e9fb3d4b1acb","101":"453e4cdac2008b544c2f","102":"0e9d3aa447d58a79506c","103":"0962264c37e9e5d34587","104":"00fa7a8ecd2ebb8f69ad","105":"46548a3f10bcc7da76fe","106":"6cdaf57e1fadd7f34253","107":"d36a6233682bf35c5bda","108":"d5467197f5de83605551","109":"c8e9ce5fbb9bac594af0","110":"ef9a6777f3f38b021633","111":"7b12ea72e17a5cb07572","112":"bbe9de422f3e458e079f","113":"deb5b9cc0dacec3af690","114":"070c7f84a08a0fcc6e41","115":"f8e74515e97b2fe5fde6","116":"2672c2a6cf559daecc1a","117":"9cb411d670fa051bdace","118":"ae7670264ab87dbd7b1b","119":"f799c5c17d36b8ecb54f","120":"c7870f870b4c155fc981","121":"25650860b28449447056","122":"ff14106e9a95c8332da4","123":"5bf3c882e38069e28cf8","124":"9995f144ba11ee93cfa2","125":"1869a16968df9901aab4","126":"146b8defcf1eb4c74d31","127":"f877f4a3efd550d0b23b","128":"3b3fe69fcda525d6ecee","129":"c50a645d2f33e890a57a","130":"e3274fe8d097ed1868bd","131":"be97b42dc41aa5c3b2c4","132":"f13f8c364fc867f2f62d","133":"b684805785d8105f60f9","134":"38e40a4485928648b2a2","135":"b0a42f253803ff838aae"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "chunks/" + chunkId + "." + {"3":"bb1d15545568d9eaa8f7","4":"c19ead199465402cd0a4","5":"36a2a676d4224a35ea76","6":"4632f38f066c5dc61e4f","7":"02067a485c4fd6563893","8":"dfbbaf1cc01db4160284","9":"944e7a74a60a63d75d0a","10":"0ed8d4ac2cd6f009237c","11":"161ecba576cd0098da9f","12":"0c4c7f731ae677f2253b","13":"4988f49915744e6e9edf","14":"b8c20c06af3a753b68d7","15":"dfacc1bc4849fffc8867","16":"15a5c3186bb232616720","17":"d6aad0214d8230228093","18":"3078a840cae54cb3776c","19":"eb12e91527e31e99c232","20":"145132d9a89c508f4efa","21":"111c1d72fefe9a159d82","22":"8e043ebe0bef1435994d","23":"1cef19240ce4d1d374aa","24":"bff4b8c769c15a01cea6","25":"b27615c5c5dbf0049724","26":"eab98b2d3bf53899c232","27":"7f45b9709f5e65a15f4f","28":"74fe315bae8dfada6816","29":"b5b96b12063a0718e407","30":"dba1c2899c6e37927d1c","31":"2128cac590be62f1363d","32":"e90f917c5bd36e3c8557","33":"dd10c365c314d1b3bb48","34":"bcd3b9615908ab8f20f3","35":"beecca24f03a46f775ef","36":"e1b1da7acf0cc7136e51","37":"50d15fb749754f3018d9","38":"af04d921a783a80d59d1","39":"caf129a5d0a415931e1d","40":"79c2f481276aaac08b9c","41":"0162312e26e23055aac4","42":"b2d5f2a12eedfbb1cef4","43":"bfbf104e01b2bae93105","44":"688034734af625250634","45":"d4c021eb1216c5091759","46":"7a84df25d2f13d673665","47":"b3398cfa82d6cdbbd7bf","48":"6e2e546a9e802c11db0d","49":"0c3ac2fc5f3d8063cb00","50":"136f72c40064381a9c58","51":"9a1e6cd25debdf8885a3","52":"65cd2e9de61d188ded31","53":"5b38671666aedca09ca5","54":"8b1630ec22b12c042f49","55":"74d1ba224d8fbe9c9d34","56":"c1b2f4d1339c693433cd","57":"68bada8322962cab7c93","58":"505aa914b2e67358b86e","59":"46d671aee34056774e92","60":"f87e8ec0cc57ff4058da","61":"2045fb4783b88feb0211","62":"37d04c84ed872189bf9b","63":"f04cb2362b2dfcdce9fa","64":"580b1dd8b5a99601e32b","65":"02bcd20a518c292d7a40","66":"c68798049fda3431db03","67":"b2b91bb15a15e28f4a39","68":"4abbc867220469094086","69":"096e34762734e083a5a0","70":"0e7c950135ee382e53d5","71":"9a48b61b2ad84628a0fd","72":"3de388ced8d2d910ebd6","73":"bbd659e2d985b3d0ce54","74":"425ed69f922f2a00373b","75":"caac3f0a0c16fde9e32c","76":"e8b9353d74b8292b3794","77":"e756aa8d4e2c0b5034a7","78":"eac076d0c02880e64dad","79":"27b8e8fa85c9094e9a29","80":"9cf9f1de481e0f73a095","81":"8b87fd657abebbd0997f","82":"bfc11e9ce7e55ecc45af","83":"67e62c63d3ba609234bb","84":"ab86cccf954233ad3e8e","85":"5dac33ec0fa4624a9a7f","86":"f13f5275fc39d67bc597","87":"fbfa87f7db78df9b1cb0","88":"fbddf667b97ca0edc9d3","89":"423f7e8a6238366e4cfd","90":"85cab7e955d6ac11d6bc","91":"056702bc3150e47355a5","92":"acd6dee396db83531398","93":"f44c571942a761223f30","94":"2d11bdaa3d98f4737817","95":"5fafb7ef8c3faabce8a0","96":"4ce8e7474ee4e622960c","97":"6b70ebe210c16b0f9950","98":"c195a19d3552ca6f1efe","99":"7a2163ec2b4d61c7cad2","100":"ea28d8850fd7367633b2","101":"8b41f0add0d687716075","102":"647812c3ba4fcdb7d993","103":"4465aaa779b3f14894a7","104":"40d4c821c755f350db75","105":"7d94521469fd8d7faf3f","106":"c16d84313cfc5b5686fb","107":"e48f2fd1c5893ab759d0","108":"2b4b248c06f558c1b1ad","109":"2aae947478dadd163ad9","110":"223ecfa77a6db66923b3","111":"357824cf1afe494b7d28","112":"c5c587ef99cb5efa3772","113":"3aedae971aa9667fd332","114":"84891c2e38dbd415f0fb","115":"4afc8b8f8c0fd6f5a773","116":"e7f9c432987398fac9e8","117":"a2c636325b8f4c9b5d5c","118":"8ff74bfd920298edcb42","119":"8773139609f98c6c51ad","120":"6212589b3e22d9ddd42b","121":"1e57eaf64e4d563c351f","122":"88594f993ecf2ff8067b","123":"06952e6c77501ea4fe60","124":"d92d1925760f24822cba","125":"838b40d5b879988dd378","126":"518f422caaf87be2d6c0","127":"1f56ea1346be81310e02","128":"c5065ec7ad082abc8ac0","129":"5f08a3979f2b55b2fd1b","130":"148a8fb60e8ffd9cd07e","131":"5af17d6c6eab465ecbf4","132":"9ec66a5103752001f2bb","133":"d8153501adde2e07b31b","134":"2a2c6d452cef6e532bc2","135":"8aaf436bbfd092e5e9e9"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -197,7 +197,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 28);
+/******/ 	return __webpack_require__(__webpack_require__.s = 29);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -11446,7 +11446,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
  * Copyright 2012-2013 Florian Friesdorf
  */
 !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-    __webpack_require__(29)
+    __webpack_require__(30)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function(logging) {
     var log = logging.getLogger('patterns');
     return log;
@@ -11461,7 +11461,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
     __webpack_require__(0),
     __webpack_require__(6),
-    __webpack_require__(30)
+    __webpack_require__(19)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, _, browser) {
 
     $.fn.safeClone = function () {
@@ -13818,7 +13818,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
     __webpack_require__(3),
     __webpack_require__(1),
     __webpack_require__(4),
-    __webpack_require__(41),
+    __webpack_require__(42),
     __webpack_require__(10)  // for :scrollable for autoLoading-visible
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, _, ajax, Parser, logger, registry, utils, htmlparser) {
     var log = logger.getLogger("pat.inject"),
@@ -28031,6 +28031,200 @@ return getSize;
 
 /***/ }),
 /* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * jQuery Browser Plugin 0.1.0
+ * https://github.com/gabceb/jquery-browser-plugin
+ *
+ * Original jquery-browser code Copyright 2005, 2015 jQuery Foundation, Inc. and other contributors
+ * http://jquery.org/license
+ *
+ * Modifications Copyright 2015 Gabriel Cebrian
+ * https://github.com/gabceb
+ *
+ * Released under the MIT license
+ *
+ * Date: 05-07-2015
+ */
+/*global window: false */
+
+(function (factory) {
+  if (true) {
+    // AMD. Register as an anonymous module.
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(0)], __WEBPACK_AMD_DEFINE_RESULT__ = (function ($) {
+      return factory($);
+    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else {}
+}(function(jQuery) {
+  "use strict";
+
+  function uaMatch( ua ) {
+    // If an UA is not provided, default to the current browser UA.
+    if ( ua === undefined ) {
+      ua = window.navigator.userAgent;
+    }
+    ua = ua.toLowerCase();
+
+    var match = /(edge)\/([\w.]+)/.exec( ua ) ||
+        /(opr)[\/]([\w.]+)/.exec( ua ) ||
+        /(chrome)[ \/]([\w.]+)/.exec( ua ) ||
+        /(iemobile)[\/]([\w.]+)/.exec( ua ) ||
+        /(version)(applewebkit)[ \/]([\w.]+).*(safari)[ \/]([\w.]+)/.exec( ua ) ||
+        /(webkit)[ \/]([\w.]+).*(version)[ \/]([\w.]+).*(safari)[ \/]([\w.]+)/.exec( ua ) ||
+        /(webkit)[ \/]([\w.]+)/.exec( ua ) ||
+        /(opera)(?:.*version|)[ \/]([\w.]+)/.exec( ua ) ||
+        /(msie) ([\w.]+)/.exec( ua ) ||
+        ua.indexOf("trident") >= 0 && /(rv)(?::| )([\w.]+)/.exec( ua ) ||
+        ua.indexOf("compatible") < 0 && /(mozilla)(?:.*? rv:([\w.]+)|)/.exec( ua ) ||
+        [];
+
+    var platform_match = /(ipad)/.exec( ua ) ||
+        /(ipod)/.exec( ua ) ||
+        /(windows phone)/.exec( ua ) ||
+        /(iphone)/.exec( ua ) ||
+        /(kindle)/.exec( ua ) ||
+        /(silk)/.exec( ua ) ||
+        /(android)/.exec( ua ) ||
+        /(win)/.exec( ua ) ||
+        /(mac)/.exec( ua ) ||
+        /(linux)/.exec( ua ) ||
+        /(cros)/.exec( ua ) ||
+        /(playbook)/.exec( ua ) ||
+        /(bb)/.exec( ua ) ||
+        /(blackberry)/.exec( ua ) ||
+        [];
+
+    var browser = {},
+        matched = {
+          browser: match[ 5 ] || match[ 3 ] || match[ 1 ] || "",
+          version: match[ 2 ] || match[ 4 ] || "0",
+          versionNumber: match[ 4 ] || match[ 2 ] || "0",
+          platform: platform_match[ 0 ] || ""
+        };
+
+    if ( matched.browser ) {
+      browser[ matched.browser ] = true;
+      browser.version = matched.version;
+      browser.versionNumber = parseInt(matched.versionNumber, 10);
+    }
+
+    if ( matched.platform ) {
+      browser[ matched.platform ] = true;
+    }
+
+    // These are all considered mobile platforms, meaning they run a mobile browser
+    if ( browser.android || browser.bb || browser.blackberry || browser.ipad || browser.iphone ||
+      browser.ipod || browser.kindle || browser.playbook || browser.silk || browser[ "windows phone" ]) {
+      browser.mobile = true;
+    }
+
+    // These are all considered desktop platforms, meaning they run a desktop browser
+    if ( browser.cros || browser.mac || browser.linux || browser.win ) {
+      browser.desktop = true;
+    }
+
+    // Chrome, Opera 15+ and Safari are webkit based browsers
+    if ( browser.chrome || browser.opr || browser.safari ) {
+      browser.webkit = true;
+    }
+
+    // IE11 has a new token so we will assign it msie to avoid breaking changes
+    if ( browser.rv || browser.iemobile) {
+      var ie = "msie";
+
+      matched.browser = ie;
+      browser[ie] = true;
+    }
+
+    // Edge is officially known as Microsoft Edge, so rewrite the key to match
+    if ( browser.edge ) {
+      delete browser.edge;
+      var msedge = "msedge";
+
+      matched.browser = msedge;
+      browser[msedge] = true;
+    }
+
+    // Blackberry browsers are marked as Safari on BlackBerry
+    if ( browser.safari && browser.blackberry ) {
+      var blackberry = "blackberry";
+
+      matched.browser = blackberry;
+      browser[blackberry] = true;
+    }
+
+    // Playbook browsers are marked as Safari on Playbook
+    if ( browser.safari && browser.playbook ) {
+      var playbook = "playbook";
+
+      matched.browser = playbook;
+      browser[playbook] = true;
+    }
+
+    // BB10 is a newer OS version of BlackBerry
+    if ( browser.bb ) {
+      var bb = "blackberry";
+
+      matched.browser = bb;
+      browser[bb] = true;
+    }
+
+    // Opera 15+ are identified as opr
+    if ( browser.opr ) {
+      var opera = "opera";
+
+      matched.browser = opera;
+      browser[opera] = true;
+    }
+
+    // Stock Android browsers are marked as Safari on Android.
+    if ( browser.safari && browser.android ) {
+      var android = "android";
+
+      matched.browser = android;
+      browser[android] = true;
+    }
+
+    // Kindle browsers are marked as Safari on Kindle
+    if ( browser.safari && browser.kindle ) {
+      var kindle = "kindle";
+
+      matched.browser = kindle;
+      browser[kindle] = true;
+    }
+
+     // Kindle Silk browsers are marked as Safari on Kindle
+    if ( browser.safari && browser.silk ) {
+      var silk = "silk";
+
+      matched.browser = silk;
+      browser[silk] = true;
+    }
+
+    // Assign the name and platform variable
+    browser.name = matched.browser;
+    browser.platform = matched.platform;
+    return browser;
+  }
+
+  // Run the matching process, also assign the function to the returned object
+  // for manual, jQuery-free use if desired
+  window.jQBrowser = uaMatch( window.navigator.userAgent );
+  window.jQBrowser.uaMatch = uaMatch;
+
+  // Only assign to jQuery.browser if jQuery is loaded
+  if ( jQuery ) {
+    jQuery.browser = window.jQBrowser;
+  }
+
+  return window.jQBrowser;
+}));
+
+
+/***/ }),
+/* 20 */
 /***/ (function(module, exports) {
 
 /**
@@ -28762,7 +28956,7 @@ window.IntersectionObserverEntry = IntersectionObserverEntry;
 
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(setImmediate, global) {(function (global, factory) {
@@ -29066,10 +29260,10 @@ if (!('Promise' in globalNS)) {
 
 })));
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(21).setImmediate, __webpack_require__(7)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(22).setImmediate, __webpack_require__(7)))
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
@@ -29125,7 +29319,7 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(22);
+__webpack_require__(23);
 // On some exotic environments, it's not clear which object `setimmediate` was
 // able to install onto.  Search each possibility in the same order as the
 // `setimmediate` library.
@@ -29139,7 +29333,7 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(7)))
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -29329,10 +29523,10 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(7), __webpack_require__(23)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(7), __webpack_require__(24)))
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -29522,7 +29716,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {(function(global) {
@@ -30020,540 +30214,540 @@ process.umask = function() { return 0; };
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(7)))
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"./af.js": [
-		83,
+		84,
 		3
 	],
 	"./ar-dz.js": [
-		84,
+		85,
 		4
 	],
 	"./ar-kw.js": [
-		85,
+		86,
 		48
 	],
 	"./ar-ly.js": [
-		86,
+		87,
 		59
 	],
 	"./ar-ma.js": [
-		87,
+		88,
 		70
 	],
 	"./ar-sa.js": [
-		88,
+		89,
 		81
 	],
 	"./ar-tn.js": [
-		89,
+		90,
 		92
 	],
 	"./ar.js": [
-		90,
+		91,
 		103
 	],
 	"./az.js": [
-		91,
+		92,
 		114
 	],
 	"./be.js": [
-		92,
+		93,
 		125
 	],
 	"./bg.js": [
-		93,
+		94,
 		5
 	],
 	"./bm.js": [
-		94,
+		95,
 		16
 	],
 	"./bn.js": [
-		95,
+		96,
 		27
 	],
 	"./bo.js": [
-		96,
+		97,
 		38
 	],
 	"./br.js": [
-		97,
+		98,
 		42
 	],
 	"./bs.js": [
-		98,
+		99,
 		43
 	],
 	"./ca.js": [
-		99,
+		100,
 		44
 	],
 	"./cs.js": [
-		100,
+		101,
 		45
 	],
 	"./cv.js": [
-		101,
+		102,
 		46
 	],
 	"./cy.js": [
-		102,
+		103,
 		47
 	],
 	"./da.js": [
-		103,
+		104,
 		49
 	],
 	"./de-at.js": [
-		104,
+		105,
 		50
 	],
 	"./de-ch.js": [
-		105,
+		106,
 		51
 	],
 	"./de.js": [
-		106,
+		107,
 		52
 	],
 	"./dv.js": [
-		107,
+		108,
 		53
 	],
 	"./el.js": [
-		108,
+		109,
 		54
 	],
 	"./en-au.js": [
-		109,
+		110,
 		55
 	],
 	"./en-ca.js": [
-		110,
+		111,
 		56
 	],
 	"./en-gb.js": [
-		111,
+		112,
 		57
 	],
 	"./en-ie.js": [
-		112,
+		113,
 		58
 	],
 	"./en-il.js": [
-		113,
+		114,
 		60
 	],
 	"./en-in.js": [
-		114,
+		115,
 		61
 	],
 	"./en-nz.js": [
-		115,
+		116,
 		62
 	],
 	"./en-sg.js": [
-		116,
+		117,
 		63
 	],
 	"./eo.js": [
-		117,
+		118,
 		64
 	],
 	"./es-do.js": [
-		118,
+		119,
 		65
 	],
 	"./es-us.js": [
-		119,
+		120,
 		66
 	],
 	"./es.js": [
-		120,
+		121,
 		67
 	],
 	"./et.js": [
-		121,
+		122,
 		68
 	],
 	"./eu.js": [
-		122,
+		123,
 		69
 	],
 	"./fa.js": [
-		123,
+		124,
 		71
 	],
 	"./fi.js": [
-		124,
+		125,
 		72
 	],
 	"./fil.js": [
-		125,
+		126,
 		73
 	],
 	"./fo.js": [
-		126,
+		127,
 		74
 	],
 	"./fr-ca.js": [
-		127,
+		128,
 		75
 	],
 	"./fr-ch.js": [
-		128,
+		129,
 		76
 	],
 	"./fr.js": [
-		129,
+		130,
 		77
 	],
 	"./fy.js": [
-		130,
+		131,
 		78
 	],
 	"./ga.js": [
-		131,
+		132,
 		79
 	],
 	"./gd.js": [
-		132,
+		133,
 		80
 	],
 	"./gl.js": [
-		133,
+		134,
 		82
 	],
 	"./gom-deva.js": [
-		134,
+		135,
 		83
 	],
 	"./gom-latn.js": [
-		135,
+		136,
 		84
 	],
 	"./gu.js": [
-		136,
+		137,
 		85
 	],
 	"./he.js": [
-		137,
+		138,
 		86
 	],
 	"./hi.js": [
-		138,
+		139,
 		87
 	],
 	"./hr.js": [
-		139,
+		140,
 		88
 	],
 	"./hu.js": [
-		140,
+		141,
 		89
 	],
 	"./hy-am.js": [
-		141,
+		142,
 		90
 	],
 	"./id.js": [
-		142,
+		143,
 		91
 	],
 	"./is.js": [
-		143,
+		144,
 		93
 	],
 	"./it-ch.js": [
-		144,
+		145,
 		94
 	],
 	"./it.js": [
-		145,
+		146,
 		95
 	],
 	"./ja.js": [
-		146,
+		147,
 		96
 	],
 	"./jv.js": [
-		147,
+		148,
 		97
 	],
 	"./ka.js": [
-		148,
+		149,
 		98
 	],
 	"./kk.js": [
-		149,
+		150,
 		99
 	],
 	"./km.js": [
-		150,
+		151,
 		100
 	],
 	"./kn.js": [
-		151,
+		152,
 		101
 	],
 	"./ko.js": [
-		152,
+		153,
 		102
 	],
 	"./ku.js": [
-		153,
+		154,
 		104
 	],
 	"./ky.js": [
-		154,
+		155,
 		105
 	],
 	"./lb.js": [
-		155,
+		156,
 		106
 	],
 	"./lo.js": [
-		156,
+		157,
 		107
 	],
 	"./lt.js": [
-		157,
+		158,
 		108
 	],
 	"./lv.js": [
-		158,
+		159,
 		109
 	],
 	"./me.js": [
-		159,
+		160,
 		110
 	],
 	"./mi.js": [
-		160,
+		161,
 		111
 	],
 	"./mk.js": [
-		161,
+		162,
 		112
 	],
 	"./ml.js": [
-		162,
+		163,
 		113
 	],
 	"./mn.js": [
-		163,
+		164,
 		115
 	],
 	"./mr.js": [
-		164,
+		165,
 		116
 	],
 	"./ms-my.js": [
-		165,
+		166,
 		117
 	],
 	"./ms.js": [
-		166,
+		167,
 		118
 	],
 	"./mt.js": [
-		167,
+		168,
 		119
 	],
 	"./my.js": [
-		168,
+		169,
 		120
 	],
 	"./nb.js": [
-		169,
+		170,
 		121
 	],
 	"./ne.js": [
-		170,
+		171,
 		122
 	],
 	"./nl-be.js": [
-		171,
+		172,
 		123
 	],
 	"./nl.js": [
-		172,
+		173,
 		124
 	],
 	"./nn.js": [
-		173,
+		174,
 		126
 	],
 	"./oc-lnc.js": [
-		174,
+		175,
 		127
 	],
 	"./pa-in.js": [
-		175,
+		176,
 		128
 	],
 	"./pl.js": [
-		176,
+		177,
 		129
 	],
 	"./pt-br.js": [
-		177,
+		178,
 		130
 	],
 	"./pt.js": [
-		178,
+		179,
 		131
 	],
 	"./ro.js": [
-		179,
+		180,
 		132
 	],
 	"./ru.js": [
-		180,
+		181,
 		133
 	],
 	"./sd.js": [
-		181,
+		182,
 		134
 	],
 	"./se.js": [
-		182,
+		183,
 		135
 	],
 	"./si.js": [
-		183,
+		184,
 		6
 	],
 	"./sk.js": [
-		184,
+		185,
 		7
 	],
 	"./sl.js": [
-		185,
+		186,
 		8
 	],
 	"./sq.js": [
-		186,
+		187,
 		9
 	],
 	"./sr-cyrl.js": [
-		187,
+		188,
 		10
 	],
 	"./sr.js": [
-		188,
+		189,
 		11
 	],
 	"./ss.js": [
-		189,
+		190,
 		12
 	],
 	"./sv.js": [
-		190,
+		191,
 		13
 	],
 	"./sw.js": [
-		191,
+		192,
 		14
 	],
 	"./ta.js": [
-		192,
+		193,
 		15
 	],
 	"./te.js": [
-		193,
+		194,
 		17
 	],
 	"./tet.js": [
-		194,
+		195,
 		18
 	],
 	"./tg.js": [
-		195,
+		196,
 		19
 	],
 	"./th.js": [
-		196,
+		197,
 		20
 	],
 	"./tk.js": [
-		197,
+		198,
 		21
 	],
 	"./tl-ph.js": [
-		198,
+		199,
 		22
 	],
 	"./tlh.js": [
-		199,
+		200,
 		23
 	],
 	"./tr.js": [
-		200,
+		201,
 		24
 	],
 	"./tzl.js": [
-		201,
+		202,
 		25
 	],
 	"./tzm-latn.js": [
-		202,
+		203,
 		26
 	],
 	"./tzm.js": [
-		203,
+		204,
 		28
 	],
 	"./ug-cn.js": [
-		204,
+		205,
 		29
 	],
 	"./uk.js": [
-		205,
+		206,
 		30
 	],
 	"./ur.js": [
-		206,
+		207,
 		31
 	],
 	"./uz-latn.js": [
-		207,
+		208,
 		32
 	],
 	"./uz.js": [
-		208,
+		209,
 		33
 	],
 	"./vi.js": [
-		209,
+		210,
 		34
 	],
 	"./x-pseudo.js": [
-		210,
+		211,
 		35
 	],
 	"./yo.js": [
-		211,
+		212,
 		36
 	],
 	"./zh-cn.js": [
-		212,
+		213,
 		37
 	],
 	"./zh-hk.js": [
-		213,
+		214,
 		39
 	],
 	"./zh-mo.js": [
-		214,
+		215,
 		40
 	],
 	"./zh-tw.js": [
-		215,
+		216,
 		41
 	]
 };
@@ -30574,11 +30768,11 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 25;
+webpackAsyncContext.id = 26;
 module.exports = webpackAsyncContext;
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
@@ -30771,7 +30965,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports) {
 
 module.exports = function() {
@@ -30780,7 +30974,7 @@ module.exports = function() {
 
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Patterns bundle configuration.
@@ -30794,67 +30988,67 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Patterns bund
 !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
     __webpack_require__(0),
     __webpack_require__(1),
-    __webpack_require__(19),
     __webpack_require__(20),
-    __webpack_require__(24),
+    __webpack_require__(21),
+    __webpack_require__(25),
     __webpack_require__(11),
     // "prefixfree",
     __webpack_require__(13),
     __webpack_require__(32),
-    // "pat-autoscale",
     __webpack_require__(33),
     __webpack_require__(35),
+    __webpack_require__(36),
     // "pat-breadcrumbs",
-    __webpack_require__(37),
+    __webpack_require__(38),
     // "pat-calendar",
     // "pat-carousel",
-    __webpack_require__(38),
-    // "pat-chosen",
     __webpack_require__(39),
+    // "pat-chosen",
     __webpack_require__(40),
+    __webpack_require__(41),
     // "pat-colour-picker",
-    __webpack_require__(42),
     __webpack_require__(43),
-    __webpack_require__(45),
-    __webpack_require__(48),
+    __webpack_require__(44),
+    __webpack_require__(46),
     __webpack_require__(49),
-    // "pat-expandable",
     __webpack_require__(50),
+    // "pat-expandable",
     __webpack_require__(51),
     __webpack_require__(52),
     __webpack_require__(53),
+    __webpack_require__(54),
     // "pat-image-crop",
     __webpack_require__(8),
     __webpack_require__(14),
-    __webpack_require__(57),
     __webpack_require__(58),
-    __webpack_require__(60),
-    __webpack_require__(26),
+    __webpack_require__(59),
     __webpack_require__(61),
+    __webpack_require__(27),
     __webpack_require__(62),
     __webpack_require__(63),
+    __webpack_require__(64),
     // "pat-placeholder",
-    __webpack_require__(69),
     __webpack_require__(70),
+    __webpack_require__(71),
     // "pat-slides",
     // "pat-slideshow-builder",
     // "pat-sortable",
-    __webpack_require__(71),
     __webpack_require__(72),
-    __webpack_require__(74),
+    __webpack_require__(73),
     __webpack_require__(75),
+    __webpack_require__(76),
     // "pat-syntax-highlight",
     // "pat-tabs",
-    __webpack_require__(76),
     __webpack_require__(77),
+    __webpack_require__(78),
     // "pat-url",
-    __webpack_require__(79)
+    __webpack_require__(80)
     // "pat-zoom"
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function ($, registry) {
     // Since we are in a non-AMD env, register a few useful utilites
-    var window = __webpack_require__(81);
+    var window = __webpack_require__(82);
     window.jQuery = $;
-    __webpack_require__(82);
+    __webpack_require__(83);
 
     $(function () {
         registry.init();
@@ -30866,7 +31060,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Patterns bund
 
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -31111,200 +31305,6 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
     else
         {}
 })();
-
-
-/***/ }),
-/* 30 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
- * jQuery Browser Plugin 0.1.0
- * https://github.com/gabceb/jquery-browser-plugin
- *
- * Original jquery-browser code Copyright 2005, 2015 jQuery Foundation, Inc. and other contributors
- * http://jquery.org/license
- *
- * Modifications Copyright 2015 Gabriel Cebrian
- * https://github.com/gabceb
- *
- * Released under the MIT license
- *
- * Date: 05-07-2015
- */
-/*global window: false */
-
-(function (factory) {
-  if (true) {
-    // AMD. Register as an anonymous module.
-    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(0)], __WEBPACK_AMD_DEFINE_RESULT__ = (function ($) {
-      return factory($);
-    }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-  } else {}
-}(function(jQuery) {
-  "use strict";
-
-  function uaMatch( ua ) {
-    // If an UA is not provided, default to the current browser UA.
-    if ( ua === undefined ) {
-      ua = window.navigator.userAgent;
-    }
-    ua = ua.toLowerCase();
-
-    var match = /(edge)\/([\w.]+)/.exec( ua ) ||
-        /(opr)[\/]([\w.]+)/.exec( ua ) ||
-        /(chrome)[ \/]([\w.]+)/.exec( ua ) ||
-        /(iemobile)[\/]([\w.]+)/.exec( ua ) ||
-        /(version)(applewebkit)[ \/]([\w.]+).*(safari)[ \/]([\w.]+)/.exec( ua ) ||
-        /(webkit)[ \/]([\w.]+).*(version)[ \/]([\w.]+).*(safari)[ \/]([\w.]+)/.exec( ua ) ||
-        /(webkit)[ \/]([\w.]+)/.exec( ua ) ||
-        /(opera)(?:.*version|)[ \/]([\w.]+)/.exec( ua ) ||
-        /(msie) ([\w.]+)/.exec( ua ) ||
-        ua.indexOf("trident") >= 0 && /(rv)(?::| )([\w.]+)/.exec( ua ) ||
-        ua.indexOf("compatible") < 0 && /(mozilla)(?:.*? rv:([\w.]+)|)/.exec( ua ) ||
-        [];
-
-    var platform_match = /(ipad)/.exec( ua ) ||
-        /(ipod)/.exec( ua ) ||
-        /(windows phone)/.exec( ua ) ||
-        /(iphone)/.exec( ua ) ||
-        /(kindle)/.exec( ua ) ||
-        /(silk)/.exec( ua ) ||
-        /(android)/.exec( ua ) ||
-        /(win)/.exec( ua ) ||
-        /(mac)/.exec( ua ) ||
-        /(linux)/.exec( ua ) ||
-        /(cros)/.exec( ua ) ||
-        /(playbook)/.exec( ua ) ||
-        /(bb)/.exec( ua ) ||
-        /(blackberry)/.exec( ua ) ||
-        [];
-
-    var browser = {},
-        matched = {
-          browser: match[ 5 ] || match[ 3 ] || match[ 1 ] || "",
-          version: match[ 2 ] || match[ 4 ] || "0",
-          versionNumber: match[ 4 ] || match[ 2 ] || "0",
-          platform: platform_match[ 0 ] || ""
-        };
-
-    if ( matched.browser ) {
-      browser[ matched.browser ] = true;
-      browser.version = matched.version;
-      browser.versionNumber = parseInt(matched.versionNumber, 10);
-    }
-
-    if ( matched.platform ) {
-      browser[ matched.platform ] = true;
-    }
-
-    // These are all considered mobile platforms, meaning they run a mobile browser
-    if ( browser.android || browser.bb || browser.blackberry || browser.ipad || browser.iphone ||
-      browser.ipod || browser.kindle || browser.playbook || browser.silk || browser[ "windows phone" ]) {
-      browser.mobile = true;
-    }
-
-    // These are all considered desktop platforms, meaning they run a desktop browser
-    if ( browser.cros || browser.mac || browser.linux || browser.win ) {
-      browser.desktop = true;
-    }
-
-    // Chrome, Opera 15+ and Safari are webkit based browsers
-    if ( browser.chrome || browser.opr || browser.safari ) {
-      browser.webkit = true;
-    }
-
-    // IE11 has a new token so we will assign it msie to avoid breaking changes
-    if ( browser.rv || browser.iemobile) {
-      var ie = "msie";
-
-      matched.browser = ie;
-      browser[ie] = true;
-    }
-
-    // Edge is officially known as Microsoft Edge, so rewrite the key to match
-    if ( browser.edge ) {
-      delete browser.edge;
-      var msedge = "msedge";
-
-      matched.browser = msedge;
-      browser[msedge] = true;
-    }
-
-    // Blackberry browsers are marked as Safari on BlackBerry
-    if ( browser.safari && browser.blackberry ) {
-      var blackberry = "blackberry";
-
-      matched.browser = blackberry;
-      browser[blackberry] = true;
-    }
-
-    // Playbook browsers are marked as Safari on Playbook
-    if ( browser.safari && browser.playbook ) {
-      var playbook = "playbook";
-
-      matched.browser = playbook;
-      browser[playbook] = true;
-    }
-
-    // BB10 is a newer OS version of BlackBerry
-    if ( browser.bb ) {
-      var bb = "blackberry";
-
-      matched.browser = bb;
-      browser[bb] = true;
-    }
-
-    // Opera 15+ are identified as opr
-    if ( browser.opr ) {
-      var opera = "opera";
-
-      matched.browser = opera;
-      browser[opera] = true;
-    }
-
-    // Stock Android browsers are marked as Safari on Android.
-    if ( browser.safari && browser.android ) {
-      var android = "android";
-
-      matched.browser = android;
-      browser[android] = true;
-    }
-
-    // Kindle browsers are marked as Safari on Kindle
-    if ( browser.safari && browser.kindle ) {
-      var kindle = "kindle";
-
-      matched.browser = kindle;
-      browser[kindle] = true;
-    }
-
-     // Kindle Silk browsers are marked as Safari on Kindle
-    if ( browser.safari && browser.silk ) {
-      var silk = "silk";
-
-      matched.browser = silk;
-      browser[silk] = true;
-    }
-
-    // Assign the name and platform variable
-    browser.name = matched.browser;
-    browser.platform = matched.platform;
-    return browser;
-  }
-
-  // Run the matching process, also assign the function to the returned object
-  // for manual, jQuery-free use if desired
-  window.jQBrowser = uaMatch( window.navigator.userAgent );
-  window.jQBrowser.uaMatch = uaMatch;
-
-  // Only assign to jQuery.browser if jQuery is loaded
-  if ( jQuery ) {
-    jQuery.browser = window.jQBrowser;
-  }
-
-  return window.jQBrowser;
-}));
 
 
 /***/ }),
@@ -31801,6 +31801,209 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
+ * Patterns autoscale - scale elements to fit available space
+ *
+ * Copyright 2012 Humberto Sermeno
+ * Copyright 2013 Simplon B.V. - Wichert Akkerman
+ */
+!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+    __webpack_require__(0),
+    __webpack_require__(19),
+    __webpack_require__(5),
+    __webpack_require__(1),
+    __webpack_require__(2),
+    __webpack_require__(6),
+], __WEBPACK_AMD_DEFINE_RESULT__ = (function(
+    $,
+    browser,
+    Base,
+    registry,
+    Parser,
+    _
+) {
+    var parser = new Parser("auto-scale");
+    parser.addArgument("method", "scale", ["scale", "zoom"]);
+    parser.addArgument("size", "width", ["width", "height", "contain", "cover"]);
+    parser.addArgument("min-width", 0);
+    parser.addArgument("max-width", 1000000);
+    parser.addArgument("min-height", 0);
+    parser.addArgument("max-height", 1000000);
+
+    return Base.extend({
+        name: "autoscale",
+        trigger: ".pat-auto-scale",
+        force_method: null,
+
+        init: function($el, opts) {
+            this.options = parser.parse(this.$el, opts);
+            if (this.force_method !== null) {
+                this.options.method = this.force_method;
+            }
+            this._setup().scale();
+            return this.$el;
+        },
+
+        _setup: function() {
+            if (browser.mozilla) {
+                // See https://bugzilla.mozilla.org/show_bug.cgi?id=390936
+                this.force_method = "scale";
+            }
+            var scaler = _.debounce(this.scale.bind(this), 250);
+            $(window).on("resize.autoscale", scaler);
+            $(document).on("pat-update.autoscale", scaler);
+            return this;
+        },
+
+        scale: function() {
+            var available_space, scale, scaled_height, scaled_width, container;
+
+            if (this.$el[0].tagName === "BODY") {
+                container = this.$el[0];
+            } else {
+                var $parent;
+                if (this.$el.closest(".auto-scale-wrapper").length != 0) {
+                    container = this.$el.closest(".auto-scale-wrapper").parent()[0];
+                } else {
+                    container = this.$el.parent()[0];
+                }
+            }
+            if (!container) {
+                // Element has not been added to the DOM yet.
+                return;
+            }
+
+            var style = window.getComputedStyle(container);
+            available_space = {
+                width: parseInt(style.width, 10),
+                height: parseInt(style.height, 10)
+            };
+
+            available_space.width = Math.min(available_space.width, this.options.max.width);
+            available_space.width = Math.max(available_space.width, this.options.min.width);
+            available_space.height = Math.min(available_space.height, this.options.max.height);
+            available_space.height = Math.max(available_space.height, this.options.min.height);
+            switch (this.options.size) {
+                case "width":
+                    scale = available_space.width / this.$el.outerWidth();
+                    break;
+                case "height":
+                    scale = available_space.height / this.$el.outerHeight();
+                    break;
+                case "contain":
+                    // Fit entire content on area, allowing for extra space
+                    scale = Math.min(
+                        available_space.width / this.$el.outerWidth(),
+                        available_space.height / this.$el.outerHeight()
+                    );
+                    break;
+                case "cover":
+                    // Covert entire area, possible clipping
+                    scale = Math.max(
+                        available_space.width / this.$el.outerWidth(),
+                        available_space.height / this.$el.outerHeight()
+                    );
+                    break;
+                default:
+                    return;
+            }
+
+            scaled_height = this.$el.outerHeight() * scale;
+            scaled_width = this.$el.outerWidth() * scale;
+
+            switch (this.options.method) {
+                case "scale":
+                    this.$el.css("transform", "scale(" + scale + ")");
+                    if (
+                        this.$el.parent().attr("class") === undefined ||
+                        (this.$el.parent().attr("class") != undefined &&
+                            $.inArray(
+                                "auto-scale-wrapper",
+                                this.$el
+                                    .parent()
+                                    .attr("class")
+                                    .split(/\s+/)
+                            ) === -1)
+                    ) {
+                        this.$el.wrap("<div class='auto-scale-wrapper'></div>");
+                    }
+                    this.$el
+                        .parent()
+                        .height(scaled_height)
+                        .width(scaled_width);
+                    break;
+                case "zoom":
+                    this.$el.css("zoom", scale);
+                    break;
+            }
+            this.$el.addClass("scaled");
+            return this;
+        }
+    });
+}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+    __webpack_require__(0)
+], __WEBPACK_AMD_DEFINE_RESULT__ = (function($) {
+    'use strict';
+
+    var parser = {
+        getOptions: function getOptions($el, patternName, options) {
+            /* This is the Mockup parser. An alternative parser for Patternslib
+             * patterns.
+             *
+             * NOTE: Use of the Mockup parser is discouraged and is added here for
+             * legacy support for the Plone Mockup project.
+             *
+             * It parses a DOM element for pattern configuration options.
+             */
+            options = options || {};
+            // get options from parent element first, stop if element tag name is 'body'
+            if ($el.length !== 0 && !$.nodeName($el[0], 'body')) {
+                options = getOptions($el.parent(), patternName, options);
+            }
+            // collect all options from element
+            var elOptions = {};
+            if ($el.length !== 0) {
+                elOptions = $el.data('pat-' + patternName);
+                if (elOptions) {
+                    // parse options if string
+                    if (typeof(elOptions) === 'string') {
+                        var tmpOptions = {};
+                        $.each(elOptions.split(';'),
+                            function(i, item) {
+                                item = item.split(':');
+                                item.reverse();
+                                var key = item.pop();
+                                key = key.replace(/^\s+|\s+$/g, '');    // trim
+                                item.reverse();
+                                var value = item.join(':');
+                                value = value.replace(/^\s+|\s+$/g, '');    // trim
+                                tmpOptions[key] = value;
+                            }
+                        );
+                        elOptions = tmpOptions;
+                    }
+                }
+            }
+            return $.extend(true, {}, options, elOptions);
+        }
+    };
+    return parser;
+}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
  * Patterns autosubmit - automatic submission of forms
  *
  * Copyright 2012-2013 Florian Friesdorf
@@ -31917,63 +32120,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 34 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-    __webpack_require__(0)
-], __WEBPACK_AMD_DEFINE_RESULT__ = (function($) {
-    'use strict';
-
-    var parser = {
-        getOptions: function getOptions($el, patternName, options) {
-            /* This is the Mockup parser. An alternative parser for Patternslib
-             * patterns.
-             *
-             * NOTE: Use of the Mockup parser is discouraged and is added here for
-             * legacy support for the Plone Mockup project.
-             *
-             * It parses a DOM element for pattern configuration options.
-             */
-            options = options || {};
-            // get options from parent element first, stop if element tag name is 'body'
-            if ($el.length !== 0 && !$.nodeName($el[0], 'body')) {
-                options = getOptions($el.parent(), patternName, options);
-            }
-            // collect all options from element
-            var elOptions = {};
-            if ($el.length !== 0) {
-                elOptions = $el.data('pat-' + patternName);
-                if (elOptions) {
-                    // parse options if string
-                    if (typeof(elOptions) === 'string') {
-                        var tmpOptions = {};
-                        $.each(elOptions.split(';'),
-                            function(i, item) {
-                                item = item.split(':');
-                                item.reverse();
-                                var key = item.pop();
-                                key = key.replace(/^\s+|\s+$/g, '');    // trim
-                                item.reverse();
-                                var value = item.join(':');
-                                value = value.replace(/^\s+|\s+$/g, '');    // trim
-                                tmpOptions[key] = value;
-                            }
-                        );
-                        elOptions = tmpOptions;
-                    }
-                }
-            }
-            return $.extend(true, {}, options, elOptions);
-        }
-    };
-    return parser;
-}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-
-
-/***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -31988,7 +32135,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
     __webpack_require__(3),
     __webpack_require__(2),
     __webpack_require__(1),
-    __webpack_require__(36)
+    __webpack_require__(37)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, logger, Parser, registry) {
     "use strict";
     var log = logger.getLogger("autosuggest.");
@@ -32237,7 +32384,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(jQuery) {/*** IMPORTS FROM imports-loader ***/
@@ -35756,7 +35903,7 @@ the specific language governing permissions and limitations under the Apache Lic
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(0)))
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -35912,7 +36059,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)); // vim: sw=4 expandtab
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -36155,7 +36302,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Clone pattern */
@@ -36275,7 +36422,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Clone pattern
 
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -36478,7 +36625,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;/*
@@ -36817,7 +36964,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*
 
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social pattern */
@@ -36906,7 +37053,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
 
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* pat-date-picker  - Polyfill for input type=date */
@@ -36915,7 +37062,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
         __webpack_require__(2),
         __webpack_require__(1),
         __webpack_require__(5),
-        __webpack_require__(44),
+        __webpack_require__(45),
         __webpack_require__(9),
         __webpack_require__(11)
     ], __WEBPACK_AMD_DEFINE_RESULT__ = (function(_, Parser, registry, Base, Pikaday, moment, Modernizr) {
@@ -37002,7 +37149,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(0)))
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -38254,7 +38401,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
 
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -38269,7 +38416,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
     __webpack_require__(5),
     __webpack_require__(4),
     __webpack_require__(3),
-    __webpack_require__(46),
+    __webpack_require__(47),
     __webpack_require__(2)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, patterns, Base, utils, logging, DependsHandler, Parser) {
     var log = logging.getLogger("depends"),
@@ -38439,12 +38586,12 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
     __webpack_require__(0),
-    __webpack_require__(47)
+    __webpack_require__(48)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, parser) {
     function DependsHandler($el, expression) {
         var $context = $el.closest("form");
@@ -38547,7 +38694,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function() {
@@ -40312,7 +40459,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_RESULT__ = (function() 
 
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(0), __webpack_require__(5), __webpack_require__(1), __webpack_require__(2), __webpack_require__(3), __webpack_require__(9)], __WEBPACK_AMD_DEFINE_RESULT__ = (function ($, Base, registry, Parser, logger, moment) {
@@ -40325,7 +40472,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
   if (lang && lang != "en" && lang != null) {
     // we don't support any country-specific language variants, always use first 2 letters
     lang = lang.substr(0, 2).toLowerCase();
-    __webpack_require__(25)("./" + lang + ".js").then(function () {
+    __webpack_require__(26)("./" + lang + ".js").then(function () {
       moment.locale(lang);
     });
   } else {
@@ -40359,7 +40506,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
         } // try to find language in chunks
 
 
-        return __webpack_require__(25)("./" + lang + ".js").catch(function () {
+        return __webpack_require__(26)("./" + lang + ".js").catch(function () {
           // lang does not exists
           // if language was not found, use default en
           return null;
@@ -40385,7 +40532,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -40475,7 +40622,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -40542,7 +40689,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 // vim: sw=4 expandtab
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
@@ -40550,7 +40697,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
     __webpack_require__(3),
     __webpack_require__(1),
     __webpack_require__(4),
-    __webpack_require__(26),
+    __webpack_require__(27),
     __webpack_require__(14)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, logger, registry, utils, modal, input_change_events) {
     var log = logger.getLogger("form-state");
@@ -40655,7 +40802,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -40707,7 +40854,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -40720,9 +40867,9 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
     __webpack_require__(1),
     __webpack_require__(5),
     __webpack_require__(2),
-    __webpack_require__(54),
     __webpack_require__(55),
     __webpack_require__(56),
+    __webpack_require__(57),
     __webpack_require__(6)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, patterns, Base, Parser, PhotoSwipe, PhotoSwipeUI, template, _) {
     var parser = new Parser('gallery');
@@ -40801,7 +40948,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! PhotoSwipe - v4.1.0 - 2015-07-11
@@ -44525,7 +44672,7 @@ _registerModule('History', {
 });
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! PhotoSwipe Default UI - 4.1.0 - 2015-07-11
@@ -45390,13 +45537,13 @@ return PhotoSwipeUI_Default;
 });
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports) {
 
 module.exports = "<!-- Root element of PhotoSwipe. Must have class pswp. -->\n<div id=\"photoswipe-template\" class=\"pswp\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n\n    <!-- Background of PhotoSwipe. \n         It's a separate element as animating opacity is faster than rgba(). -->\n    <div class=\"pswp__bg\"></div>\n\n    <!-- Slides wrapper with overflow:hidden. -->\n    <div class=\"pswp__scroll-wrap\">\n\n        <!-- Container that holds slides. \n            PhotoSwipe keeps only 3 of them in the DOM to save memory.\n            Don't modify these 3 pswp__item elements, data is added later on. -->\n        <div class=\"pswp__container\">\n            <div class=\"pswp__item\"></div>\n            <div class=\"pswp__item\"></div>\n            <div class=\"pswp__item\"></div>\n        </div>\n\n        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->\n        <div class=\"pswp__ui pswp__ui--hidden\">\n\n            <div class=\"pswp__top-bar\">\n\n                <!--  Controls are self-explanatory. Order can be changed. -->\n                <div class=\"pswp__counter\"></div>\n\n                <button class=\"pswp__button pswp__button--close\" title=\"Close (Esc)\"></button>\n                <button class=\"pswp__button pswp__button--share\" title=\"Share\"></button>\n                <button class=\"pswp__button pswp__button--fs\" title=\"Toggle fullscreen\"></button>\n                <button class=\"pswp__button pswp__button--zoom\" title=\"Zoom in/out\"></button>\n\n                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->\n                <!-- element will get class pswp__preloader__active when preloader is running -->\n                <div class=\"pswp__preloader\">\n                    <div class=\"pswp__preloader__icn\">\n                      <div class=\"pswp__preloader__cut\">\n                        <div class=\"pswp__preloader__donut\"></div>\n                      </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"pswp__share-modal pswp__share-modal--hidden pswp__single-tap\">\n                <div class=\"pswp__share-tooltip\"></div> \n            </div>\n\n            <button class=\"pswp__button pswp__button--arrow--left\" title=\"Previous (arrow left)\">\n            </button>\n\n            <button class=\"pswp__button pswp__button--arrow--right\" title=\"Next (arrow right)\">\n            </button>\n\n            <div class=\"pswp__caption\">\n                <div class=\"pswp__caption__center\"></div>\n            </div>\n        </div>\n    </div>\n</div>\n"
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
@@ -45435,7 +45582,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
@@ -45445,7 +45592,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
     __webpack_require__(4),
     __webpack_require__(5),
     __webpack_require__(8),
-    __webpack_require__(59),
+    __webpack_require__(60),
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, logger, registry, utils, Base, inject, Showdown) {
     var log = logger.getLogger("pat.markdown");
     var is_markdown_resource = /\.md$/;
@@ -45559,7 +45706,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;;/*! showdown v 1.9.1 - 02-11-2019 */
@@ -50703,7 +50850,7 @@ if (true) {
 
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
@@ -50770,7 +50917,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [
@@ -50897,7 +51044,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -51124,7 +51271,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -51133,7 +51280,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
  */
 (function (root, factory) {
   if (true) {
-    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(0), __webpack_require__(3), __webpack_require__(1), __webpack_require__(2), __webpack_require__(5), __webpack_require__(4), __webpack_require__(64), __webpack_require__(16)], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(0), __webpack_require__(3), __webpack_require__(1), __webpack_require__(2), __webpack_require__(5), __webpack_require__(4), __webpack_require__(65), __webpack_require__(16)], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {
       return factory.apply(this, arguments);
     }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -51267,7 +51414,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 });
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -51287,7 +51434,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
   /*globals define, module, require */
   if (true) {
     // AMD
-    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(65), __webpack_require__(18)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(66), __webpack_require__(18)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -51506,7 +51653,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 });
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -51524,8 +51671,8 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
     !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
         __webpack_require__(17),
         __webpack_require__(18),
-        __webpack_require__(66),
-        __webpack_require__(68)
+        __webpack_require__(67),
+        __webpack_require__(69)
       ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( EvEmitter, getSize, utils, Item ) {
         return factory( window, EvEmitter, getSize, utils, Item);
       }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
@@ -52432,7 +52579,7 @@ return Outlayer;
 
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -52449,7 +52596,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
   if ( true ) {
     // AMD
     !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-      __webpack_require__(67)
+      __webpack_require__(68)
     ], __WEBPACK_AMD_DEFINE_RESULT__ = (function( matchesSelector ) {
       return factory( window, matchesSelector );
     }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
@@ -52668,7 +52815,7 @@ return utils;
 
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -52725,7 +52872,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -53273,7 +53420,7 @@ return Item;
 
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -53457,7 +53604,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 // vim: sw=4 expandtab
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -53534,7 +53681,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -53659,7 +53806,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* pat-sticky - A pattern for a sticky polyfill */
@@ -53670,7 +53817,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
     __webpack_require__(5),
     __webpack_require__(3),
     __webpack_require__(4),
-    __webpack_require__(73)
+    __webpack_require__(74)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function(_, Parser, registry, Base, logger, utils, Stickyfill) {
     "use strict";
     var parser = new Parser("sticky");
@@ -53716,7 +53863,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(0)))
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -54269,7 +54416,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 })(window, document);
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -54401,7 +54548,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -54528,7 +54675,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -54762,7 +54909,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -54780,7 +54927,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
     __webpack_require__(4),
     __webpack_require__(2),
     __webpack_require__(8),
-    __webpack_require__(78)
+    __webpack_require__(79)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, logger, registry, utils, Parser, inject) {
     var log = logger.getLogger("tooltip"),
         parser = new Parser("tooltip");
@@ -55416,7 +55563,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -55441,7 +55588,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -55457,7 +55604,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
     __webpack_require__(5),
     __webpack_require__(4),
     __webpack_require__(9),
-    __webpack_require__(80),
+    __webpack_require__(81),
     __webpack_require__(11)
 ], __WEBPACK_AMD_DEFINE_RESULT__ = (function($, _, Parser, Base, utils, moment, validate, Modernizr) {
     "use strict";
@@ -55866,7 +56013,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module) {/*!
@@ -57038,22 +57185,22 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
     }
   };
 
-  validate.exposeModule(validate, this, exports, module, __webpack_require__(27));
+  validate.exposeModule(validate, this, exports, module, __webpack_require__(28));
 }).call(this,
          true ? /* istanbul ignore next */ exports : undefined,
          true ? /* istanbul ignore next */ module : undefined,
-        __webpack_require__(27));
+        __webpack_require__(28));
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(12)(module)))
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports) {
 
 module.exports = window;
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*** IMPORTS FROM imports-loader ***/
