@@ -40889,17 +40889,11 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
             if ($('#photoswipe-template').length === 0) {
                 $('body').append(_.template(template)());
             }
-
             // Search for itemSelector including the current node
             // See: https://stackoverflow.com/a/17538213/1337474
             var image_wrapper = this.$el.find(this.options.itemSelector).addBack(this.options.itemSelector);
             var images = image_wrapper.map(function () {
-                return {
-                    'w': 0,
-                    'h': 0,
-                    'src': this.src || this.href,
-                    'title': this.title || $(this).find('img').attr('title')
-                };
+                return { 'w': 0, 'h': 0, 'src': this.href, 'title': $(this).find('img').attr('title') };
             });
             var pswpElement = document.querySelectorAll('.pswp')[0];
             var options = {
@@ -40913,16 +40907,14 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
                 closeOnScroll: false
             };
             image_wrapper.click(function (ev) {
-                if (this.tagName.toLowerCase() === 'img' && $(this).closest('a').length !== 0) {
-                    // Do not open auto-added images in gallery if they are wrapped in an anchor element.
-                    return;
-                }
                 ev.preventDefault();
-                // Get the index of the clicked gallery item in the list of images.
-                options.index = _.indexOf(_.pluck(images, 'src'), this.href || this.src) || 0;
-                // Fix reload on gallery close which was induced by a history back call.
-                options.history = false;
-
+                if (this.href) {
+                    options.index = _.indexOf(_.pluck(images, 'src'), this.href);
+                } else {
+                    options.index = 0;
+                }
+                options.history = false;  // this fixes the reload on gallery close which was induced by a history back call.
+                
                 var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI, images, options);
                 gallery.listen('gettingData', function(index, item) {
                     // Workaround for the fact that we don't know the image sizes.
@@ -55694,37 +55686,40 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
         setLocalDateConstraints: function (input, opts, constraints) {
             /* Set the relative date constraints, i.e. not-after and not-before, as well as custom messages.
              */
-            var name = input.getAttribute('name').replace(/\./g, '\\.');
-            var type = this.getFieldType(input);
-            var c = constraints[name][type];
+            var name = input.getAttribute('name').replace(/\./g, '\\.'),
+                type = this.getFieldType(input),
+                c = constraints[name][type];
 
             if (!c || typeof opts == "undefined") {
                 return constraints;
             }
 
             _.each(['before', 'after'], function (relation) {
-                var relative = opts.not ? opts.not[relation] : undefined;
-                var $ref;
+                var isDate = validate.moment.isDate,
+                    relative = opts.not && opts.not[relation] || undefined,
+                    arr, constraint, $ref;
                 if (typeof relative === "undefined") {
                     return;
                 }
-                var relative_constraint = relation === "before" ? 'earliest' : 'latest';
-                if (validate.moment.isDate(relative)) {
-                    c[relative_constraint] = relative;
+                constraint = relation === "before" ? 'earliest' : 'latest';
+                if (isDate(relative)) {
+                    c[constraint] = relative;
                 } else {
                     try {
                         $ref = $(relative);
                     } catch (e) {
                         console.log(e);
                     }
-                    var arr = $ref.data('pat-validation-refs') || [];
+                    arr = $ref.data('pat-validation-refs') || [];
                     if (!_.contains(arr, input)) {
                         arr.unshift(input);
                         $ref.data('pat-validation-refs', arr);
                     }
-                    if ($ref && $ref.val()) {
-                        // relative constraint validation
-                        c[relative_constraint] = $ref.val();
+                    c[constraint] = $ref.val();
+                    if (! $ref.val()) {
+                        // do not validate empty reference dates
+                        constraints[name][type] = false;
+                        return;
                     }
                 }
             });
@@ -55795,7 +55790,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
                 constraints = {};
             if (!name) { return; }
             constraints[name.replace(/\./g, '\\.')] = {
-                'presence': input.hasAttribute('required') ? { 'message': '^'+this.options.message.required, allowEmpty: false } : false,
+                'presence': input.getAttribute('required') ? { 'message': '^'+this.options.message.required, allowEmpty: false } : false,
                 'email': type === 'email' ? { 'message': '^'+this.options.message.email } : false,
                 'numericality': type === 'number' ? true : false,
                 'datetime': type === 'datetime' && this.doDateCheck(input) ? { 'message': '^'+this.options.message.datetime } : false,
@@ -55809,18 +55804,16 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
             // Returns true if a date check should be done.
             // Don't check if there is no input - this should be handled by
             // the ``required`` attribute.
-            // In case of HTML5 date/datetime-local support we also have to
-            // check for ``badInput`` as invalid date input will result in an
-            // empty ``value``.
+            // In case of HTML5 ``date``/``datetime-local`` support we
+            // implicitly check this if the input is ``badInput``, which is
+            // only set in case of an invalid date but not on empty values.
+            // Note that in case of HTML5 ``date``/``datetime-local`` support
+            // the value is empty on invalid input.
             var type = input.getAttribute('type');  // we need the raw type here
-            if (
-                Modernizr.inputtypes.date &&
-                type.indexOf('date') === 0 &&
-                typeof input.validity.badInput !== "undefined"
-            ) {
-                // Do the date check if the input is invalid or not missing
-                // (actually double-checking here - HTML5 and validate.js).
-                return input.validity.badInput || !!input.value;
+            if (Modernizr.inputtypes.date && type.indexOf('date') === 0) {
+                // Do the date check if the input is invalid (actually
+                // double-checking here - HTML5 and validate.js).
+                return input.validity.badInput;
             } else {
                 // Do the date check if input is not empty (Safari has yet no
                 // date support at all)
@@ -55858,7 +55851,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
             // Ignore invisible elements (otherwise pat-clone template
             // elements get validated). Not aware of other cases where this
             // might cause problems.
-            var $single = this.$inputs.filter(':visible:enabled:not(:checkbox):not(:radio), .pat-autosuggest:not(:visible)');
+            var $single = this.$inputs.filter(':visible:enabled:not(:checkbox):not(:radio)');
             var group_names = this.$inputs
                     .filter(':enabled:checkbox, :enabled:radio')
                     .map(function () { return this.getAttribute('name'); });
