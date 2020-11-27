@@ -36159,7 +36159,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
                 all_deselects = $(options.deselect);
             }
             for (var i=0; i<all_selects.length; i++) {
-                siblings = _._findSiblings(all_selects[i], "input[type=checkbox]:visible");
+                siblings = _.find_checkboxes(all_selects[i], "input[type=checkbox]:visible", $trigger, options);
                 if (siblings && siblings.filter(":not(:checked)").length === 0) {
                     $(all_selects[i]).prop("disabled", true);
                 } else {
@@ -36167,7 +36167,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
                 }
             }
             for (var i=0; i< all_deselects.length; i++) {
-                siblings = _._findSiblings(all_deselects[i], "input[type=checkbox]:visible");
+                siblings = _.find_checkboxes(all_deselects[i], "input[type=checkbox]:visible", $trigger, options);
                 if (siblings && siblings.filter(":checked").length === 0) {
                     $(all_deselects[i]).prop("disabled", true);
                 } else {
@@ -36177,6 +36177,16 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
         },
 
+        find_checkboxes: function (ref_el, sel, $el, opts) {
+            var chkbxs = [];
+            if (opts.select.indexOf("#") === 0) {
+                chkbxs = $(sel, $el); // find checkboxes within pat-checklist in case of global de/select buttons
+            } else {
+                chkbxs = _._findSiblings(ref_el, sel); // find checkboxes as siblings of the current button
+            }
+            return chkbxs;
+        },
+
         onSelectAll: function(event) {
             var $trigger = event.data.trigger,
                 options = $trigger.data("patternChecklist"),
@@ -36184,7 +36194,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
             /* look up checkboxes which are related to my button by going up one parent
             at a time until I find some for the first time */
-            var checkbox_siblings = _._findSiblings(button_clicked, "input[type=checkbox]:not(:checked)");
+            var checkbox_siblings = _.find_checkboxes(button_clicked, "input[type=checkbox]:not(:checked)", $trigger, options);
             checkbox_siblings.each(function () {
                 $(this).prop("checked", true).trigger("change");
             });
@@ -36199,7 +36209,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
 
             /* look up checkboxes which are related to my button by going up one parent
             at a time until I find some for the first time */
-            var checkbox_siblings = _._findSiblings(button_clicked, "input[type=checkbox]:checked");
+            var checkbox_siblings = _.find_checkboxes(button_clicked, "input[type=checkbox]:checked", $trigger, options);
             checkbox_siblings.each(function () {
                 $(this).prop("checked", false).trigger("change");
             });
@@ -37242,8 +37252,8 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
 
     isLeapYear = function(year)
     {
-        // solution by Matti Virkkunen: http://stackoverflow.com/a/4881951
-        return year % 4 === 0 && year % 100 !== 0 || year % 400 === 0;
+        // solution lifted from date.js (MIT license): https://github.com/datejs/Datejs
+        return ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0);
     },
 
     getDaysInMonth = function(year, month)
@@ -37326,7 +37336,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
         // automatically show/hide the picker on `field` focus (default `true` if `field` is set)
         bound: undefined,
 
-        // data-attribute on the input field with an aria assistance tekst (only applied when `bound` is set)
+        // data-attribute on the input field with an aria assistance text (only applied when `bound` is set)
         ariaLabel: 'Use the arrow keys to pick a date',
 
         // position of the datepicker, relative to the field (default to bottom & left)
@@ -37354,6 +37364,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
 
         // first day of week (0: Sunday, 1: Monday etc)
         firstDay: 0,
+
+        // minimum number of days in the week that gets week number one
+        // default ISO 8601, week 01 is the week with the first Thursday (4)
+        firstWeekOfYearMinDays: 4,
 
         // the default flag for moment's strict date parsing
         formatStrict: false,
@@ -37492,11 +37506,35 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
                '</td>';
     },
 
-    renderWeek = function (d, m, y) {
-        // Lifted from http://javascript.about.com/library/blweekyear.htm, lightly modified.
-        var onejan = new Date(y, 0, 1),
-            weekNum = Math.ceil((((new Date(y, m, d) - onejan) / 86400000) + onejan.getDay()+1)/7);
-        return '<td class="pika-week">' + weekNum + '</td>';
+    isoWeek = function(date, firstWeekOfYearMinDays) {
+        // Ensure we're at the start of the day.
+        date.setHours(0, 0, 0, 0);
+
+        // Thursday in current week decides the year because January 4th
+        // is always in the first week according to ISO8601.
+        var yearDay        = date.getDate(),
+            weekDay        = date.getDay(),
+            dayInFirstWeek = firstWeekOfYearMinDays,
+            dayShift       = dayInFirstWeek - 1, // counting starts at 0
+            daysPerWeek    = 7,
+            prevWeekDay    = function(day) { return (day + daysPerWeek - 1) % daysPerWeek; };
+
+        // Adjust to Thursday in week 1 and count number of weeks from date to week 1.
+        date.setDate(yearDay + dayShift - prevWeekDay(weekDay));
+
+        var jan4th      = new Date(date.getFullYear(), 0, dayInFirstWeek),
+            msPerDay    = 24 * 60 * 60 * 1000,
+            daysBetween = (date.getTime() - jan4th.getTime()) / msPerDay,
+            weekNum     = 1 + Math.round((daysBetween - dayShift + prevWeekDay(jan4th.getDay())) / daysPerWeek);
+
+        return weekNum;
+    },
+
+    renderWeek = function (d, m, y, firstWeekOfYearMinDays) {
+        var date = new Date(y, m, d),
+            week = hasMoment ? moment(date).isoWeek() : isoWeek(date, firstWeekOfYearMinDays);
+
+        return '<td class="pika-week">' + week + '</td>';
     },
 
     renderRow = function(days, isRTL, pickWholeWeek, isRowSelected)
@@ -37536,7 +37574,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
         for (arr = [], i = 0; i < 12; i++) {
             arr.push('<option value="' + (year === refYear ? i - c : 12 + i - c) + '"' +
                 (i === month ? ' selected="selected"': '') +
-                ((isMinYear && i < opts.minMonth) || (isMaxYear && i > opts.maxMonth) ? 'disabled="disabled"' : '') + '>' +
+                ((isMinYear && i < opts.minMonth) || (isMaxYear && i > opts.maxMonth) ? ' disabled="disabled"' : '') + '>' +
                 opts.i18n.months[i] + '</option>');
         }
 
@@ -37667,7 +37705,6 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
                         }
                         break;
                     case 37:
-                        e.preventDefault();
                         self.adjustDate('subtract', 1);
                         break;
                     case 38:
@@ -37679,7 +37716,23 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
                     case 40:
                         self.adjustDate('add', 7);
                         break;
+                    case 8:
+                    case 46:
+                        self.setDate(null);
+                        break;
                 }
+            }
+        };
+
+        self._parseFieldValue = function()
+        {
+            if (opts.parse) {
+                return opts.parse(opts.field.value, opts.format);
+            } else if (hasMoment) {
+                var date = moment(opts.field.value, opts.format, opts.formatStrict);
+                return (date && date.isValid()) ? date.toDate() : null;
+            } else {
+                return new Date(Date.parse(opts.field.value));
             }
         };
 
@@ -37690,15 +37743,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
             if (e.firedBy === self) {
                 return;
             }
-            if (opts.parse) {
-                date = opts.parse(opts.field.value, opts.format);
-            } else if (hasMoment) {
-                date = moment(opts.field.value, opts.format, opts.formatStrict);
-                date = (date && date.isValid()) ? date.toDate() : null;
-            }
-            else {
-                date = new Date(Date.parse(opts.field.value));
-            }
+            date = self._parseFieldValue();
             if (isDate(date)) {
               self.setDate(date);
             }
@@ -37783,11 +37828,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
             addEvent(opts.field, 'change', self._onInputChange);
 
             if (!opts.defaultDate) {
-                if (hasMoment && opts.field.value) {
-                    opts.defaultDate = moment(opts.field.value, opts.format).toDate();
-                } else {
-                    opts.defaultDate = new Date(Date.parse(opts.field.value));
-                }
+                opts.defaultDate = self._parseFieldValue();
                 opts.setDefaultDate = true;
             }
         }
@@ -37969,6 +38010,14 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
         },
 
         /**
+         * clear and reset the date
+         */
+        clear: function()
+        {
+            this.setDate(null);
+        },
+
+        /**
          * change view to a specific date
          */
         gotoDate: function(date)
@@ -38147,9 +38196,8 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
                 }
             }
 
-            randId = 'pika-title-' + Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 2);
-
             for (var c = 0; c < opts.numberOfMonths; c++) {
+                randId = 'pika-title-' + Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 2);
                 html += '<div class="pika-lendar">' + renderTitle(this, c, this.calendars[c].year, this.calendars[c].month, this.calendars[0].year, randId) + this.render(this.calendars[c].year, this.calendars[c].month, randId) + '</div>';
             }
 
@@ -38317,7 +38365,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
 
                 if (++r === 7) {
                     if (opts.showWeekNumber) {
-                        row.unshift(renderWeek(i - before, month, year));
+                        row.unshift(renderWeek(i - before, month, year, opts.firstWeekOfYearMinDays));
                     }
                     data.push(renderRow(row, opts.isRTL, opts.pickWholeWeek, isWeekSelected));
                     row = [];
@@ -38356,9 +38404,12 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* Update Social
                 if (this._o.bound) {
                     removeEvent(document, 'click', this._onClick);
                 }
-                this.el.style.position = 'static'; // reset
-                this.el.style.left = 'auto';
-                this.el.style.top = 'auto';
+
+                if (!this._o.container) {
+                    this.el.style.position = 'static'; // reset
+                    this.el.style.left = 'auto';
+                    this.el.style.top = 'auto';
+                }
                 addClass(this.el, 'is-hidden');
                 this._v = false;
                 if (v !== undefined && typeof this._o.onClose === 'function') {
