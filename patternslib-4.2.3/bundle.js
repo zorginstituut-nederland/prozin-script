@@ -3032,8 +3032,9 @@ index_default_._ = index_default_;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony export parser */
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parser", function() { return parser; });
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
 /* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _core_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
 /* harmony import */ var _core_parser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
@@ -3055,7 +3056,7 @@ parser.add_argument("strict", false); // output options
 parser.add_argument("from-now", false);
 parser.add_argument("no-suffix", false);
 parser.add_argument("output-format", null);
-/* harmony default export */ __webpack_exports__["a"] = (_core_base__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].extend({
+/* harmony default export */ __webpack_exports__["default"] = (_core_base__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].extend({
   name: "display-time",
   trigger: ".pat-display-time",
 
@@ -3078,10 +3079,11 @@ parser.add_argument("output-format", null);
   },
 
   format() {
-    let out = this.el.getAttribute("datetime");
+    const datetime = this.el.getAttribute("datetime");
+    let out = "";
 
-    if (out && this.options.outputFormat) {
-      const date = Moment(out, this.options.format, this.options.strict);
+    if (datetime) {
+      const date = Moment(datetime, this.options.format, this.options.strict);
 
       if (this.options.fromNow === true) {
         out = date.fromNow(this.options.noSuffix);
@@ -20483,17 +20485,15 @@ module.exports = webpackAsyncContext;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parser", function() { return parser; });
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
 /* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _core_base__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
 /* harmony import */ var _core_parser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3);
-/* harmony import */ var _display_time_display_time__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(127);
-/* harmony import */ var _core_utils__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2);
+/* harmony import */ var _core_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2);
 /* pat-date-picker  - Polyfill for input type=date */
  // needed for ``await`` support
-
 
 
 
@@ -20573,24 +20573,39 @@ parser.addAlias("behaviour", "behavior");
         display_el.classList.add("disabled");
       }
 
-      const display_time_config = {
-        format: this.format
-      };
+      el.insertAdjacentElement("beforebegin", display_el);
+      let display_el_pat;
 
       if (this.options.outputFormat) {
-        display_time_config["output-format"] = this.options.outputFormat;
+        const PatDisplayTime = (await Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 127))).default; // prettier-ignore
+
+        const display_time_config = {
+          format: this.format
+        };
+
+        if (this.options.outputFormat) {
+          display_time_config["output-format"] = this.options.outputFormat;
+        }
+
+        if (this.options.locale) {
+          display_time_config.locale = this.options.locale;
+        }
+
+        display_el_pat = new PatDisplayTime(display_el, display_time_config);
+      } else {
+        display_el.textContent = el.value;
       }
 
-      if (this.options.locale) {
-        display_time_config.locale = this.options.locale;
-      }
-
-      el.insertAdjacentElement("beforebegin", display_el);
       jquery__WEBPACK_IMPORTED_MODULE_1___default()(display_el).on("init.display-time.patterns", () => this.add_clear_button(display_el));
-      const display_el_pat = new _display_time_display_time__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"](display_el, display_time_config);
       this.el.addEventListener("change", () => {
         display_el.setAttribute("datetime", this.el.value);
-        display_el_pat.format();
+
+        if (display_el_pat) {
+          display_el_pat.format();
+        } else {
+          display_el.textContent = this.el.value;
+        }
+
         this.add_clear_button(display_el);
       });
 
@@ -20600,7 +20615,7 @@ parser.addAlias("behaviour", "behavior");
       }
     } else if (disabled) {
       return;
-    } else if (_core_utils__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"].checkInputSupport("date", "invalid date")) {
+    } else if (_core_utils__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"].checkInputSupport("date", "invalid date")) {
       // behavior native with native support.
       return;
     } else if (el.getAttribute("type") === "date") {
@@ -21382,7 +21397,7 @@ module.exports = webpackAsyncContext;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(18);
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
 /* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_1__);
@@ -21521,7 +21536,7 @@ _inject_inject__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"].registerTypeHandl
 
 /***/ }),
 
-/***/ 18:
+/***/ 19:
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -22862,6 +22877,15 @@ const ensureArray = it => {
   return Array.isArray(it) || it.jquery ? it : [it];
 };
 
+const localized_isodate = date => {
+  // Return a iso date (date only) in the current timezone instead of a
+  // UTC ISO 8602 date+time component which toISOString returns.
+  const day = date.getDate().toString().padStart(2, "0");
+  const month = (date.getMonth() + 1).toString().padStart(2, "0");
+  const year = date.getFullYear().toString();
+  return `${year}-${month}-${day}`;
+};
+
 var utils = {
   // pattern pimping - own module?
   jqueryPlugin: jqueryPlugin,
@@ -22887,7 +22911,8 @@ var utils = {
   debounce: debounce,
   isIE: isIE,
   jqToNode: jqToNode,
-  ensureArray: ensureArray
+  ensureArray: ensureArray,
+  localized_isodate: localized_isodate
 };
 /* harmony default export */ __webpack_exports__["a"] = (utils);
 
@@ -23518,7 +23543,7 @@ ArgumentParser.prototype.add_argument = ArgumentParser.prototype.addArgument;
 "use strict";
 /* unused harmony export parser */
 /* harmony import */ var _core_jquery_ext__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(53);
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18);
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(19);
 /* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_2__);
@@ -24672,7 +24697,7 @@ _core_registry__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"].register(inject);
 "use strict";
 
 // EXTERNAL MODULE: ./node_modules/regenerator-runtime/runtime.js
-var runtime = __webpack_require__(18);
+var runtime = __webpack_require__(19);
 
 // EXTERNAL MODULE: ./node_modules/jquery/dist/jquery.js-exposed
 var jquery_js_exposed = __webpack_require__(0);
@@ -24914,7 +24939,7 @@ var jquery_js_exposed_default = /*#__PURE__*/__webpack_require__.n(jquery_js_exp
 var _modernizrrc = __webpack_require__(172);
 
 // EXTERNAL MODULE: ./node_modules/regenerator-runtime/runtime.js
-var runtime = __webpack_require__(18);
+var runtime = __webpack_require__(19);
 
 // CONCATENATED MODULE: ./src/core/push_kit.js
 /**
@@ -29443,6 +29468,11 @@ scroll_parser.addArgument("offset");
       } else {
         options[scroll] = Math.floor(scrollable.scrollLeft() + target.safeOffset().left - scrollable.safeOffset().left);
       }
+    } // Fix scrolling on body - need to scroll on HTML, howsoever.
+
+
+    if (scrollable[0] === document.body) {
+      scrollable = jquery_js_exposed_default()("html");
     } // execute the scroll
 
 
