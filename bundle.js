@@ -44,7 +44,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "chunks/" + ({}[chunkId]||chunkId) + "." + {"0":"ade249fc2ac9d0509a5d","1":"6543fd80f4a6f6db24e0","2":"a09de83076e48912160b","3":"4114cd7131e62ea4b519","4":"399a9adcd58e455c53e0","9":"376bcf08762b72bb87fb","10":"aaed6da30b93ad02cdcb","11":"57a61aeb7b76b336b10f","12":"77bff663c18c9b36dcde","13":"882ba42ec0896890f951","14":"2f27ae746769e8892d6f","15":"19ed9bfe0880bc56035d","16":"454daf1641b0ff4d6d64","17":"179ebe721f88409938ef","18":"8c6b79e5736ec1e71dfc","19":"52070916d6dcb6efc967","20":"5b7abeaf44d85ab6c8d5","21":"d07e3fb8ad108fefbe91","22":"5067c1fa713f48d89911","23":"ec9f7655b0664e2c7f41","24":"e92d8ea11ed0ad541933","25":"8f8e1ab4c02ae957b7a9","26":"47b0b00ed519aac70ce3","27":"898eec425a941478a434","28":"2b9bf7dab1723d903109","29":"00ad860466c211fff90d","30":"94bed190ee964a370413","31":"6bb3b2f7fffa41acd4f4","32":"21859a3155914c44d626","33":"bec7568ccc855f5f332b","34":"49dba4f6802a8539e9db","35":"74e42d1ecfe674f8a91f","36":"cdb104b39019b765668c","37":"c43704d9bffa0745d5dd","38":"d08a495340dfb01a742b","39":"12cd8b440b3a4de1cc41","40":"cde2b58a4f5b1754e56c","41":"9d79635bc40dccc10a36","42":"2b1138bb5cf3ca62848a","43":"23502f2bf177310ddc79","44":"6aecfc67bcabd53fe682","45":"5d43aaf573adfc2800e7","46":"9414c7517abec7087242","47":"42e4f3f6bad8f997c466","48":"9e142903e96f70bb52bb","49":"2d4203278c12b77f6b26","50":"990ac1e3817c45722cdb","51":"f71898f37745fa44a43e","52":"471baab610362eb9e144","53":"df86e7b2b471bef4f00c","54":"044da9a523817531c664","55":"cd18f65c23cd4dd45c94","56":"da2397584c2b63115c55","57":"96336eab14df3fd71e76","58":"392c47042cd23500d83c","59":"1402fa7825b85d3ac0fb","60":"0c73438802322f4efea1","61":"c710e9270b94b71176cc","62":"c67decf5167f7071ba7e","63":"d9ccd7ec1eb773aed779","64":"1e193a8ff4ffd96f0d47","65":"3b1244c6c5660e066d91","66":"c8e95e619ce8b73442ec","67":"5626c3a20172b6f91b20","68":"6fbca9af3a2dc75f91c1","69":"190cf922884c4307c714","70":"1c07673191dcc4bf8544","71":"2fb95b1baebb4aa84f68","72":"48e6ed7e7f2b4baa2441","73":"526ddbeb57e0a26cd6cd","74":"550a9dbbe3e1df1f349e","75":"dbffce49ded9896840f9","76":"53d56fef6d280c256095","77":"daaee37932fc0dbb45a1","78":"a3c5ac0d64f5f8951e6d","79":"e96671d8a111b5710037","80":"68f07b8c417c2708cdb5","81":"3cbcff71b1e5a6a4db3d","82":"d1c6bdce4f6bb3fe58e8","83":"d35fde031cf59c14bad2","84":"d75ae6464a7305dd1354","85":"adc1dcb1f130dabf91ef","86":"572188031bd6bb06c8f4","87":"06ef1bd0a6d2cf67e1cf","88":"e76a51e7ec9faebbbed8","89":"b963ca5d753ed19edca7","90":"4462c6dea4706b3e357f","91":"7e6aba3fd1b3153c7639","92":"8897635baa7777aee640","93":"c725355af1605d817cb0","94":"fe1761ce0caaf804ab91","95":"4a78c0e8bd4b2304d33a","96":"f51e218aceaa667bd21d","97":"6b0237453587aec03910","98":"5f336fc9bf9d2202903c","99":"1cf3d243774c8cba0a6c","100":"b455845356dda3a7df01","101":"7323ff3749c0e6773a51","102":"b95a1fe91ed3ba7abe15","103":"d77343f5e847ac6ebafe","104":"1904a08923e16a8fc5a0","105":"93495218f3d075023d31","106":"7a88c600d67e72aea29d","107":"9670f1024842e774080e","108":"56450620a16cb1a7173d","109":"e050b2d89535a96c2aa5","110":"099112b639d4fb1b0fca","111":"57d921259dd32bf76cdb","112":"90a668534f1e0d4a2ab7","113":"bf347dc7ab826a11b81d","114":"0ef9d97af0db46d46a83","115":"bc47a3d100e6ddc34b02","116":"7743311ac2807d032674","117":"a8b20ce962e722cc076d","118":"df558b3e6411ae2086d0","119":"2e139f774e374e2231c4","120":"21b95d7bcea8bb73252f","121":"1aa4d0132e29bfa6a03b","122":"e8d4f0b76d60abbafa26","123":"7db0df459703912e7a60","124":"527818ec32b9a823498c","125":"aca643d393852cdff2cc","126":"2305e45df2389e7d5318","127":"71288a4ffb3701c489fa","128":"47584cf734b21face68e","129":"3daf69687c6530b00929","130":"08c541735e3773ea5490","131":"83a070f872dbd0fdbc56","132":"2601ccaf496f8574564e","133":"c2b88b389e33fa676348","134":"9af0a43f07cddcd14322","135":"38b7102737ce691923c3","136":"3ad587339e07fcc5c046","137":"4e664c7d62d8d45b2bed","138":"8d2a1ba71284cfbde859","139":"ea272c171f5da4b467af","140":"2d80938b47f73c0a5638","141":"8b91a45ddd0775effa5b","142":"6880251011ab07ab5ba3","143":"b939670dbdcf9b34e2b5","144":"e306b0142826ad7db168","145":"a53b2ea466ca26d57abe","146":"f54f40b95e9c7c2bfc45","147":"18c60f29867d12061e77","148":"2de1499685cbcfa1d58a","149":"3da29d4c1379dc60bc99","150":"a0b6d46971f2178efdbc","151":"2d7e46fc62a9215973d4","152":"a0c1f21bd18d977e71df","153":"8cb5101d643718c08767","154":"b0a2c843c0a0b4447f1c","155":"3823cf9fe7378893c676","156":"50bcf201165774edb21d","157":"cd61f7dbdfd693427ff5","158":"86506493eeaefbe8abf5","159":"2bf70937ce40b86ea5cf","160":"309fad8b35b017bf8460","161":"e8c71e353abd1462f9df","162":"b1a67248bbae1d8763d7","163":"f35095f176a5a1913aeb","164":"a75cab8287cbd4098140","165":"ff93fd22ead7a9b33352","166":"e742b29c3299286d543c","167":"84e9867bc14afb5d305c","168":"671cfee9ec22ebc2780b","169":"88af4a8e8a8147f19971","170":"dc7480591ee63bfe9bf7","171":"7123c9801490ec2721da","172":"51dcf92548326238466a","173":"badf067ff3da7e160aee","174":"6f3fbb1b569799158f22","175":"90bae6bcae0fb8da2c70","176":"fc202486621038c0ced4","177":"37df1f81c3bf5303b0dc","178":"365b63912a13be71582f","179":"0b98bbba02498f2d08b6","180":"c682e68cc63cf2c82967","181":"bc8f5372d9898e69c155","182":"c293e8d3e7e5bf90e821","183":"b075a69277cbd33fab01","184":"2732b7ec287d606174ee","185":"a5848247631741af5767","186":"9238f768837f8ca2a7c4","187":"42ebe9906cf056edbda6","188":"761305a2208e9a5c449d","189":"7bb305a0be5f3c03b3c0","190":"a2ad188b46ba897d4a2a","191":"cb4a32e53f289a913081","192":"8dde97697e97952d5da1","193":"6058b7715ec604a9e086","194":"6fadd6f7ce7ac6946e96","195":"c63dec8c1157a66d7e6a","196":"c56c1749930cfb55fcaf","197":"661c17b3e4ca07c98589","198":"b0839083a4bbc69c718c","199":"cac15449ca601680bb44","200":"810f33859a86e8ee9d67","201":"f5e31cdf6bc418748428","202":"44a11ccfa5da2c4938d7","203":"da8b9796b853b9e00a66","204":"d2ae7773db6e29b16f9a","205":"84679e1c19e7a858a479","206":"515d9825d37f7c3fe0cd","207":"39402253d823cf2e7701","208":"393c36b05984f74796ff","209":"2b8db138a9a77c3f4d2b","210":"aac4158e67dc59d52957","211":"8aa67976dba3731ec0d8","212":"beb11f5896ce583232db","213":"f940eebf74188af00d96","214":"2ede679097725aeae827","215":"6c9a5fb084660c2215ee","216":"539aafdf7f4522423b83","217":"07b59942eac21761a1cd","218":"43ed950eb009a1d0dabb","219":"c95948ad51a8fa27a957","220":"ac842d0349b0f42287d7","221":"1fd3a2c736628fd3e292","222":"660ba055d8726de1bc88","223":"a850be61273d8233bc81","224":"df742f6248b93a0bbd56","225":"6cd83a1c2310cabbfe81","226":"5e6098d516d76199a445","227":"4d062df3fbe09cf2821b","228":"424515ce86c4911355b7","229":"6cc985a504d2708c5324","230":"05ba892bf913977aaa7a","231":"8fad9996cf81d2d7a901","232":"b19ec011bafadd98dc7f","233":"8408efcd0d0b0740ca38","234":"a82f095b40a29a5ef55e","235":"407748c75db8e9f8897d","236":"d53315caad2e99aacfd6","237":"d85afb99d69196cbea0f","238":"a18c7b16cb70282663e5","239":"6c36cee6373515d85a74","240":"c8473f8378bfb0003c02","241":"405a5468c7aeaf1361be","242":"a19941b8a349d9460bb4","243":"d066bd422ab5534a917e","244":"5ae8a21edcf7b0afad18","245":"ac81b2fb14bd6243ecd1","246":"818ff77fdbe96b8b9068","247":"cc4cc16e0496169b2c7e","248":"7dd91d39fab8c355230a","249":"ac2e7d88f04a88a7ee8b","250":"90c5d42e091477fd15f4","251":"eaebd82cbeb1284faa1a","252":"73772859ce7699935307","253":"2aee33518934594ea110","254":"6ce49a4458d5009f3e11","255":"b231d047277b7d6d4a24","256":"0eacac6fce15219899e8","257":"9ff4f93657eaf271b0f9","258":"d2fefd56d96a36e1e637","259":"f384b8c282f9aba1b561","260":"aa06397a530c0544c43f","261":"7110e241e3461db09a1d","262":"221eeba1b19363bd6f3d","263":"36eb0b0281035085ea64","264":"14ff20a6fadbda9ac5e0","265":"e0143092009080456a62","266":"7c931b90bf4406178dc0","267":"bed66900f2813741dc20","268":"835448faa3b9d78f3bcf","269":"51b0f1d5386fdb6a4d9c","270":"bdf7a7d89ae6447f33c6","271":"a038cf32609cbca9c447","272":"07fa3797970a04cb8372","273":"15cc4877e6a4e6a070fb","274":"e8b74f6d0b362a452a47","275":"8a55ddbb8693eae6de51","276":"734e8d1c112363f64af6","277":"1fe9c763a7576c3e5ff3","278":"ce1d3ba558595d3d0ada","279":"347ed86cef3d622c4390","280":"59a46f32eb84d69d333f","281":"055de07ebb753c60e818","282":"7a01e315e4de6b8ca40d","283":"af1a6bc70269857ede09","284":"d2374d6ffa18089cd5c8","285":"182ac65d6da670aebced","286":"99c13bb26a7744f34f27","287":"ed00945c2782a7275056","288":"8e8c2369267feb3822d9","289":"4f0f86f8736f6b7ba318","290":"195714f05f57fdf502d0","291":"f1691575e2c2f2cebfb9","292":"75115f794df18b4668e5","293":"de4d489aa6130b770e25","294":"51abf9d81c4cb536b2a2","295":"96778f704002c5075857","296":"edd232116e82bd74a035","297":"2708e51c3d8d3416ad9b","298":"5d6556a28853d2efa290","299":"4906ebf733592fdaf62d","300":"0104addeddf01d9d4706","301":"46a2d32760304eb9fd13","302":"3e60e504000028c6e07f","303":"2f09c5be043c3989017c","304":"848b44f0d43a1fac08ae","305":"5139c8c36eba7630d0d4","306":"a794e09035c7ebcc696b","307":"372781b3975f5d5ee519","308":"0a05360f4306a51e65b3","309":"9b41ea6226f7be0da6fc","310":"bccfe7c6edfc397aff05","311":"5dbb3357dbe9be3f4638","312":"e314799cc430cf6c3fa6","313":"cf586e96e30262d6f883","314":"dd012ee2e6c7d5d2bb26","315":"54a067a3a97723bf000c","316":"710802a6dce122fa1c12","317":"21ea9c5be7bdbf017a2c","318":"8736d2ee55fc16b24cf2","319":"779f0c1ee992e82d824d","320":"139a5c6e4fcf4c63920a","321":"15b8c221b789fbaeeb49"}[chunkId] + ".min.js"
+/******/ 		return __webpack_require__.p + "chunks/" + ({}[chunkId]||chunkId) + "." + {"0":"877e095b83997503d503","1":"9d290a2a2bb06c2fd7ff","2":"12bb2a2a796eb648ef9d","3":"c91fe2c106c11b4fd64c","4":"4a1f8ef550a9ff5f122e","9":"25ffd3151548dac09df6","10":"418f1a14453b5867bd0b","11":"d5e5e63b330e972d27c4","12":"8151c2792c63831c802c","13":"b36803d1ee952e9b0e69","14":"68c5d38eb4bccc6c872b","15":"b7b2010bbb4669e50a17","16":"66d3631f96b058fde162","17":"202de90555c2dd2ca1dd","18":"13c8370ed2377171f5b5","19":"fa8963f1db179673d4f3","20":"5570dc1e70fc21e43be8","21":"7a151b5b45b0bdf76b25","22":"aa77f3519f188e86747f","23":"dd137023e46cafafb900","24":"1bdf4cd556ecbd5a619c","25":"b729e8bba8548f1c0176","26":"a6f704472fd8df6668de","27":"a58b6b5d5f33d0ff18f0","28":"8cf1d1150921f197091a","29":"4a419f6a1992a21dde68","30":"1f6ab6c3cde293ecd931","31":"58e98ba0e67e2065d8ad","32":"941feb5f18080d23ddb7","33":"c331c41a28a4c85ffd23","34":"cb60705e0be6159c374c","35":"75c82f7e423b6f843f3d","36":"608c5d414585f3bff929","37":"a5089b965298252778ad","38":"72d7edbbccf3d22807d1","39":"e659e26416731ed58872","40":"49d3399fd3ea6f5b4c90","41":"2227acca586d4047aa06","42":"38b72a84529c1079dc3f","43":"ca661091e44840079251","44":"112993f65cbd65b0cf71","45":"36647ed2083b983386f3","46":"47c2ba5de6284b407f91","47":"64de875d6c5c6d4124b4","48":"a5e34c36d3ffc679a589","49":"8ec0a5782e2b8e510429","50":"03c5afb34a057f3c80d6","51":"41a34609b993c59ea966","52":"66cbc97c9a865651f237","53":"94b46c888179367f637c","54":"84e2fe66e8005e85ff27","55":"ce6cdf3c2c283b9f5374","56":"8fbb6a45d565ed965633","57":"1a885b9f9c1c085086cc","58":"75d47fe4036bf13cdee5","59":"990a85238f298cba6a30","60":"5fe81c8cbb83feecbf69","61":"224c6e6c7f1f9b7acde8","62":"f2d279fef7b0d0606d62","63":"a917efff3b7296ea593c","64":"abee39e3572620148b62","65":"5b58fdc74e223f27a185","66":"56987e78d262f4b095d0","67":"660341fe07cf387ffb9c","68":"a0040ef0583a526b8c4f","69":"0690fee5494a93ddd359","70":"9567421a496b76d06bcf","71":"730f7848eecd72a5cc0c","72":"30e64c376ff6169a760d","73":"398b46e5d3d6c7f6a3b4","74":"5a704a9a1bba3240a0c9","75":"cab972ceaa1603e6c750","76":"2c1be6f09d7935f4e932","77":"dba3ef38ca4dac01b565","78":"3af80dc8802ef9e9c99d","79":"42fdda0675f02d6edcc8","80":"26a3cf0ed525660937d7","81":"9c3716f8335f796004f0","82":"ed7dbf7620117e15db91","83":"c4fee3afd8b1dd4604b0","84":"cd3b2d9ae96ecadeb45f","85":"f31545e55967e5f684a1","86":"0cafabe7ebd39ce56f0a","87":"434d5d8a860b7c630fc4","88":"9746b73f0b6cc8cd2949","89":"fae43e380fc0ecfb4792","90":"b5f0fe3e07d54908e352","91":"6fef743436e94802e186","92":"fc1033cffed1a7580f0e","93":"5afb7bc7525ad1dd7f83","94":"4e7e3e3cbee7613e6e61","95":"025276070be3176827ba","96":"2c38098f6434cc2e4a52","97":"4211ca4bb5fdcd0044dc","98":"e0b5b3d983206a783146","99":"b267547dde7fb6569af2","100":"e445f2f89186dfbac21c","101":"4a05cfc650c35ff0a0ec","102":"83b5695bab730de8471f","103":"33547688c51270b44947","104":"c5945768abffe83ed457","105":"4107fa8c1742e63e2647","106":"3e5191785e67db3bb486","107":"32befad3bb0a3ea53588","108":"a63ccba9b400651be1c3","109":"9ed33c5f024d326c2239","110":"31aa6f614b1cbe5bcb09","111":"04c580b7417432705380","112":"788cd794838650db28ab","113":"9bc4c0d0a5ae004d22f6","114":"c52dd39599bb561fb5af","115":"03cb00a091951a08342c","116":"5e8bc8d8aeef95ce14ba","117":"7c1927bbd0f45609a142","118":"a2f9d783b2bb58ee7dd7","119":"316d494e70350df9ff94","120":"d44ee6d1aac6694dc6c0","121":"7d5bcfdf1af7524e2297","122":"7250b9669b5febe2c252","123":"ba4853d3108b614f81bb","124":"7be116cf0b3207527b96","125":"ce764728e14ef2a94b51","126":"1a98e2ec9fc375fd0ffb","127":"20e41cda6eb7dfd47b1a","128":"8797e6603a6bf8288d0a","129":"98ff43b53c834ac404ad","130":"de269d3bcbe3a0afab2d","131":"fa9c5cc490188c588093","132":"6d05f2cfc19c2c4e8407","133":"8c18092aedde2eb40ff4","134":"f6f09ece5449e1f35f20","135":"989859b4db4990d42eff","136":"8f306c5cbab494535e05","137":"8254976b680ea838cc9e","138":"8286801209e0c92d5870","139":"b7a5e50afc6f80ffaaa1","140":"bc92163568a4eaff8421","141":"e2485adc987007000dac","142":"8381f3daa8ec3fbdcf22","143":"067db2612d860a6ac730","144":"9730075dc5eefb8de58f","145":"9f14a03de7c9761018f2","146":"1b15b7ee9d862cd21b6c","147":"d0dadcf25407eba2b57f","148":"e16cebf358575983cd8e","149":"dbbceb70fddbc205b13e","150":"2eb20ae8f44b5c2794f9","151":"109b5de2e506f23a2b13","152":"067b33a8c0418fc1cab0","153":"e80c38480edf787adddf","154":"7b1b263618027ac5e45e","155":"a262f009ef5c52489840","156":"0fa514160b4085f92665","157":"632c8b1179c039d4ddb9","158":"7f63a8e899b006d027c5","159":"aef7cbbd0e403c72b9c1","160":"009d50d6f4f6ca5d4834","161":"fe8f480c23dbd1823fc6","162":"ba423c3e3fde11f7835b","163":"3e421b6dc81f5a7b6e55","164":"adb9800328c3e8455b11","165":"187eeee086f805e30a18","166":"ff9aa5f02666fd57e399","167":"b3fb13df8cccc5971b0b","168":"6e04576be316e31f7780","169":"e1189ac48a2534075731","170":"3c0b86a033e6c2e5687c","171":"0ac451e79b7c16437f12","172":"437d8da55f3d4046a7d9","173":"c6c0b25bddb2dd2ac138","174":"163fe33382e4fc1fab9a","175":"ba24d6006f9f07e9aefd","176":"a94678701986704f940b","177":"355a80e54a317bb48c71","178":"3eb8cf81497e0051e94a","179":"54c4c63b3c04da4e3f8a","180":"3b98168017945057c8d1","181":"0f5419c8ff73cc6c7284","182":"424159d5157cb73b0383","183":"a44fffa724ccf172f827","184":"7a5330977334f96de1e9","185":"b60314fbe83abe4b840e","186":"88504d51a26c0d514dae","187":"39c8686493c83b8752b4","188":"339e9a2ec0da4b2b045e","189":"b68cae02cf8f412b3585","190":"8e64b2c861b06326dabf","191":"9a72e76250188d2fb742","192":"9921a78858dfc191f9a1","193":"33f52f332ed77d671fea","194":"11d903ab3452345521a8","195":"0e37af0ad7d022c9a969","196":"c410c3f4084cb117d4dd","197":"fe53cebf12bed03965f6","198":"16ea7fbd45d716ad45c5","199":"dace940e15afb4e2fbe3","200":"1f19b8e9fc2e702d37d0","201":"7dfc0f5299f991801b4e","202":"630806ad414a553f049a","203":"33ca5635f4562333f089","204":"c8bf934300677ed855e5","205":"ac7485ee2638e7fed032","206":"1bf1f162266fb23fb2a2","207":"a4ddbb481ec9262f1342","208":"f4eb67fd13f45f33b089","209":"eb5d8a676910e4b95e3a","210":"b90153ae7db4851dd316","211":"7e9450cb11a88bd5432f","212":"c4840663d3e2d1b91cad","213":"9d4d929ae36751326c9d","214":"f28cc89234c74dc53d5a","215":"cb875e8657a380271bb9","216":"17e57f2c72653600f599","217":"9d24198f1679310843e8","218":"6824d84dfbbf39d8a3cc","219":"28da15dbe42291280609","220":"7342fa6f35200e66222a","221":"078b291f2abc8e573f59","222":"a433564191ce6b86e935","223":"c948b0f1fb42f80f1d3d","224":"4c5d18e6390426d05553","225":"b6b27624481c3de36b22","226":"203b42850adcaaf2bf21","227":"8b29ef059ed2d3f8334b","228":"3adc3a531db36fb0e89e","229":"5d1cf79e87d008bbfc7e","230":"156e75e28cd2e89cf4f9","231":"fabcb8ed1bcfdd8002f9","232":"46cf806226cbe71221a4","233":"e757d00c2b118df21006","234":"bf7e197db97d71a4343c","235":"2217c271279549c1f0c8","236":"99ea69cbaf85623acb7b","237":"eff2b4c0214c19f7560c","238":"d99a3aceac12245341d4","239":"ec2feacc2c009e4eb087","240":"17176b00897fe7099e7a","241":"2761856c4cc0024a59bd","242":"7be68fb28e46e14675a5","243":"cf1c5abbfe8f0bdfc984","244":"6d0089f05dc401a35e11","245":"bf69b7eb19068e320176","246":"ac1014475cd067059f5a","247":"39b2052c437ceecc0fb6","248":"2a884b2420dd809b6bb1","249":"c99419e3a81b80da1797","250":"19d68dd20d2696d8276d","251":"ad5e81530470be2a6ceb","252":"32a5ed96abaa7df6e278","253":"12217a322071ccb6532e","254":"8b3e511d195d15b9bbbd","255":"4c73e10966583890af03","256":"2b48618a01a958034927","257":"4c4fb0d2e2a28b72fdb7","258":"155181d3d8ee782317ea","259":"2d571950b03129da4d26","260":"9405b5ce03426077e396","261":"064d951202cf81a8a3cb","262":"adb6df942b7efc9712a9","263":"35fa3b36ba6c2b3ee191","264":"133da35c59417c218397","265":"ac2cb7ada65458b09f49","266":"522d67df8f8e3b25f96b","267":"5646916d858940ee946d","268":"40339530d3ca4c523251","269":"c55071d957067e31e1bd","270":"26a2058e0e1c0b755267","271":"12b5ae8d444446fc5ac6","272":"f4968345c973b08a91d5","273":"3de771e6e5a3a8e745f4","274":"05552db08a76eed37ccc","275":"9022fa86794d51a33d1f","276":"510f49290baed2276df4","277":"789b815f068a7cec4dca","278":"95188a1b13db430bee75","279":"af0b5549564cf0935463","280":"f808ccda95fab4edaaf5","281":"41022a8f28b072d9b4d8","282":"f07451fcd8e1eb30126c","283":"30e92361f9a5a2bf6a3e","284":"92b11a63b12a74cafe4c","285":"4a7b45f939b6232a9b30","286":"a3efd6ab5da11431e509","287":"403ea7b93196fc3ac4c1","288":"8f1258e905eebf91d27b","289":"3a7bde947c4f06568d3f","290":"dcefc8ce7ce00305f0ca","291":"f613fe8554aba6c86b05","292":"d172f9e2f05ea17226e2","293":"d88861fc41e7f7bdcef9","294":"cfebdb550b9a53f64143","295":"33b7e58332c3227fcf7c","296":"38801f1c30744015a474","297":"befa9a56b51176f14748","298":"6e40f8b9c8e081bf4228","299":"e87460eac34b9c9fa15a","300":"a380c9b55d8c126793c4","301":"b364460950b2a026b0a8","302":"cd7f2d07f45a83db441f","303":"d842b023140ee949bb4c","304":"5a0b24ce42cd02434689","305":"4876a56f19f1e9b8db32","306":"a3af5d3b340128441691","307":"bbdc185cf01ad7a3e47e","308":"8317d3b09e1c46e40198","309":"90a86ae617ebae6ad10e","310":"7b2d66a4a4daa91fba1a","311":"bcae755f38517fd8ecc6","312":"e65a89b63b1ee36942a2","313":"859cc86cc149f82b5ba7","314":"135dc70c18429debb504","315":"d0f5ba08f0595c48eb24","316":"dccf2b8cdef1a12fd679","317":"1e7330b2c99ff37a6c91","318":"732fbb56b894bf568c0a","319":"b5a748d4bff70587965b","320":"8bab9f9b441e3e7c53da"}[chunkId] + ".min.js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -197,7 +197,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 412);
+/******/ 	return __webpack_require__(__webpack_require__.s = 427);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -205,12 +205,88 @@
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["$"] = __webpack_require__(170);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(41)))
+var ___EXPOSE_LOADER_IMPORT___ = __webpack_require__(176);
+var ___EXPOSE_LOADER_GET_GLOBAL_THIS___ = __webpack_require__(177);
+var ___EXPOSE_LOADER_GLOBAL_THIS___ = ___EXPOSE_LOADER_GET_GLOBAL_THIS___;
+if (typeof ___EXPOSE_LOADER_GLOBAL_THIS___["$"] === 'undefined') ___EXPOSE_LOADER_GLOBAL_THIS___["$"] = ___EXPOSE_LOADER_IMPORT___;
+if (typeof ___EXPOSE_LOADER_GLOBAL_THIS___["jQuery"] === 'undefined') ___EXPOSE_LOADER_GLOBAL_THIS___["jQuery"] = ___EXPOSE_LOADER_IMPORT___;
+module.exports = ___EXPOSE_LOADER_IMPORT___;
+
 
 /***/ }),
 
-/***/ 10:
+/***/ 129:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parser", function() { return parser; });
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
+/* harmony import */ var _core_parser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
+/* harmony import */ var _core_logging__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
+ // needed for ``await`` support
+
+
+
+ // Lazy loading modules.
+
+let Moment;
+const log = _core_logging__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"].getLogger("pat-display-time");
+const parser = new _core_parser__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"]("display-time"); // input datetime options
+
+parser.add_argument("format", "");
+parser.add_argument("locale", null);
+parser.add_argument("strict", false); // output options
+
+parser.add_argument("from-now", false);
+parser.add_argument("no-suffix", false);
+parser.add_argument("output-format", null);
+/* harmony default export */ __webpack_exports__["default"] = (_core_base__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].extend({
+  name: "display-time",
+  trigger: ".pat-display-time",
+
+  async init() {
+    Moment = (await __webpack_require__.e(/* import() */ 0).then(__webpack_require__.t.bind(null, 429, 7))).default;
+    this.options = parser.parse(this.el, this.options);
+    let lang = this.options.locale || document.querySelector("html").lang || "en"; // we don't support any country-specific language variants, always use first 2 letters
+
+    lang = lang.substr(0, 2).toLowerCase();
+
+    try {
+      await __webpack_require__(181)(`./${lang}.js`);
+      Moment.locale(lang);
+    } catch {
+      Moment.locale("en");
+    }
+
+    log.info("Moment.js language used: " + lang);
+    this.format();
+  },
+
+  format() {
+    const datetime = this.el.getAttribute("datetime");
+    let out = "";
+
+    if (datetime) {
+      const date = Moment(datetime, this.options.format, this.options.strict);
+
+      if (this.options.fromNow === true) {
+        out = date.fromNow(this.options.noSuffix);
+      } else {
+        out = date.format(this.options.outputFormat || undefined);
+      }
+    }
+
+    this.el.textContent = out;
+  }
+
+}));
+
+/***/ }),
+
+/***/ 15:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -371,7 +447,7 @@ __webpack_require__.d(modules_namespaceObject, "mixin", function() { return mixi
 __webpack_require__.d(modules_namespaceObject, "default", function() { return underscore_array_methods; });
 
 // EXTERNAL MODULE: ./node_modules/underscore/modules/_setup.js
-var _setup = __webpack_require__(5);
+var _setup = __webpack_require__(7);
 
 // CONCATENATED MODULE: ./node_modules/underscore/modules/restArguments.js
 // Some functions take a variable number of arguments, or a few expected
@@ -3028,78 +3104,7 @@ index_default_._ = index_default_;
 
 /***/ }),
 
-/***/ 127:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parser", function() { return parser; });
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
-/* harmony import */ var _core_parser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
-/* harmony import */ var _core_logging__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6);
- // needed for ``await`` support
-
-
-
- // Lazy loading modules.
-
-let Moment;
-const log = _core_logging__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"].getLogger("pat-display-time");
-const parser = new _core_parser__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"]("display-time"); // input datetime options
-
-parser.add_argument("format", "");
-parser.add_argument("locale", null);
-parser.add_argument("strict", false); // output options
-
-parser.add_argument("from-now", false);
-parser.add_argument("no-suffix", false);
-parser.add_argument("output-format", null);
-/* harmony default export */ __webpack_exports__["default"] = (_core_base__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].extend({
-  name: "display-time",
-  trigger: ".pat-display-time",
-
-  async init() {
-    Moment = (await __webpack_require__.e(/* import() */ 0).then(__webpack_require__.t.bind(null, 414, 7))).default;
-    this.options = parser.parse(this.el, this.options);
-    let lang = this.options.locale || document.querySelector("html").lang || "en"; // we don't support any country-specific language variants, always use first 2 letters
-
-    lang = lang.substr(0, 2).toLowerCase();
-
-    try {
-      await __webpack_require__(175)(`./${lang}.js`);
-      Moment.locale(lang);
-    } catch {
-      Moment.locale("en");
-    }
-
-    log.info("Moment.js language used: " + lang);
-    this.format();
-  },
-
-  format() {
-    const datetime = this.el.getAttribute("datetime");
-    let out = "";
-
-    if (datetime) {
-      const date = Moment(datetime, this.options.format, this.options.strict);
-
-      if (this.options.fromNow === true) {
-        out = date.fromNow(this.options.noSuffix);
-      } else {
-        out = date.format(this.options.outputFormat || undefined);
-      }
-    }
-
-    this.el.textContent = out;
-  }
-
-}));
-
-/***/ }),
-
-/***/ 169:
+/***/ 175:
 /***/ (function(module, exports, __webpack_require__) {
 
 // NOTE: Import this file before any other files
@@ -3122,15 +3127,7 @@ if (!__webpack_require__.p) {
 
 /***/ }),
 
-/***/ 170:
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(global) {module.exports = global["jQuery"] = __webpack_require__(171);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(41)))
-
-/***/ }),
-
-/***/ 171:
+/***/ 176:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -14019,7 +14016,48 @@ return jQuery;
 
 /***/ }),
 
-/***/ 172:
+/***/ 177:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+// eslint-disable-next-line func-names
+module.exports = function () {
+  if (typeof globalThis === "object") {
+    return globalThis;
+  }
+
+  var g;
+
+  try {
+    // This works if eval is allowed (see CSP)
+    // eslint-disable-next-line no-new-func
+    g = this || new Function("return this")();
+  } catch (e) {
+    // This works if the window reference is available
+    if (typeof window === "object") {
+      return window;
+    } // This works if the self reference is available
+
+
+    if (typeof self === "object") {
+      return self;
+    } // This works if the global reference is available
+
+
+    if (typeof global !== "undefined") {
+      return global;
+    }
+  }
+
+  return g;
+}();
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(47)))
+
+/***/ }),
+
+/***/ 178:
 /***/ (function(module, exports, __webpack_require__) {
 
 ;
@@ -19860,600 +19898,600 @@ return jQuery;
 
 /***/ }),
 
-/***/ 173:
+/***/ 179:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"./af.global.js": [
-		415,
+		430,
 		22
 	],
 	"./af.js": [
-		416,
+		431,
 		23
 	],
 	"./ar-dz.global.js": [
-		417,
+		432,
 		24
 	],
 	"./ar-dz.js": [
-		418,
+		433,
 		25
 	],
 	"./ar-kw.global.js": [
-		419,
+		434,
 		26
 	],
 	"./ar-kw.js": [
-		420,
+		435,
 		27
 	],
 	"./ar-ly.global.js": [
-		421,
+		436,
 		28
 	],
 	"./ar-ly.js": [
-		422,
+		437,
 		29
 	],
 	"./ar-ma.global.js": [
-		423,
+		438,
 		30
 	],
 	"./ar-ma.js": [
-		424,
+		439,
 		31
 	],
 	"./ar-sa.global.js": [
-		425,
+		440,
 		32
 	],
 	"./ar-sa.js": [
-		426,
+		441,
 		33
 	],
 	"./ar-tn.global.js": [
-		427,
+		442,
 		34
 	],
 	"./ar-tn.js": [
-		428,
+		443,
 		35
 	],
 	"./ar.global.js": [
-		429,
+		444,
 		36
 	],
 	"./ar.js": [
-		430,
+		445,
 		37
 	],
 	"./az.global.js": [
-		431,
+		446,
 		38
 	],
 	"./az.js": [
-		432,
+		447,
 		39
 	],
 	"./bg.global.js": [
-		433,
+		448,
 		40
 	],
 	"./bg.js": [
-		434,
+		449,
 		41
 	],
 	"./bn.global.js": [
-		435,
+		450,
 		42
 	],
 	"./bn.js": [
-		436,
+		451,
 		43
 	],
 	"./bs.global.js": [
-		437,
+		452,
 		44
 	],
 	"./bs.js": [
-		438,
+		453,
 		45
 	],
 	"./ca.global.js": [
-		439,
+		454,
 		46
 	],
 	"./ca.js": [
-		440,
+		455,
 		47
 	],
 	"./cs.global.js": [
-		441,
+		456,
 		48
 	],
 	"./cs.js": [
-		442,
+		457,
 		49
 	],
 	"./cy.global.js": [
-		443,
+		458,
 		50
 	],
 	"./cy.js": [
-		444,
+		459,
 		51
 	],
 	"./da.global.js": [
-		445,
+		460,
 		52
 	],
 	"./da.js": [
-		446,
+		461,
 		53
 	],
 	"./de-at.global.js": [
-		447,
+		462,
 		54
 	],
 	"./de-at.js": [
-		448,
+		463,
 		55
 	],
 	"./de.global.js": [
-		449,
+		464,
 		56
 	],
 	"./de.js": [
-		450,
+		465,
 		57
 	],
 	"./el.global.js": [
-		451,
+		466,
 		58
 	],
 	"./el.js": [
-		452,
+		467,
 		59
 	],
 	"./en-au.global.js": [
-		453,
+		468,
 		60
 	],
 	"./en-au.js": [
-		454,
+		469,
 		61
 	],
 	"./en-gb.global.js": [
-		455,
+		470,
 		62
 	],
 	"./en-gb.js": [
-		456,
+		471,
 		63
 	],
 	"./en-nz.global.js": [
-		457,
+		472,
 		64
 	],
 	"./en-nz.js": [
-		458,
+		473,
 		65
 	],
 	"./eo.global.js": [
-		459,
+		474,
 		66
 	],
 	"./eo.js": [
-		460,
+		475,
 		67
 	],
 	"./es-us.global.js": [
-		461,
+		476,
 		68
 	],
 	"./es-us.js": [
-		462,
+		477,
 		69
 	],
 	"./es.global.js": [
-		463,
+		478,
 		70
 	],
 	"./es.js": [
-		464,
+		479,
 		71
 	],
 	"./et.global.js": [
-		465,
+		480,
 		72
 	],
 	"./et.js": [
-		466,
+		481,
 		73
 	],
 	"./eu.global.js": [
-		467,
+		482,
 		74
 	],
 	"./eu.js": [
-		468,
+		483,
 		75
 	],
 	"./fa.global.js": [
-		469,
+		484,
 		76
 	],
 	"./fa.js": [
-		470,
+		485,
 		77
 	],
 	"./fi.global.js": [
-		471,
+		486,
 		78
 	],
 	"./fi.js": [
-		472,
+		487,
 		79
 	],
 	"./fr-ca.global.js": [
-		473,
+		488,
 		80
 	],
 	"./fr-ca.js": [
-		474,
+		489,
 		81
 	],
 	"./fr-ch.global.js": [
-		475,
+		490,
 		82
 	],
 	"./fr-ch.js": [
-		476,
+		491,
 		83
 	],
 	"./fr.global.js": [
-		477,
+		492,
 		84
 	],
 	"./fr.js": [
-		478,
+		493,
 		85
 	],
 	"./gl.global.js": [
-		479,
+		494,
 		86
 	],
 	"./gl.js": [
-		480,
+		495,
 		87
 	],
 	"./he.global.js": [
-		481,
+		496,
 		88
 	],
 	"./he.js": [
-		482,
+		497,
 		89
 	],
 	"./hi.global.js": [
-		483,
+		498,
 		90
 	],
 	"./hi.js": [
-		484,
+		499,
 		91
 	],
 	"./hr.global.js": [
-		485,
+		500,
 		92
 	],
 	"./hr.js": [
-		486,
+		501,
 		93
 	],
 	"./hu.global.js": [
-		487,
+		502,
 		94
 	],
 	"./hu.js": [
-		488,
+		503,
 		95
 	],
 	"./hy-am.global.js": [
-		489,
+		504,
 		96
 	],
 	"./hy-am.js": [
-		490,
+		505,
 		97
 	],
 	"./id.global.js": [
-		491,
+		506,
 		98
 	],
 	"./id.js": [
-		492,
+		507,
 		99
 	],
 	"./is.global.js": [
-		493,
+		508,
 		100
 	],
 	"./is.js": [
-		494,
+		509,
 		101
 	],
 	"./it.global.js": [
-		495,
+		510,
 		102
 	],
 	"./it.js": [
-		496,
+		511,
 		103
 	],
 	"./ja.global.js": [
-		497,
+		512,
 		104
 	],
 	"./ja.js": [
-		498,
+		513,
 		105
 	],
 	"./ka.global.js": [
-		499,
+		514,
 		106
 	],
 	"./ka.js": [
-		500,
+		515,
 		107
 	],
 	"./kk.global.js": [
-		501,
+		516,
 		108
 	],
 	"./kk.js": [
-		502,
+		517,
 		109
 	],
 	"./ko.global.js": [
-		503,
+		518,
 		110
 	],
 	"./ko.js": [
-		504,
+		519,
 		111
 	],
 	"./lb.global.js": [
-		505,
+		520,
 		112
 	],
 	"./lb.js": [
-		506,
+		521,
 		113
 	],
 	"./lt.global.js": [
-		507,
+		522,
 		114
 	],
 	"./lt.js": [
-		508,
+		523,
 		115
 	],
 	"./lv.global.js": [
-		509,
+		524,
 		116
 	],
 	"./lv.js": [
-		510,
+		525,
 		117
 	],
 	"./mk.global.js": [
-		511,
+		526,
 		118
 	],
 	"./mk.js": [
-		512,
+		527,
 		119
 	],
 	"./ms.global.js": [
-		513,
+		528,
 		120
 	],
 	"./ms.js": [
-		514,
+		529,
 		121
 	],
 	"./nb.global.js": [
-		515,
+		530,
 		122
 	],
 	"./nb.js": [
-		516,
+		531,
 		123
 	],
 	"./ne.global.js": [
-		517,
+		532,
 		124
 	],
 	"./ne.js": [
-		518,
+		533,
 		125
 	],
 	"./nl.global.js": [
-		519,
+		534,
 		126
 	],
 	"./nl.js": [
-		520,
+		535,
 		127
 	],
 	"./nn.global.js": [
-		521,
+		536,
 		128
 	],
 	"./nn.js": [
-		522,
+		537,
 		129
 	],
 	"./pl.global.js": [
-		523,
+		538,
 		130
 	],
 	"./pl.js": [
-		524,
+		539,
 		131
 	],
 	"./pt-br.global.js": [
-		525,
+		540,
 		132
 	],
 	"./pt-br.js": [
-		526,
+		541,
 		133
 	],
 	"./pt.global.js": [
-		527,
+		542,
 		134
 	],
 	"./pt.js": [
-		528,
+		543,
 		135
 	],
 	"./ro.global.js": [
-		529,
+		544,
 		136
 	],
 	"./ro.js": [
-		530,
+		545,
 		137
 	],
 	"./ru.global.js": [
-		531,
+		546,
 		138
 	],
 	"./ru.js": [
-		532,
+		547,
 		139
 	],
 	"./sk.global.js": [
-		533,
+		548,
 		140
 	],
 	"./sk.js": [
-		534,
+		549,
 		141
 	],
 	"./sl.global.js": [
-		535,
+		550,
 		142
 	],
 	"./sl.js": [
-		536,
+		551,
 		143
 	],
 	"./sq.global.js": [
-		537,
+		552,
 		144
 	],
 	"./sq.js": [
-		538,
+		553,
 		145
 	],
 	"./sr-cyrl.global.js": [
-		539,
+		554,
 		146
 	],
 	"./sr-cyrl.js": [
-		540,
+		555,
 		147
 	],
 	"./sr.global.js": [
-		541,
+		556,
 		148
 	],
 	"./sr.js": [
-		542,
+		557,
 		149
 	],
 	"./sv.global.js": [
-		543,
+		558,
 		150
 	],
 	"./sv.js": [
-		544,
+		559,
 		151
 	],
 	"./ta-in.global.js": [
-		545,
+		560,
 		152
 	],
 	"./ta-in.js": [
-		546,
+		561,
 		153
 	],
 	"./th.global.js": [
-		547,
+		562,
 		154
 	],
 	"./th.js": [
-		548,
+		563,
 		155
 	],
 	"./tr.global.js": [
-		549,
+		564,
 		156
 	],
 	"./tr.js": [
-		550,
+		565,
 		157
 	],
 	"./ug.global.js": [
-		551,
+		566,
 		158
 	],
 	"./ug.js": [
-		552,
+		567,
 		159
 	],
 	"./uk.global.js": [
-		553,
+		568,
 		160
 	],
 	"./uk.js": [
-		554,
+		569,
 		161
 	],
 	"./uz.global.js": [
-		555,
+		570,
 		162
 	],
 	"./uz.js": [
-		556,
+		571,
 		163
 	],
 	"./vi.global.js": [
-		557,
+		572,
 		164
 	],
 	"./vi.js": [
-		558,
+		573,
 		165
 	],
 	"./zh-cn.global.js": [
-		559,
+		574,
 		166
 	],
 	"./zh-cn.js": [
-		560,
+		575,
 		167
 	],
 	"./zh-tw.global.js": [
-		561,
+		576,
 		168
 	],
 	"./zh-tw.js": [
-		562,
+		577,
 		169
 	]
 };
@@ -20474,18 +20512,154 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 173;
+webpackAsyncContext.id = 179;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 174:
+/***/ 18:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* Utilities for DOM traversal or navigation */
+const DATA_STYLE_DISPLAY = "__patternslib__style__display";
+
+const toNodeArray = nodes => {
+  // Return an array of DOM nodes
+  if (nodes.jquery || nodes instanceof NodeList) {
+    // jQuery or document.querySelectorAll
+    nodes = [...nodes];
+  } else if (nodes instanceof Array === false) {
+    nodes = [nodes];
+  }
+
+  return nodes;
+};
+
+const querySelectorAllAndMe = (el, selector) => {
+  // Like querySelectorAll but including the element where it starts from.
+  // Returns an Array, not a NodeList
+  if (!el) {
+    return [];
+  }
+
+  const all = [...el.querySelectorAll(selector)];
+
+  if (el.matches(selector)) {
+    all.unshift(el); // start element should be first.
+  }
+
+  return all;
+};
+
+const wrap = (el, wrapper) => {
+  // Wrap a element with a wrapper element.
+  // See: https://stackoverflow.com/a/13169465/1337474
+  el.parentNode.insertBefore(wrapper, el);
+  wrapper.appendChild(el);
+};
+
+const hide = el => {
+  // Hides the element with ``display: none``
+  if (el.style.display === "none") {
+    // Nothing to do.
+    return;
+  }
+
+  if (el.style.display) {
+    el[DATA_STYLE_DISPLAY] = el.style.display;
+  }
+
+  el.style.display = "none";
+};
+
+const show = el => {
+  // Shows element by removing ``display: none`` and restoring the display
+  // value to whatever it was before.
+  const val = el[DATA_STYLE_DISPLAY] || null;
+  el.style.display = val;
+  delete el[DATA_STYLE_DISPLAY];
+};
+
+const find_parents = (el, selector) => {
+  var _el$parentNode, _el$parentNode$closes;
+
+  // Return all direct parents of ``el`` matching ``selector``.
+  // This matches against all parents but not the element itself.
+  // The order of elements is from the search starting point up to higher
+  // DOM levels.
+  const ret = [];
+  let parent = el === null || el === void 0 ? void 0 : (_el$parentNode = el.parentNode) === null || _el$parentNode === void 0 ? void 0 : (_el$parentNode$closes = _el$parentNode.closest) === null || _el$parentNode$closes === void 0 ? void 0 : _el$parentNode$closes.call(_el$parentNode, selector);
+
+  while (parent) {
+    var _parent$parentNode, _parent$parentNode$cl;
+
+    ret.push(parent);
+    parent = (_parent$parentNode = parent.parentNode) === null || _parent$parentNode === void 0 ? void 0 : (_parent$parentNode$cl = _parent$parentNode.closest) === null || _parent$parentNode$cl === void 0 ? void 0 : _parent$parentNode$cl.call(_parent$parentNode, selector);
+  }
+
+  return ret;
+};
+
+const find_scoped = (el, selector) => {
+  // If the selector starts with an object id do a global search,
+  // otherwise do a local search.
+  return (selector.indexOf("#") === 0 ? document : el).querySelectorAll(selector);
+};
+
+const get_parents = el => {
+  // Return all HTMLElement parents of el, starting from the direct parent of el.
+  // The document itself is excluded because it's not a real DOM node.
+  const parents = [];
+  let parent = el === null || el === void 0 ? void 0 : el.parentNode;
+
+  while (parent) {
+    var _parent;
+
+    parents.push(parent);
+    parent = (_parent = parent) === null || _parent === void 0 ? void 0 : _parent.parentNode;
+    parent = parent instanceof HTMLElement ? parent : null;
+  }
+
+  return parents;
+};
+
+const is_visible = el => {
+  // Check, if element is visible in DOM.
+  // https://stackoverflow.com/a/19808107/1337474
+  return el.offsetWidth > 0 && el.offsetHeight > 0;
+};
+
+const create_from_string = string => {
+  // Create a DOM element from a string.
+  const div = document.createElement("div");
+  div.innerHTML = string.trim();
+  return div.firstChild;
+};
+
+const dom = {
+  toNodeArray: toNodeArray,
+  querySelectorAllAndMe: querySelectorAllAndMe,
+  wrap: wrap,
+  hide: hide,
+  show: show,
+  find_parents: find_parents,
+  find_scoped: find_scoped,
+  get_parents: get_parents,
+  is_visible: is_visible,
+  create_from_string: create_from_string
+};
+/* harmony default export */ __webpack_exports__["a"] = (dom);
+
+/***/ }),
+
+/***/ 180:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parser", function() { return parser; });
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
 /* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_1__);
@@ -20577,7 +20751,7 @@ parser.addAlias("behaviour", "behavior");
       let display_el_pat;
 
       if (this.options.outputFormat) {
-        const PatDisplayTime = (await Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 127))).default; // prettier-ignore
+        const PatDisplayTime = (await Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 129))).default; // prettier-ignore
 
         const display_time_config = {
           format: this.format
@@ -20625,10 +20799,10 @@ parser.addAlias("behaviour", "behavior");
     }
 
     if (window.__patternslib_import_styles) {
-      __webpack_require__.e(/* import() */ 13).then(__webpack_require__.t.bind(null, 563, 7));
+      __webpack_require__.e(/* import() */ 13).then(__webpack_require__.bind(null, 579));
     }
 
-    const Pikaday = (await Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(313)]).then(__webpack_require__.t.bind(null, 564, 7))).default;
+    const Pikaday = (await Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(313)]).then(__webpack_require__.t.bind(null, 580, 7))).default;
     const config = {
       field: el,
       trigger: display_el || el,
@@ -20690,682 +20864,682 @@ parser.addAlias("behaviour", "behavior");
 
 /***/ }),
 
-/***/ 175:
+/***/ 181:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"./af.js": [
-		565,
+		581,
 		0,
 		176
 	],
 	"./ar-dz.js": [
-		566,
+		582,
 		0,
 		177
 	],
 	"./ar-kw.js": [
-		567,
+		583,
 		0,
 		178
 	],
 	"./ar-ly.js": [
-		568,
+		584,
 		0,
 		179
 	],
 	"./ar-ma.js": [
-		569,
+		585,
 		0,
 		180
 	],
 	"./ar-sa.js": [
-		570,
+		586,
 		0,
 		181
 	],
 	"./ar-tn.js": [
-		571,
+		587,
 		0,
 		182
 	],
 	"./ar.js": [
-		572,
+		588,
 		0,
 		183
 	],
 	"./az.js": [
-		573,
+		589,
 		0,
 		184
 	],
 	"./be.js": [
-		574,
+		590,
 		0,
 		185
 	],
 	"./bg.js": [
-		575,
+		591,
 		0,
 		186
 	],
 	"./bm.js": [
-		576,
+		592,
 		0,
 		187
 	],
 	"./bn-bd.js": [
-		577,
+		593,
 		0,
 		188
 	],
 	"./bn.js": [
-		578,
+		594,
 		0,
 		189
 	],
 	"./bo.js": [
-		579,
+		595,
 		0,
 		190
 	],
 	"./br.js": [
-		580,
+		596,
 		0,
 		191
 	],
 	"./bs.js": [
-		581,
+		597,
 		0,
 		192
 	],
 	"./ca.js": [
-		582,
+		598,
 		0,
 		193
 	],
 	"./cs.js": [
-		583,
+		599,
 		0,
 		194
 	],
 	"./cv.js": [
-		584,
+		600,
 		0,
 		195
 	],
 	"./cy.js": [
-		585,
+		601,
 		0,
 		196
 	],
 	"./da.js": [
-		586,
+		602,
 		0,
 		197
 	],
 	"./de-at.js": [
-		587,
+		603,
 		0,
 		198
 	],
 	"./de-ch.js": [
-		588,
+		604,
 		0,
 		199
 	],
 	"./de.js": [
-		589,
+		605,
 		0,
 		200
 	],
 	"./dv.js": [
-		590,
+		606,
 		0,
 		201
 	],
 	"./el.js": [
-		591,
+		607,
 		0,
 		202
 	],
 	"./en-au.js": [
-		592,
+		608,
 		0,
 		203
 	],
 	"./en-ca.js": [
-		593,
+		609,
 		0,
 		204
 	],
 	"./en-gb.js": [
-		594,
+		610,
 		0,
 		205
 	],
 	"./en-ie.js": [
-		595,
+		611,
 		0,
 		206
 	],
 	"./en-il.js": [
-		596,
+		612,
 		0,
 		207
 	],
 	"./en-in.js": [
-		597,
+		613,
 		0,
 		208
 	],
 	"./en-nz.js": [
-		598,
+		614,
 		0,
 		209
 	],
 	"./en-sg.js": [
-		599,
+		615,
 		0,
 		210
 	],
 	"./eo.js": [
-		600,
+		616,
 		0,
 		211
 	],
 	"./es-do.js": [
-		601,
+		617,
 		0,
 		212
 	],
 	"./es-mx.js": [
-		602,
+		618,
 		0,
 		213
 	],
 	"./es-us.js": [
-		603,
+		619,
 		0,
 		214
 	],
 	"./es.js": [
-		604,
+		620,
 		0,
 		215
 	],
 	"./et.js": [
-		605,
+		621,
 		0,
 		216
 	],
 	"./eu.js": [
-		606,
+		622,
 		0,
 		217
 	],
 	"./fa.js": [
-		607,
+		623,
 		0,
 		218
 	],
 	"./fi.js": [
-		608,
+		624,
 		0,
 		219
 	],
 	"./fil.js": [
-		609,
+		625,
 		0,
 		220
 	],
 	"./fo.js": [
-		610,
+		626,
 		0,
 		221
 	],
 	"./fr-ca.js": [
-		611,
+		627,
 		0,
 		222
 	],
 	"./fr-ch.js": [
-		612,
+		628,
 		0,
 		223
 	],
 	"./fr.js": [
-		613,
+		629,
 		0,
 		224
 	],
 	"./fy.js": [
-		614,
+		630,
 		0,
 		225
 	],
 	"./ga.js": [
-		615,
+		631,
 		0,
 		226
 	],
 	"./gd.js": [
-		616,
+		632,
 		0,
 		227
 	],
 	"./gl.js": [
-		617,
+		633,
 		0,
 		228
 	],
 	"./gom-deva.js": [
-		618,
+		634,
 		0,
 		229
 	],
 	"./gom-latn.js": [
-		619,
+		635,
 		0,
 		230
 	],
 	"./gu.js": [
-		620,
+		636,
 		0,
 		231
 	],
 	"./he.js": [
-		621,
+		637,
 		0,
 		232
 	],
 	"./hi.js": [
-		622,
+		638,
 		0,
 		233
 	],
 	"./hr.js": [
-		623,
+		639,
 		0,
 		234
 	],
 	"./hu.js": [
-		624,
+		640,
 		0,
 		235
 	],
 	"./hy-am.js": [
-		625,
+		641,
 		0,
 		236
 	],
 	"./id.js": [
-		626,
+		642,
 		0,
 		237
 	],
 	"./is.js": [
-		627,
+		643,
 		0,
 		238
 	],
 	"./it-ch.js": [
-		628,
+		644,
 		0,
 		239
 	],
 	"./it.js": [
-		629,
+		645,
 		0,
 		240
 	],
 	"./ja.js": [
-		630,
+		646,
 		0,
 		241
 	],
 	"./jv.js": [
-		631,
+		647,
 		0,
 		242
 	],
 	"./ka.js": [
-		632,
+		648,
 		0,
 		243
 	],
 	"./kk.js": [
-		633,
+		649,
 		0,
 		244
 	],
 	"./km.js": [
-		634,
+		650,
 		0,
 		245
 	],
 	"./kn.js": [
-		635,
+		651,
 		0,
 		246
 	],
 	"./ko.js": [
-		636,
+		652,
 		0,
 		247
 	],
 	"./ku.js": [
-		637,
+		653,
 		0,
 		248
 	],
 	"./ky.js": [
-		638,
+		654,
 		0,
 		249
 	],
 	"./lb.js": [
-		639,
+		655,
 		0,
 		250
 	],
 	"./lo.js": [
-		640,
+		656,
 		0,
 		251
 	],
 	"./lt.js": [
-		641,
+		657,
 		0,
 		252
 	],
 	"./lv.js": [
-		642,
+		658,
 		0,
 		253
 	],
 	"./me.js": [
-		643,
+		659,
 		0,
 		254
 	],
 	"./mi.js": [
-		644,
+		660,
 		0,
 		255
 	],
 	"./mk.js": [
-		645,
+		661,
 		0,
 		256
 	],
 	"./ml.js": [
-		646,
+		662,
 		0,
 		257
 	],
 	"./mn.js": [
-		647,
+		663,
 		0,
 		258
 	],
 	"./mr.js": [
-		648,
+		664,
 		0,
 		259
 	],
 	"./ms-my.js": [
-		649,
+		665,
 		0,
 		260
 	],
 	"./ms.js": [
-		650,
+		666,
 		0,
 		261
 	],
 	"./mt.js": [
-		651,
+		667,
 		0,
 		262
 	],
 	"./my.js": [
-		652,
+		668,
 		0,
 		263
 	],
 	"./nb.js": [
-		653,
+		669,
 		0,
 		264
 	],
 	"./ne.js": [
-		654,
+		670,
 		0,
 		265
 	],
 	"./nl-be.js": [
-		655,
+		671,
 		0,
 		266
 	],
 	"./nl.js": [
-		656,
+		672,
 		0,
 		267
 	],
 	"./nn.js": [
-		657,
+		673,
 		0,
 		268
 	],
 	"./oc-lnc.js": [
-		658,
+		674,
 		0,
 		269
 	],
 	"./pa-in.js": [
-		659,
+		675,
 		0,
 		270
 	],
 	"./pl.js": [
-		660,
+		676,
 		0,
 		271
 	],
 	"./pt-br.js": [
-		661,
+		677,
 		0,
 		272
 	],
 	"./pt.js": [
-		662,
+		678,
 		0,
 		273
 	],
 	"./ro.js": [
-		663,
+		679,
 		0,
 		274
 	],
 	"./ru.js": [
-		664,
+		680,
 		0,
 		275
 	],
 	"./sd.js": [
-		665,
+		681,
 		0,
 		276
 	],
 	"./se.js": [
-		666,
+		682,
 		0,
 		277
 	],
 	"./si.js": [
-		667,
+		683,
 		0,
 		278
 	],
 	"./sk.js": [
-		668,
+		684,
 		0,
 		279
 	],
 	"./sl.js": [
-		669,
+		685,
 		0,
 		280
 	],
 	"./sq.js": [
-		670,
+		686,
 		0,
 		281
 	],
 	"./sr-cyrl.js": [
-		671,
+		687,
 		0,
 		282
 	],
 	"./sr.js": [
-		672,
+		688,
 		0,
 		283
 	],
 	"./ss.js": [
-		673,
+		689,
 		0,
 		284
 	],
 	"./sv.js": [
-		674,
+		690,
 		0,
 		285
 	],
 	"./sw.js": [
-		675,
+		691,
 		0,
 		286
 	],
 	"./ta.js": [
-		676,
+		692,
 		0,
 		287
 	],
 	"./te.js": [
-		677,
+		693,
 		0,
 		288
 	],
 	"./tet.js": [
-		678,
+		694,
 		0,
 		289
 	],
 	"./tg.js": [
-		679,
+		695,
 		0,
 		290
 	],
 	"./th.js": [
-		680,
+		696,
 		0,
 		291
 	],
 	"./tk.js": [
-		681,
+		697,
 		0,
 		292
 	],
 	"./tl-ph.js": [
-		682,
+		698,
 		0,
 		293
 	],
 	"./tlh.js": [
-		683,
+		699,
 		0,
 		294
 	],
 	"./tr.js": [
-		684,
+		700,
 		0,
 		295
 	],
 	"./tzl.js": [
-		685,
+		701,
 		0,
 		296
 	],
 	"./tzm-latn.js": [
-		686,
+		702,
 		0,
 		297
 	],
 	"./tzm.js": [
-		687,
+		703,
 		0,
 		298
 	],
 	"./ug-cn.js": [
-		688,
+		704,
 		0,
 		299
 	],
 	"./uk.js": [
-		689,
+		705,
 		0,
 		300
 	],
 	"./ur.js": [
-		690,
+		706,
 		0,
 		301
 	],
 	"./uz-latn.js": [
-		691,
+		707,
 		0,
 		302
 	],
 	"./uz.js": [
-		692,
+		708,
 		0,
 		303
 	],
 	"./vi.js": [
-		693,
+		709,
 		0,
 		304
 	],
 	"./x-pseudo.js": [
-		694,
+		710,
 		0,
 		305
 	],
 	"./yo.js": [
-		695,
+		711,
 		0,
 		306
 	],
 	"./zh-cn.js": [
-		696,
+		712,
 		0,
 		307
 	],
 	"./zh-hk.js": [
-		697,
+		713,
 		0,
 		308
 	],
 	"./zh-mo.js": [
-		698,
+		714,
 		0,
 		309
 	],
 	"./zh-tw.js": [
-		699,
+		715,
 		0,
 		310
 	]
@@ -21387,24 +21561,24 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 175;
+webpackAsyncContext.id = 181;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 176:
+/***/ 182:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
 /* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _core_logging__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
+/* harmony import */ var _core_logging__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5);
 /* harmony import */ var _core_utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
 /* harmony import */ var _core_base__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(4);
-/* harmony import */ var _inject_inject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(30);
+/* harmony import */ var _inject_inject__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(31);
  // needed for ``await`` support
 
 
@@ -21431,7 +21605,7 @@ var Markdown = _core_base__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"].extend
   },
 
   async render(text) {
-    const Showdown = (await __webpack_require__.e(/* import() */ 316).then(__webpack_require__.t.bind(null, 700, 7))).default; // Add support for syntax highlighting via pat-syntax-highlight
+    const Showdown = (await __webpack_require__.e(/* import() */ 316).then(__webpack_require__.t.bind(null, 716, 7))).default; // Add support for syntax highlighting via pat-syntax-highlight
 
     Showdown.extensions.prettify = function () {
       return [{
@@ -21536,7 +21710,896 @@ _inject_inject__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"].registerTypeHandl
 
 /***/ }),
 
-/***/ 19:
+/***/ 183:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parser", function() { return parser; });
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(20);
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_jquery_ext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(60);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _core_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
+/* harmony import */ var _core_logging__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(5);
+/* harmony import */ var _core_parser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(3);
+/* harmony import */ var _core_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(2);
+ // needed for ``await`` support
+
+
+
+
+
+
+
+const log = _core_logging__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"].getLogger("pat.scroll");
+const parser = new _core_parser__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"]("scroll");
+parser.addArgument("trigger", "click", ["click", "auto", "manual"]);
+parser.addArgument("direction", "top", ["top", "left"]);
+parser.addArgument("selector");
+parser.addArgument("offset", 0);
+parser.addArgument("delay");
+/* harmony default export */ __webpack_exports__["default"] = (_core_base__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"].extend({
+  name: "scroll",
+  trigger: ".pat-scroll",
+  jquery_plugin: true,
+
+  async init($el, opts) {
+    this.options = parser.parse(this.$el, opts);
+
+    if (this.options.delay) {
+      this.options.delay = _core_utils__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"].parseTime(this.options.delay);
+    }
+
+    if (this.options.trigger === "auto") {
+      const ImagesLoaded = (await __webpack_require__.e(/* import() */ 2).then(__webpack_require__.t.bind(null, 578, 7))).default; // Only calculate the offset when all images are loaded
+
+      ImagesLoaded(document.body, () => this.smoothScroll());
+    }
+
+    if (this.options.trigger === "auto" || this.options.trigger === "click") {
+      this.el.addEventListener("click", this.onClick.bind(this));
+    }
+
+    this.$el.on("pat-update", this.onPatternsUpdate.bind(this));
+    this.markBasedOnFragment();
+    this.on("hashchange", this.clearIfHidden.bind(this));
+    jquery__WEBPACK_IMPORTED_MODULE_2___default()(window).scroll(_core_utils__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"].debounce(this.markIfVisible.bind(this), 50));
+  },
+
+  onClick() {
+    //ev.preventDefault();
+    history.pushState({}, null, this.$el.attr("href"));
+    this.smoothScroll();
+    this.markBasedOnFragment(); // manually trigger the hashchange event on all instances of pat-scroll
+
+    jquery__WEBPACK_IMPORTED_MODULE_2___default()("a.pat-scroll").trigger("hashchange");
+  },
+
+  markBasedOnFragment() {
+    // Get the fragment from the URL and set the corresponding this.$el as current
+    const fragment = window.location.hash.substr(1);
+
+    if (fragment) {
+      const $target = jquery__WEBPACK_IMPORTED_MODULE_2___default()("#" + fragment);
+      this.$el.addClass("current"); // the element that was clicked on
+
+      $target.addClass("current");
+    }
+  },
+
+  clearIfHidden() {
+    const active_target = "#" + window.location.hash.substr(1);
+    const $active_target = jquery__WEBPACK_IMPORTED_MODULE_2___default()(active_target);
+    const target = "#" + this.$el[0].href.split("#").pop();
+
+    if ($active_target.length > 0) {
+      if (active_target != target) {
+        // if the element does not match the one listed in the url #,
+        // clear the current class from it.
+        const $target = jquery__WEBPACK_IMPORTED_MODULE_2___default()("#" + this.$el[0].href.split("#").pop());
+        $target.removeClass("current");
+        this.$el.removeClass("current");
+      }
+    }
+  },
+
+  markIfVisible() {
+    if (this.$el.hasClass("pat-scroll-animated")) {
+      // this section is triggered when the scrolling is a result of the animate function
+      // ie. automatic scrolling as opposed to the user manually scrolling
+      this.$el.removeClass("pat-scroll-animated");
+    } else if (this.$el[0].nodeName === "A") {
+      const href = this.$el[0].href;
+      const fragment = href.indexOf("#") !== -1 && href.split("#").pop() || undefined;
+
+      if (fragment) {
+        const $target = jquery__WEBPACK_IMPORTED_MODULE_2___default()("#" + fragment);
+
+        if ($target.length) {
+          if (_core_utils__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"].isElementInViewport($target[0], true, this.options.offset)) {
+            // check that the anchor's target is visible
+            // if so, mark both the anchor and the target element
+            $target.addClass("current");
+            this.$el.addClass("current");
+          }
+
+          jquery__WEBPACK_IMPORTED_MODULE_2___default()(this.$el).trigger("pat-update", {
+            pattern: "scroll"
+          });
+        }
+      }
+    }
+  },
+
+  onPatternsUpdate(ev, data) {
+    if (data.pattern === "stacks") {
+      if (data.originalEvent && data.originalEvent.type === "click") {
+        this.smoothScroll();
+      }
+    } else if (data.pattern === "scroll") {
+      const href = this.$el[0].href;
+      const fragment = href.indexOf("#") !== -1 && href.split("#").pop() || undefined;
+
+      if (fragment) {
+        const $target = jquery__WEBPACK_IMPORTED_MODULE_2___default()("#" + fragment);
+
+        if ($target.length) {
+          if (!_core_utils__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"].isElementInViewport($target[0], true, this.options.offset)) {
+            // if the anchor's target is invisible, remove current class from anchor and target.
+            $target.removeClass("current");
+            jquery__WEBPACK_IMPORTED_MODULE_2___default()(this.$el).removeClass("current");
+          }
+        }
+      }
+    }
+  },
+
+  findScrollContainer(el) {
+    const direction = this.options.direction;
+    let scrollable = jquery__WEBPACK_IMPORTED_MODULE_2___default()(el).parents().filter((idx, el) => {
+      return ["auto", "scroll"].indexOf(jquery__WEBPACK_IMPORTED_MODULE_2___default()(el).css("overflow")) > -1 || direction === "top" && ["auto", "scroll"].indexOf(jquery__WEBPACK_IMPORTED_MODULE_2___default()(el).css("overflow-y")) > -1 || direction === "left" && ["auto", "scroll"].indexOf(jquery__WEBPACK_IMPORTED_MODULE_2___default()(el).css("overflow-x")) > -1;
+    }).first();
+
+    if (typeof scrollable[0] === "undefined") {
+      scrollable = jquery__WEBPACK_IMPORTED_MODULE_2___default()("body");
+    }
+
+    return scrollable;
+  },
+
+  _get_selector_target() {
+    var _this$el$href;
+
+    const selector = this.options.selector;
+
+    if (!selector && (_this$el$href = this.el.href) !== null && _this$el$href !== void 0 && _this$el$href.includes("#")) {
+      return document.querySelector(`#${this.el.href.split("#").pop()}`);
+    } else if (!selector || selector === "self") {
+      return this.el;
+    }
+
+    return document.querySelector(selector);
+  },
+
+  async smoothScroll() {
+    if (this.options.delay) {
+      await _core_utils__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"].timeout(this.options.delay);
+    }
+
+    const scroll = this.options.direction == "top" ? "scrollTop" : "scrollLeft";
+    const options = {};
+    let scrollable;
+
+    if (this.options.selector === "top") {
+      // Just scroll up or left, period.
+      scrollable = this.findScrollContainer(this.$el);
+      options[scroll] = 0;
+    } else if (this.options.selector === "bottom") {
+      // Just scroll down or right, period.
+      scrollable = this.findScrollContainer(this.$el);
+
+      if (scroll === "scrollTop") {
+        options.scrollTop = scrollable[0].scrollHeight;
+      } else {
+        options.scrollLeft = scrollable[0].scrollWidth;
+      }
+    } else {
+      // Get the first element with overflow (the scroll container)
+      // starting from the *target*
+      // The intent is to move target into view within scrollable
+      // if the scrollable has no scrollbar, do not scroll body
+      const target = jquery__WEBPACK_IMPORTED_MODULE_2___default()(this._get_selector_target());
+
+      if (!target.length) {
+        return;
+      }
+
+      scrollable = this.findScrollContainer(target);
+
+      if (scrollable[0] === document.body) {
+        // positioning context is document
+        if (scroll === "scrollTop") {
+          options[scroll] = Math.floor(target.safeOffset().top);
+        } else {
+          options[scroll] = Math.floor(target.safeOffset().left);
+        }
+      } else if (scroll === "scrollTop") {
+        // difference between target top and scrollable top becomes 0
+        options[scroll] = Math.floor(scrollable.scrollTop() + target.safeOffset().top - scrollable.safeOffset().top);
+      } else {
+        options[scroll] = Math.floor(scrollable.scrollLeft() + target.safeOffset().left - scrollable.safeOffset().left);
+      }
+    }
+
+    options[scroll] -= this.options.offset; // Fix scrolling on body - need to scroll on HTML, howsoever.
+
+    if (scrollable[0] === document.body) {
+      scrollable = jquery__WEBPACK_IMPORTED_MODULE_2___default()("html");
+    } // execute the scroll
+
+
+    await scrollable.animate(options, {
+      duration: 500,
+      start: () => {
+        jquery__WEBPACK_IMPORTED_MODULE_2___default()(".pat-scroll").addClass("pat-scroll-animated");
+        log.debug("scrolling.");
+      }
+    }).promise();
+  }
+
+}));
+
+/***/ }),
+
+/***/ 2:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var underscore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(15);
+/* harmony import */ var _dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(18);
+
+
+
+
+jquery__WEBPACK_IMPORTED_MODULE_0___default.a.fn.safeClone = function () {
+  var $clone = this.clone(); // IE BUG : Placeholder text becomes actual value after deep clone on textarea
+  // https://connect.microsoft.com/IE/feedback/details/781612/placeholder-text-becomes-actual-value-after-deep-clone-on-textarea
+
+  if (window.document.documentMode) {
+    $clone.findInclusive(":input[placeholder]").each(function (i, item) {
+      var $item = jquery__WEBPACK_IMPORTED_MODULE_0___default()(item);
+
+      if ($item.attr("placeholder") === $item.val()) {
+        $item.val("");
+      }
+    });
+  }
+
+  return $clone;
+}; // Production steps of ECMA-262, Edition 5, 15.4.4.18
+// Reference: http://es5.github.io/#x15.4.4.18
+
+
+if (!Array.prototype.forEach) {
+  Array.prototype.forEach = function (callback, thisArg) {
+    var T, k;
+
+    if (this === null) {
+      throw new TypeError(" this is null or not defined");
+    } // 1. Let O be the result of calling ToObject passing the |this| value as the argument.
+
+
+    var O = Object(this); // 2. Let lenValue be the result of calling the Get internal method of O with the argument "length".
+    // 3. Let len be ToUint32(lenValue).
+
+    var len = O.length >>> 0; // 4. If IsCallable(callback) is false, throw a TypeError exception.
+    // See: http://es5.github.com/#x9.11
+
+    if (typeof callback !== "function") {
+      throw new TypeError(callback + " is not a function");
+    } // 5. If thisArg was supplied, let T be thisArg; else let T be undefined.
+
+
+    if (arguments.length > 1) {
+      T = thisArg;
+    } // 6. Let k be 0
+
+
+    k = 0; // 7. Repeat, while k < len
+
+    while (k < len) {
+      var kValue; // a. Let Pk be ToString(k).
+      //   This is implicit for LHS operands of the in operator
+      // b. Let kPresent be the result of calling the HasProperty internal method of O with argument Pk.
+      //   This step can be combined with c
+      // c. If kPresent is true, then
+
+      if (k in O) {
+        // i. Let kValue be the result of calling the Get internal method of O with argument Pk.
+        kValue = O[k]; // ii. Call the Call internal method of callback with T as the this value and
+        // argument list containing kValue, k, and O.
+
+        callback.call(T, kValue, k, O);
+      } // d. Increase k by 1.
+
+
+      k++;
+    } // 8. return undefined
+
+  };
+}
+
+var singleBoundJQueryPlugin = function (pattern, method, options) {
+  /* This is a jQuery plugin for patterns which are invoked ONCE FOR EACH
+   * matched element in the DOM.
+   *
+   * This is how the Mockup-type patterns behave. They are constructor
+   * functions which need to be invoked once per jQuery-wrapped DOM node
+   * for all DOM nodes on which the pattern applies.
+   */
+  var $this = this;
+  $this.each(function () {
+    var pat,
+        $el = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
+    pat = pattern.init($el, options);
+
+    if (method) {
+      if (pat[method] === undefined) {
+        jquery__WEBPACK_IMPORTED_MODULE_0___default.a.error("Method " + method + " does not exist on jQuery." + pattern.name);
+        return false;
+      }
+
+      if (method.charAt(0) === "_") {
+        jquery__WEBPACK_IMPORTED_MODULE_0___default.a.error("Method " + method + " is private on jQuery." + pattern.name);
+        return false;
+      }
+
+      pat[method].apply(pat, [options]);
+    }
+  });
+  return $this;
+};
+
+var pluralBoundJQueryPlugin = function (pattern, method, options) {
+  /* This is a jQuery plugin for patterns which are invoked ONCE FOR ALL
+   * matched elements in the DOM.
+   *
+   * This is how the vanilla Patternslib-type patterns behave. They are
+   * simple objects with an init method and this method gets called once
+   * with a list of jQuery-wrapped DOM nodes on which the pattern
+   * applies.
+   */
+  var $this = this;
+
+  if (method) {
+    if (pattern[method]) {
+      return pattern[method].apply($this, [$this].concat([options]));
+    } else {
+      jquery__WEBPACK_IMPORTED_MODULE_0___default.a.error("Method " + method + " does not exist on jQuery." + pattern.name);
+    }
+  } else {
+    pattern.init.apply($this, [$this].concat([options]));
+  }
+
+  return $this;
+};
+
+var jqueryPlugin = function (pattern) {
+  return function (method, options) {
+    var $this = this;
+
+    if ($this.length === 0) {
+      return $this;
+    }
+
+    if (typeof method === "object") {
+      options = method;
+      method = undefined;
+    }
+
+    if (typeof pattern === "function") {
+      return singleBoundJQueryPlugin.call(this, pattern, method, options);
+    } else {
+      return pluralBoundJQueryPlugin.call(this, pattern, method, options);
+    }
+  };
+}; // Is a given variable an object?
+
+
+function isObject(obj) {
+  var type = typeof obj;
+  return type === "function" || type === "object" && !!obj;
+} // Extend a given object with all the properties in passed-in object(s).
+
+
+function extend(obj) {
+  if (!isObject(obj)) return obj;
+  var source, prop;
+
+  for (var i = 1, length = arguments.length; i < length; i++) {
+    source = arguments[i];
+
+    for (prop in source) {
+      if (hasOwnProperty.call(source, prop)) {
+        obj[prop] = source[prop];
+      }
+    }
+  }
+
+  return obj;
+} // END: Taken from Underscore.js until here.
+
+
+function rebaseURL(base, url) {
+  base = new URL(base, window.location).href; // If base is relative make it absolute.
+
+  if (url.indexOf("://") !== -1 || url[0] === "/" || url.indexOf("data:") === 0) {
+    return url;
+  }
+
+  return base.slice(0, base.lastIndexOf("/") + 1) + url;
+}
+
+function findLabel(input) {
+  var $label;
+
+  for (var label = input.parentNode; label && label.nodeType !== 11; label = label.parentNode) {
+    if (label.tagName === "LABEL") {
+      return label;
+    }
+  }
+
+  if (input.id) {
+    $label = jquery__WEBPACK_IMPORTED_MODULE_0___default()('label[for="' + input.id + '"]');
+  }
+
+  if ($label && $label.length === 0 && input.form) {
+    $label = jquery__WEBPACK_IMPORTED_MODULE_0___default()('label[for="' + input.name + '"]', input.form);
+  }
+
+  if ($label && $label.length) {
+    return $label[0];
+  } else {
+    return null;
+  }
+} // Taken from http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+
+
+function elementInViewport(el) {
+  var rect = el.getBoundingClientRect(),
+      docEl = document.documentElement,
+      vWidth = window.innerWidth || docEl.clientWidth,
+      vHeight = window.innerHeight || docEl.clientHeight;
+  if (rect.right < 0 || rect.bottom < 0 || rect.left > vWidth || rect.top > vHeight) return false;
+  return true;
+} // Taken from http://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
+
+
+function escapeRegExp(str) {
+  return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+}
+
+function removeWildcardClass($targets, classes) {
+  if (classes.indexOf("*") === -1) $targets.removeClass(classes);else {
+    var matcher = classes.replace(/[\-\[\]{}()+?.,\\\^$|#\s]/g, "\\$&");
+    matcher = matcher.replace(/[*]/g, ".*");
+    matcher = new RegExp("^" + matcher + "$");
+    $targets.filter("[class]").each(function () {
+      var $this = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this),
+          classes = $this.attr("class").split(/\s+/),
+          ok = [];
+
+      for (var i = 0; i < classes.length; i++) if (!matcher.test(classes[i])) ok.push(classes[i]);
+
+      if (ok.length) $this.attr("class", ok.join(" "));else $this.removeAttr("class");
+    });
+  }
+}
+
+function hasValue(el) {
+  if (el.tagName === "INPUT") {
+    if (el.type === "checkbox" || el.type === "radio") {
+      return el.checked;
+    }
+
+    return el.value !== "";
+  }
+
+  if (el.tagName === "SELECT") {
+    return el.selectedIndex !== -1;
+  }
+
+  if (el.tagName === "TEXTAREA") {
+    return el.value !== "";
+  }
+
+  return false;
+}
+
+const hideOrShow = (nodes, visible, options, pattern_name) => {
+  nodes = _dom__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"].toNodeArray(nodes);
+  const transitions = {
+    none: {
+      hide: "hide",
+      show: "show"
+    },
+    fade: {
+      hide: "fadeOut",
+      show: "fadeIn"
+    },
+    slide: {
+      hide: "slideUp",
+      show: "slideDown"
+    }
+  };
+  const duration = options.transition === "css" || options.transition === "none" ? null : options.effect.duration;
+
+  const on_complete = el => {
+    el.classList.remove("in-progress");
+    el.classList.add(visible ? "visible" : "hidden");
+    jquery__WEBPACK_IMPORTED_MODULE_0___default()(el).trigger("pat-update", {
+      pattern: pattern_name,
+      transition: "complete"
+    });
+  };
+
+  for (const el of nodes) {
+    el.classList.remove("visible");
+    el.classList.remove("hidden");
+    el.classList.remove("in-progress");
+
+    if (duration) {
+      const t = transitions[options.transition];
+      el.classList.add("in-progress");
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(el).trigger("pat-update", {
+        pattern: pattern_name,
+        transition: "start"
+      });
+      jquery__WEBPACK_IMPORTED_MODULE_0___default()(el)[visible ? t.show : t.hide]({
+        duration: duration,
+        easing: options.effect.easing,
+        complete: () => on_complete(el)
+      });
+    } else {
+      if (options.transition !== "css") {
+        _dom__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"][visible ? "show" : "hide"](el);
+      }
+
+      on_complete(el);
+    }
+  }
+};
+
+function addURLQueryParameter(fullURL, param, value) {
+  /* Using a positive lookahead (?=\=) to find the given parameter,
+   * preceded by a ? or &, and followed by a = with a value after
+   * than (using a non-greedy selector) and then followed by
+   * a & or the end of the string.
+   *
+   * Taken from http://stackoverflow.com/questions/7640270/adding-modify-query-string-get-variables-in-a-url-with-javascript
+   */
+  var val = new RegExp("(\\?|\\&)" + param + "=.*?(?=(&|$))"),
+      parts = fullURL.toString().split("#"),
+      url = parts[0],
+      hash = parts[1],
+      qstring = /\?.+$/,
+      newURL = url; // Check if the parameter exists
+
+  if (val.test(url)) {
+    // if it does, replace it, using the captured group
+    // to determine & or ? at the beginning
+    newURL = url.replace(val, "$1" + param + "=" + value);
+  } else if (qstring.test(url)) {
+    // otherwise, if there is a query string at all
+    // add the param to the end of it
+    newURL = url + "&" + param + "=" + value;
+  } else {
+    // if there's no query string, add one
+    newURL = url + "?" + param + "=" + value;
+  }
+
+  if (hash) {
+    newURL += "#" + hash;
+  }
+
+  return newURL;
+}
+
+function removeDuplicateObjects(objs) {
+  /* Given an array of objects, remove any duplicate objects which might
+   * be present.
+   */
+  var comparator = function (v, k) {
+    return this[k] === v;
+  };
+
+  return underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].reduce(objs, function (list, next_obj) {
+    var is_duplicate = false;
+
+    underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].each(list, function (obj) {
+      is_duplicate = underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].keys(obj).length === underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].keys(next_obj).length && !underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].chain(obj).omit(comparator.bind(next_obj)).keys().value().length;
+    });
+
+    if (!is_duplicate) {
+      list.push(next_obj);
+    }
+
+    return list;
+  }, []);
+}
+
+function mergeStack(stack, length) {
+  /* Given a list of lists of objects (which for brevity we call a stack),
+   * return a list of objects where each object is the merge of all the
+   * corresponding original objects at that particular index.
+   *
+   * If a certain sub-list doesn't have an object at that particular
+   * index, the last object in that list is merged.
+   */
+  var results = [];
+
+  for (var i = 0; i < length; i++) {
+    results.push({});
+  }
+
+  underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].each(stack, function (frame) {
+    var frame_length = frame.length - 1;
+
+    for (var x = 0; x < length; x++) {
+      results[x] = jquery__WEBPACK_IMPORTED_MODULE_0___default.a.extend(results[x] || {}, frame[x > frame_length ? frame_length : x]);
+    }
+  });
+
+  return results;
+}
+
+function isElementInViewport(el, partial = false, offset = 0) {
+  /* returns true if element is visible to the user ie. is in the viewport.
+   * Setting partial parameter to true, will only check if a part of the element is visible
+   * in the viewport, specifically that some part of that element is touching the top part
+   * of the viewport. This only applies to the vertical direction, ie. doesnt check partial
+   * visibility for horizontal scrolling
+   * some code taken from:
+   * http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport/7557433#7557433
+   */
+  if (el instanceof jquery__WEBPACK_IMPORTED_MODULE_0___default.a) {
+    el = el[0];
+  }
+
+  const rec = el.getBoundingClientRect();
+  const rec_values = [rec.top, rec.bottom, rec.left, rec.right];
+
+  if (rec_values.every(val => val === 0)) {
+    // if every property of rec is 0, the element is invisible;
+    return false;
+  } else if (partial) {
+    // when using getBoundingClientRect() (in the vertical case)
+    // negative means above top of viewport, positive means below top of viewport
+    // therefore for part of the element to be touching or crossing the top of the viewport
+    // rec.top must <= 0 and rec.bottom must >= 0
+    // an optional tolerance offset can be added for when the desired element is not exactly
+    // toucing the top of the viewport but needs to be considered as touching.
+    return rec.top <= 0 + offset && rec.bottom >= 0 + offset //(rec.top >= 0+offset && rec.top <= window.innerHeight) // this checks if the element
+    // touches bottom part of viewport
+    // XXX do we want to include a check for the padding of an element?
+    // using window.getComputedStyle(target).paddingTop
+    ;
+  } else {
+    // this will return true if the entire element is completely in the viewport
+    return rec.top >= 0 && rec.left >= 0 && rec.bottom <= (window.innerHeight || document.documentElement.clientHeight) && rec.right <= (window.innerWidth || document.documentElement.clientWidth);
+  }
+}
+
+function parseTime(time) {
+  var m = /^(\d+(?:\.\d+)?)\s*(\w*)/.exec(time);
+
+  if (!m) {
+    throw new Error("Invalid time");
+  }
+
+  var amount = parseFloat(m[1]);
+
+  switch (m[2]) {
+    case "s":
+      return Math.round(amount * 1000);
+
+    case "m":
+      return Math.round(amount * 1000 * 60);
+
+    case "ms":
+    default:
+      return Math.round(amount);
+  }
+} // Return a jQuery object with elements related to an input element.
+
+
+function findRelatives(el) {
+  var $el = jquery__WEBPACK_IMPORTED_MODULE_0___default()(el),
+      $relatives = jquery__WEBPACK_IMPORTED_MODULE_0___default()(el),
+      $label = jquery__WEBPACK_IMPORTED_MODULE_0___default()();
+  $relatives = $relatives.add($el.closest("label"));
+  $relatives = $relatives.add($el.closest("fieldset"));
+  if (el.id) $label = jquery__WEBPACK_IMPORTED_MODULE_0___default()("label[for='" + el.id + "']");
+
+  if (!$label.length) {
+    var $form = $el.closest("form");
+    if (!$form.length) $form = jquery__WEBPACK_IMPORTED_MODULE_0___default()(document.body);
+    $label = $form.find("label[for='" + el.name + "']");
+  }
+
+  $relatives = $relatives.add($label);
+  return $relatives;
+}
+
+function getCSSValue(el, property, as_pixels = false, as_float = false) {
+  /* Return a CSS property value for a given DOM node.
+   * For length-values, relative values are converted to pixels.
+   * Optionally parse as pixels, if applicable.
+   */
+  let value = window.getComputedStyle(el).getPropertyValue(property);
+
+  if (as_pixels || as_float) {
+    value = parseFloat(value) || 0.0;
+  }
+
+  if (as_pixels && !as_float) {
+    value = parseInt(Math.round(value), 10);
+  }
+
+  return value;
+}
+
+function get_bounds(el) {
+  // Return bounds of an element with it's values rounded and converted to ints.
+  const bounds = el.getBoundingClientRect();
+  return {
+    x: parseInt(Math.round(bounds.x), 10) || 0,
+    y: parseInt(Math.round(bounds.y), 10) || 0,
+    top: parseInt(Math.round(bounds.top), 10) || 0,
+    bottom: parseInt(Math.round(bounds.bottom), 10) || 0,
+    left: parseInt(Math.round(bounds.left), 10) || 0,
+    right: parseInt(Math.round(bounds.right), 10) || 0,
+    width: parseInt(Math.round(bounds.width), 10) || 0,
+    height: parseInt(Math.round(bounds.height), 10) || 0
+  };
+}
+
+function checkInputSupport(type, invalid_value) {
+  /* Check input type support.
+   *  See: https://stackoverflow.com/a/10199306/1337474
+   */
+  let support = false;
+  const input = document.createElement("input");
+  input.setAttribute("type", type);
+  support = input.type == type;
+
+  if (invalid_value !== undefined) {
+    // Check for input type UI support
+    input.setAttribute("value", invalid_value);
+    support = input.value !== invalid_value;
+  }
+
+  return support;
+}
+
+const checkCSSFeature = (attribute, value, tag = "div") => {
+  /* Check for browser support of specific CSS feature.
+   */
+  tag = document.createElement(tag);
+  let supported = tag.style[attribute] !== undefined;
+
+  if (supported && value !== undefined) {
+    tag.style[attribute] = value;
+    supported = tag.style[attribute] === value;
+  }
+
+  return supported;
+};
+
+const animation_frame = () => {
+  // Return promise to await next repaint cycle
+  // Use it in your async function like so: ``await utils.animation_frame()``
+  // From: http://www.albertlobo.com/fractals/async-await-requestanimationframe-buddhabrot
+  return new Promise(window.requestAnimationFrame);
+};
+
+const timeout = ms => {
+  return new Promise(resolve => setTimeout(resolve, ms));
+};
+
+const debounce = (func, ms, timer = {
+  timer: null
+}) => {
+  // Returns a function, that, as long as it continues to be invoked, will not
+  // be triggered. The function will be called after it stops being called for
+  // N milliseconds.
+  // From: https://underscorejs.org/#debounce
+  //
+  // Make sure to initialize ``debounce`` only once per to-be-debounced
+  // function to not reinitialize the timer each time and debounce not being
+  // able to cancel previouse runs.
+  //
+  // Pass a module-global timer as an object ``{ timer: null }`` if you want
+  // to also cancel debounced functions from other pattern-invocations.
+  //
+  return function () {
+    clearTimeout(timer.timer);
+    const args = arguments;
+    timer.timer = setTimeout(() => func.apply(this, args), ms);
+  };
+};
+
+const isIE = () => {
+  // See: https://stackoverflow.com/a/9851769/1337474
+  // Internet Explorer 6-11
+  return (
+    /*@cc_on!@*/
+     false || !!document.documentMode
+  );
+};
+
+const jqToNode = el => {
+  // Return a DOM node if a jQuery node was passed.
+  if (el.jquery) {
+    el = el[0];
+  }
+
+  return el;
+};
+
+const ensureArray = it => {
+  // Ensure to return always an array
+  return Array.isArray(it) || it.jquery ? it : [it];
+};
+
+const localized_isodate = date => {
+  // Return a iso date (date only) in the current timezone instead of a
+  // UTC ISO 8602 date+time component which toISOString returns.
+  const day = date.getDate().toString().padStart(2, "0");
+  const month = (date.getMonth() + 1).toString().padStart(2, "0");
+  const year = date.getFullYear().toString();
+  return `${year}-${month}-${day}`;
+};
+
+var utils = {
+  // pattern pimping - own module?
+  jqueryPlugin: jqueryPlugin,
+  escapeRegExp: escapeRegExp,
+  isObject: isObject,
+  extend: extend,
+  rebaseURL: rebaseURL,
+  findLabel: findLabel,
+  elementInViewport: elementInViewport,
+  removeWildcardClass: removeWildcardClass,
+  hideOrShow: hideOrShow,
+  addURLQueryParameter: addURLQueryParameter,
+  removeDuplicateObjects: removeDuplicateObjects,
+  mergeStack: mergeStack,
+  isElementInViewport: isElementInViewport,
+  hasValue: hasValue,
+  parseTime: parseTime,
+  findRelatives: findRelatives,
+  getCSSValue: getCSSValue,
+  get_bounds: get_bounds,
+  checkInputSupport: checkInputSupport,
+  checkCSSFeature: checkCSSFeature,
+  animation_frame: animation_frame,
+  timeout: timeout,
+  debounce: debounce,
+  isIE: isIE,
+  jqToNode: jqToNode,
+  ensureArray: ensureArray,
+  localized_isodate: localized_isodate
+};
+/* harmony default export */ __webpack_exports__["a"] = (utils);
+
+/***/ }),
+
+/***/ 20:
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -22291,765 +23354,6 @@ try {
 
 /***/ }),
 
-/***/ 2:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var underscore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
-/* harmony import */ var _dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(20);
-
-
-
-
-jquery__WEBPACK_IMPORTED_MODULE_0___default.a.fn.safeClone = function () {
-  var $clone = this.clone(); // IE BUG : Placeholder text becomes actual value after deep clone on textarea
-  // https://connect.microsoft.com/IE/feedback/details/781612/placeholder-text-becomes-actual-value-after-deep-clone-on-textarea
-
-  if (window.document.documentMode) {
-    $clone.findInclusive(":input[placeholder]").each(function (i, item) {
-      var $item = jquery__WEBPACK_IMPORTED_MODULE_0___default()(item);
-
-      if ($item.attr("placeholder") === $item.val()) {
-        $item.val("");
-      }
-    });
-  }
-
-  return $clone;
-}; // Production steps of ECMA-262, Edition 5, 15.4.4.18
-// Reference: http://es5.github.io/#x15.4.4.18
-
-
-if (!Array.prototype.forEach) {
-  Array.prototype.forEach = function (callback, thisArg) {
-    var T, k;
-
-    if (this === null) {
-      throw new TypeError(" this is null or not defined");
-    } // 1. Let O be the result of calling ToObject passing the |this| value as the argument.
-
-
-    var O = Object(this); // 2. Let lenValue be the result of calling the Get internal method of O with the argument "length".
-    // 3. Let len be ToUint32(lenValue).
-
-    var len = O.length >>> 0; // 4. If IsCallable(callback) is false, throw a TypeError exception.
-    // See: http://es5.github.com/#x9.11
-
-    if (typeof callback !== "function") {
-      throw new TypeError(callback + " is not a function");
-    } // 5. If thisArg was supplied, let T be thisArg; else let T be undefined.
-
-
-    if (arguments.length > 1) {
-      T = thisArg;
-    } // 6. Let k be 0
-
-
-    k = 0; // 7. Repeat, while k < len
-
-    while (k < len) {
-      var kValue; // a. Let Pk be ToString(k).
-      //   This is implicit for LHS operands of the in operator
-      // b. Let kPresent be the result of calling the HasProperty internal method of O with argument Pk.
-      //   This step can be combined with c
-      // c. If kPresent is true, then
-
-      if (k in O) {
-        // i. Let kValue be the result of calling the Get internal method of O with argument Pk.
-        kValue = O[k]; // ii. Call the Call internal method of callback with T as the this value and
-        // argument list containing kValue, k, and O.
-
-        callback.call(T, kValue, k, O);
-      } // d. Increase k by 1.
-
-
-      k++;
-    } // 8. return undefined
-
-  };
-}
-
-var singleBoundJQueryPlugin = function (pattern, method, options) {
-  /* This is a jQuery plugin for patterns which are invoked ONCE FOR EACH
-   * matched element in the DOM.
-   *
-   * This is how the Mockup-type patterns behave. They are constructor
-   * functions which need to be invoked once per jQuery-wrapped DOM node
-   * for all DOM nodes on which the pattern applies.
-   */
-  var $this = this;
-  $this.each(function () {
-    var pat,
-        $el = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this);
-    pat = pattern.init($el, options);
-
-    if (method) {
-      if (pat[method] === undefined) {
-        jquery__WEBPACK_IMPORTED_MODULE_0___default.a.error("Method " + method + " does not exist on jQuery." + pattern.name);
-        return false;
-      }
-
-      if (method.charAt(0) === "_") {
-        jquery__WEBPACK_IMPORTED_MODULE_0___default.a.error("Method " + method + " is private on jQuery." + pattern.name);
-        return false;
-      }
-
-      pat[method].apply(pat, [options]);
-    }
-  });
-  return $this;
-};
-
-var pluralBoundJQueryPlugin = function (pattern, method, options) {
-  /* This is a jQuery plugin for patterns which are invoked ONCE FOR ALL
-   * matched elements in the DOM.
-   *
-   * This is how the vanilla Patternslib-type patterns behave. They are
-   * simple objects with an init method and this method gets called once
-   * with a list of jQuery-wrapped DOM nodes on which the pattern
-   * applies.
-   */
-  var $this = this;
-
-  if (method) {
-    if (pattern[method]) {
-      return pattern[method].apply($this, [$this].concat([options]));
-    } else {
-      jquery__WEBPACK_IMPORTED_MODULE_0___default.a.error("Method " + method + " does not exist on jQuery." + pattern.name);
-    }
-  } else {
-    pattern.init.apply($this, [$this].concat([options]));
-  }
-
-  return $this;
-};
-
-var jqueryPlugin = function (pattern) {
-  return function (method, options) {
-    var $this = this;
-
-    if ($this.length === 0) {
-      return $this;
-    }
-
-    if (typeof method === "object") {
-      options = method;
-      method = undefined;
-    }
-
-    if (typeof pattern === "function") {
-      return singleBoundJQueryPlugin.call(this, pattern, method, options);
-    } else {
-      return pluralBoundJQueryPlugin.call(this, pattern, method, options);
-    }
-  };
-}; // Is a given variable an object?
-
-
-function isObject(obj) {
-  var type = typeof obj;
-  return type === "function" || type === "object" && !!obj;
-} // Extend a given object with all the properties in passed-in object(s).
-
-
-function extend(obj) {
-  if (!isObject(obj)) return obj;
-  var source, prop;
-
-  for (var i = 1, length = arguments.length; i < length; i++) {
-    source = arguments[i];
-
-    for (prop in source) {
-      if (hasOwnProperty.call(source, prop)) {
-        obj[prop] = source[prop];
-      }
-    }
-  }
-
-  return obj;
-} // END: Taken from Underscore.js until here.
-
-
-function rebaseURL(base, url) {
-  base = new URL(base, window.location).href; // If base is relative make it absolute.
-
-  if (url.indexOf("://") !== -1 || url[0] === "/" || url.indexOf("data:") === 0) {
-    return url;
-  }
-
-  return base.slice(0, base.lastIndexOf("/") + 1) + url;
-}
-
-function findLabel(input) {
-  var $label;
-
-  for (var label = input.parentNode; label && label.nodeType !== 11; label = label.parentNode) {
-    if (label.tagName === "LABEL") {
-      return label;
-    }
-  }
-
-  if (input.id) {
-    $label = jquery__WEBPACK_IMPORTED_MODULE_0___default()('label[for="' + input.id + '"]');
-  }
-
-  if ($label && $label.length === 0 && input.form) {
-    $label = jquery__WEBPACK_IMPORTED_MODULE_0___default()('label[for="' + input.name + '"]', input.form);
-  }
-
-  if ($label && $label.length) {
-    return $label[0];
-  } else {
-    return null;
-  }
-} // Taken from http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
-
-
-function elementInViewport(el) {
-  var rect = el.getBoundingClientRect(),
-      docEl = document.documentElement,
-      vWidth = window.innerWidth || docEl.clientWidth,
-      vHeight = window.innerHeight || docEl.clientHeight;
-  if (rect.right < 0 || rect.bottom < 0 || rect.left > vWidth || rect.top > vHeight) return false;
-  return true;
-} // Taken from http://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
-
-
-function escapeRegExp(str) {
-  return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
-}
-
-function removeWildcardClass($targets, classes) {
-  if (classes.indexOf("*") === -1) $targets.removeClass(classes);else {
-    var matcher = classes.replace(/[\-\[\]{}()+?.,\\\^$|#\s]/g, "\\$&");
-    matcher = matcher.replace(/[*]/g, ".*");
-    matcher = new RegExp("^" + matcher + "$");
-    $targets.filter("[class]").each(function () {
-      var $this = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this),
-          classes = $this.attr("class").split(/\s+/),
-          ok = [];
-
-      for (var i = 0; i < classes.length; i++) if (!matcher.test(classes[i])) ok.push(classes[i]);
-
-      if (ok.length) $this.attr("class", ok.join(" "));else $this.removeAttr("class");
-    });
-  }
-}
-
-function hasValue(el) {
-  if (el.tagName === "INPUT") {
-    if (el.type === "checkbox" || el.type === "radio") {
-      return el.checked;
-    }
-
-    return el.value !== "";
-  }
-
-  if (el.tagName === "SELECT") {
-    return el.selectedIndex !== -1;
-  }
-
-  if (el.tagName === "TEXTAREA") {
-    return el.value !== "";
-  }
-
-  return false;
-}
-
-const hideOrShow = (nodes, visible, options, pattern_name) => {
-  nodes = _dom__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"].toNodeArray(nodes);
-  const transitions = {
-    none: {
-      hide: "hide",
-      show: "show"
-    },
-    fade: {
-      hide: "fadeOut",
-      show: "fadeIn"
-    },
-    slide: {
-      hide: "slideUp",
-      show: "slideDown"
-    }
-  };
-  const duration = options.transition === "css" || options.transition === "none" ? null : options.effect.duration;
-
-  const on_complete = el => {
-    el.classList.remove("in-progress");
-    el.classList.add(visible ? "visible" : "hidden");
-    jquery__WEBPACK_IMPORTED_MODULE_0___default()(el).trigger("pat-update", {
-      pattern: pattern_name,
-      transition: "complete"
-    });
-  };
-
-  for (const el of nodes) {
-    el.classList.remove("visible");
-    el.classList.remove("hidden");
-    el.classList.remove("in-progress");
-
-    if (duration) {
-      const t = transitions[options.transition];
-      el.classList.add("in-progress");
-      jquery__WEBPACK_IMPORTED_MODULE_0___default()(el).trigger("pat-update", {
-        pattern: pattern_name,
-        transition: "start"
-      });
-      jquery__WEBPACK_IMPORTED_MODULE_0___default()(el)[visible ? t.show : t.hide]({
-        duration: duration,
-        easing: options.effect.easing,
-        complete: () => on_complete(el)
-      });
-    } else {
-      if (options.transition !== "css") {
-        _dom__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"][visible ? "show" : "hide"](el);
-      }
-
-      on_complete(el);
-    }
-  }
-};
-
-function addURLQueryParameter(fullURL, param, value) {
-  /* Using a positive lookahead (?=\=) to find the given parameter,
-   * preceded by a ? or &, and followed by a = with a value after
-   * than (using a non-greedy selector) and then followed by
-   * a & or the end of the string.
-   *
-   * Taken from http://stackoverflow.com/questions/7640270/adding-modify-query-string-get-variables-in-a-url-with-javascript
-   */
-  var val = new RegExp("(\\?|\\&)" + param + "=.*?(?=(&|$))"),
-      parts = fullURL.toString().split("#"),
-      url = parts[0],
-      hash = parts[1],
-      qstring = /\?.+$/,
-      newURL = url; // Check if the parameter exists
-
-  if (val.test(url)) {
-    // if it does, replace it, using the captured group
-    // to determine & or ? at the beginning
-    newURL = url.replace(val, "$1" + param + "=" + value);
-  } else if (qstring.test(url)) {
-    // otherwise, if there is a query string at all
-    // add the param to the end of it
-    newURL = url + "&" + param + "=" + value;
-  } else {
-    // if there's no query string, add one
-    newURL = url + "?" + param + "=" + value;
-  }
-
-  if (hash) {
-    newURL += "#" + hash;
-  }
-
-  return newURL;
-}
-
-function removeDuplicateObjects(objs) {
-  /* Given an array of objects, remove any duplicate objects which might
-   * be present.
-   */
-  var comparator = function (v, k) {
-    return this[k] === v;
-  };
-
-  return underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].reduce(objs, function (list, next_obj) {
-    var is_duplicate = false;
-
-    underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].each(list, function (obj) {
-      is_duplicate = underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].keys(obj).length === underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].keys(next_obj).length && !underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].chain(obj).omit(comparator.bind(next_obj)).keys().value().length;
-    });
-
-    if (!is_duplicate) {
-      list.push(next_obj);
-    }
-
-    return list;
-  }, []);
-}
-
-function mergeStack(stack, length) {
-  /* Given a list of lists of objects (which for brevity we call a stack),
-   * return a list of objects where each object is the merge of all the
-   * corresponding original objects at that particular index.
-   *
-   * If a certain sub-list doesn't have an object at that particular
-   * index, the last object in that list is merged.
-   */
-  var results = [];
-
-  for (var i = 0; i < length; i++) {
-    results.push({});
-  }
-
-  underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].each(stack, function (frame) {
-    var frame_length = frame.length - 1;
-
-    for (var x = 0; x < length; x++) {
-      results[x] = jquery__WEBPACK_IMPORTED_MODULE_0___default.a.extend(results[x] || {}, frame[x > frame_length ? frame_length : x]);
-    }
-  });
-
-  return results;
-}
-
-function isElementInViewport(el, partial, offset) {
-  /* returns true if element is visible to the user ie. is in the viewport.
-   * Setting partial parameter to true, will only check if a part of the element is visible
-   * in the viewport, specifically that some part of that element is touching the top part
-   * of the viewport. This only applies to the vertical direction, ie. doesnt check partial
-   * visibility for horizontal scrolling
-   * some code taken from:
-   * http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport/7557433#7557433
-   */
-  if (el === []) {
-    return false;
-  }
-
-  if (el instanceof jquery__WEBPACK_IMPORTED_MODULE_0___default.a) {
-    el = el[0];
-  }
-
-  var rec = el.getBoundingClientRect(),
-      rec_values = [rec.top, rec.bottom, rec.left, rec.right];
-
-  if (underscore__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].every(rec_values, function zero(v) {
-    if (v === 0) {
-      return true;
-    }
-  })) {
-    // if every property of rec is 0, the element is invisible;
-    return false;
-  } else if (partial) {
-    // when using getBoundingClientRect() (in the vertical case)
-    // negative means above top of viewport, positive means below top of viewport
-    // therefore for part of the element to be touching or crossing the top of the viewport
-    // rec.top must <= 0 and rec.bottom must >= 0
-    // an optional tolerance offset can be added for when the desired element is not exactly
-    // toucing the top of the viewport but needs to be considered as touching.
-    if (offset === undefined) {
-      offset = 0;
-    }
-
-    return rec.top <= 0 + offset && rec.bottom >= 0 + offset //(rec.top >= 0+offset && rec.top <= window.innerHeight) // this checks if the element
-    // touches bottom part of viewport
-    // XXX do we want to include a check for the padding of an element?
-    // using window.getComputedStyle(target).paddingTop
-    ;
-  } else {
-    // this will return true if the entire element is completely in the viewport
-    return rec.top >= 0 && rec.left >= 0 && rec.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-    /*or $(window).height() */
-    && rec.right <= (window.innerWidth || document.documentElement.clientWidth)
-    /*or $(window).width() */
-    ;
-  }
-}
-
-function parseTime(time) {
-  var m = /^(\d+(?:\.\d+)?)\s*(\w*)/.exec(time);
-
-  if (!m) {
-    throw new Error("Invalid time");
-  }
-
-  var amount = parseFloat(m[1]);
-
-  switch (m[2]) {
-    case "s":
-      return Math.round(amount * 1000);
-
-    case "m":
-      return Math.round(amount * 1000 * 60);
-
-    case "ms":
-    default:
-      return Math.round(amount);
-  }
-} // Return a jQuery object with elements related to an input element.
-
-
-function findRelatives(el) {
-  var $el = jquery__WEBPACK_IMPORTED_MODULE_0___default()(el),
-      $relatives = jquery__WEBPACK_IMPORTED_MODULE_0___default()(el),
-      $label = jquery__WEBPACK_IMPORTED_MODULE_0___default()();
-  $relatives = $relatives.add($el.closest("label"));
-  $relatives = $relatives.add($el.closest("fieldset"));
-  if (el.id) $label = jquery__WEBPACK_IMPORTED_MODULE_0___default()("label[for='" + el.id + "']");
-
-  if (!$label.length) {
-    var $form = $el.closest("form");
-    if (!$form.length) $form = jquery__WEBPACK_IMPORTED_MODULE_0___default()(document.body);
-    $label = $form.find("label[for='" + el.name + "']");
-  }
-
-  $relatives = $relatives.add($label);
-  return $relatives;
-}
-
-function getCSSValue(el, property, asPixels) {
-  /* Return a CSS property value for a given DOM node.
-   * For length-values, relative values are converted to pixels.
-   * Optionally parse as pixels, if applicable.
-   */
-  var value = window.getComputedStyle(el).getPropertyValue(property);
-
-  if (asPixels) {
-    value = parseFloat(value) || 0.0;
-  }
-
-  return value;
-}
-
-function checkInputSupport(type, invalid_value) {
-  /* Check input type support.
-   *  See: https://stackoverflow.com/a/10199306/1337474
-   */
-  let support = false;
-  const input = document.createElement("input");
-  input.setAttribute("type", type);
-  support = input.type == type;
-
-  if (invalid_value !== undefined) {
-    // Check for input type UI support
-    input.setAttribute("value", invalid_value);
-    support = input.value !== invalid_value;
-  }
-
-  return support;
-}
-
-const checkCSSFeature = (attribute, value, tag = "div") => {
-  /* Check for browser support of specific CSS feature.
-   */
-  tag = document.createElement(tag);
-  let supported = tag.style[attribute] !== undefined;
-
-  if (supported && value !== undefined) {
-    tag.style[attribute] = value;
-    supported = tag.style[attribute] === value;
-  }
-
-  return supported;
-};
-
-const timeout = ms => {
-  return new Promise(resolve => setTimeout(resolve, ms));
-};
-
-const debounce = (func, ms) => {
-  // Returns a function, that, as long as it continues to be invoked, will not
-  // be triggered. The function will be called after it stops being called for
-  // N milliseconds.
-  // From: https://underscorejs.org/#debounce
-  let timer = null;
-  return function () {
-    clearTimeout(timer);
-    const args = arguments;
-    timer = setTimeout(() => {
-      func.apply(this, args);
-    }, ms);
-  };
-};
-
-const isIE = () => {
-  // See: https://stackoverflow.com/a/9851769/1337474
-  // Internet Explorer 6-11
-  return (
-    /*@cc_on!@*/
-     false || !!document.documentMode
-  );
-};
-
-const jqToNode = el => {
-  // Return a DOM node if a jQuery node was passed.
-  if (el.jquery) {
-    el = el[0];
-  }
-
-  return el;
-};
-
-const ensureArray = it => {
-  // Ensure to return always an array
-  return Array.isArray(it) || it.jquery ? it : [it];
-};
-
-const localized_isodate = date => {
-  // Return a iso date (date only) in the current timezone instead of a
-  // UTC ISO 8602 date+time component which toISOString returns.
-  const day = date.getDate().toString().padStart(2, "0");
-  const month = (date.getMonth() + 1).toString().padStart(2, "0");
-  const year = date.getFullYear().toString();
-  return `${year}-${month}-${day}`;
-};
-
-var utils = {
-  // pattern pimping - own module?
-  jqueryPlugin: jqueryPlugin,
-  escapeRegExp: escapeRegExp,
-  isObject: isObject,
-  extend: extend,
-  rebaseURL: rebaseURL,
-  findLabel: findLabel,
-  elementInViewport: elementInViewport,
-  removeWildcardClass: removeWildcardClass,
-  hideOrShow: hideOrShow,
-  addURLQueryParameter: addURLQueryParameter,
-  removeDuplicateObjects: removeDuplicateObjects,
-  mergeStack: mergeStack,
-  isElementInViewport: isElementInViewport,
-  hasValue: hasValue,
-  parseTime: parseTime,
-  findRelatives: findRelatives,
-  getCSSValue: getCSSValue,
-  checkInputSupport: checkInputSupport,
-  checkCSSFeature: checkCSSFeature,
-  timeout: timeout,
-  debounce: debounce,
-  isIE: isIE,
-  jqToNode: jqToNode,
-  ensureArray: ensureArray,
-  localized_isodate: localized_isodate
-};
-/* harmony default export */ __webpack_exports__["a"] = (utils);
-
-/***/ }),
-
-/***/ 20:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* Utilities for DOM traversal or navigation */
-const DATA_STYLE_DISPLAY = "__patternslib__style__display";
-
-const toNodeArray = nodes => {
-  // Return an array of DOM nodes
-  if (nodes.jquery || nodes instanceof NodeList) {
-    // jQuery or document.querySelectorAll
-    nodes = [...nodes];
-  } else if (nodes instanceof Array === false) {
-    nodes = [nodes];
-  }
-
-  return nodes;
-};
-
-const querySelectorAllAndMe = (el, selector) => {
-  // Like querySelectorAll but including the element where it starts from.
-  // Returns an Array, not a NodeList
-  const all = [...el.querySelectorAll(selector)];
-
-  if (el.matches(selector)) {
-    all.unshift(el); // start element should be first.
-  }
-
-  return all;
-};
-
-const wrap = (el, wrapper) => {
-  // Wrap a element with a wrapper element.
-  // See: https://stackoverflow.com/a/13169465/1337474
-  el.parentNode.insertBefore(wrapper, el);
-  wrapper.appendChild(el);
-};
-
-const hide = el => {
-  // Hides the element with ``display: none``
-  if (el.style.display === "none") {
-    // Nothing to do.
-    return;
-  }
-
-  if (el.style.display) {
-    el[DATA_STYLE_DISPLAY] = el.style.display;
-  }
-
-  el.style.display = "none";
-};
-
-const show = el => {
-  // Shows element by removing ``display: none`` and restoring the display
-  // value to whatever it was before.
-  const val = el[DATA_STYLE_DISPLAY] || null;
-  el.style.display = val;
-  delete el[DATA_STYLE_DISPLAY];
-};
-
-const find_parents = (el, selector) => {
-  var _el$parentNode, _el$parentNode$closes;
-
-  // Return all direct parents of ``el`` matching ``selector``.
-  // This matches against all parents but not the element itself.
-  // The order of elements is from the search starting point up to higher
-  // DOM levels.
-  const ret = [];
-  let parent = el === null || el === void 0 ? void 0 : (_el$parentNode = el.parentNode) === null || _el$parentNode === void 0 ? void 0 : (_el$parentNode$closes = _el$parentNode.closest) === null || _el$parentNode$closes === void 0 ? void 0 : _el$parentNode$closes.call(_el$parentNode, selector);
-
-  while (parent) {
-    var _parent$parentNode, _parent$parentNode$cl;
-
-    ret.push(parent);
-    parent = (_parent$parentNode = parent.parentNode) === null || _parent$parentNode === void 0 ? void 0 : (_parent$parentNode$cl = _parent$parentNode.closest) === null || _parent$parentNode$cl === void 0 ? void 0 : _parent$parentNode$cl.call(_parent$parentNode, selector);
-  }
-
-  return ret;
-};
-
-const find_scoped = (el, selector) => {
-  // If the selector starts with an object id do a global search,
-  // otherwise do a local search.
-  return (selector.indexOf("#") === 0 ? document : el).querySelectorAll(selector);
-};
-
-const get_parents = el => {
-  // Return all HTMLElement parents of el, starting from the direct parent of el.
-  // The document itself is excluded because it's not a real DOM node.
-  const parents = [];
-  let parent = el === null || el === void 0 ? void 0 : el.parentNode;
-
-  while (parent) {
-    var _parent;
-
-    parents.push(parent);
-    parent = (_parent = parent) === null || _parent === void 0 ? void 0 : _parent.parentNode;
-    parent = parent instanceof HTMLElement ? parent : null;
-  }
-
-  return parents;
-};
-
-const is_visible = el => {
-  // Check, if element is visible in DOM.
-  // https://stackoverflow.com/a/19808107/1337474
-  return el.offsetWidth > 0 && el.offsetHeight > 0;
-};
-
-const create_from_string = string => {
-  // Create a DOM element from a string.
-  const div = document.createElement("div");
-  div.innerHTML = string.trim();
-  return div.firstChild;
-};
-
-const dom = {
-  toNodeArray: toNodeArray,
-  querySelectorAllAndMe: querySelectorAllAndMe,
-  wrap: wrap,
-  hide: hide,
-  show: show,
-  find_parents: find_parents,
-  find_scoped: find_scoped,
-  get_parents: get_parents,
-  is_visible: is_visible,
-  create_from_string: create_from_string
-};
-/* harmony default export */ __webpack_exports__["a"] = (dom);
-
-/***/ }),
-
 /***/ 3:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23057,7 +23361,7 @@ const dom = {
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
-/* harmony import */ var _logging__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
+/* harmony import */ var _logging__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5);
 // Patterns argument parser
 
 
@@ -23074,7 +23378,7 @@ class ArgumentParser {
     this.possible_groups = {};
     this.log = _logging__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"].getLogger(name + ".parser");
     this.group_pattern = /([a-z][a-z0-9]*)-([A-Z][a-z0-0\-]*)/i;
-    this.json_param_pattern = /^\s*{/i;
+    this.json_param_pattern = /^\s*\[?\s*{/i;
     this.named_param_pattern = /^\s*([a-z][a-z0-9\-]*)\s*:(.*)/i;
     this.token_pattern = /((["']).*?(?!\\)\2)|\s*(\S+)\s*/g;
   }
@@ -23431,37 +23735,39 @@ class ArgumentParser {
     return result;
   }
 
-  _cleanupOptions(options) {
+  _cleanupOptions(options, group_options = true) {
     // Resolve references
     for (const name of Object.keys(options)) {
       const spec = this.parameters[name];
       if (spec === undefined) continue;
       if (options[name] === spec.value && typeof spec.value === "string" && spec.value.slice(0, 1) === "$") options[name] = options[spec.value.slice(1)];
-    } // Move options into groups and do renames
+    }
 
+    if (group_options) {
+      // Move options into groups and do renames
+      for (const name of Object.keys(options)) {
+        const spec = this.parameters[name];
+        let target;
+        if (spec === undefined) continue;
 
-    for (const name of Object.keys(options)) {
-      const spec = this.parameters[name];
-      let target;
-      if (spec === undefined) continue;
+        if (spec.group) {
+          if (typeof options[spec.group] !== "object") options[spec.group] = {};
+          target = options[spec.group];
+        } else {
+          target = options;
+        }
 
-      if (spec.group) {
-        if (typeof options[spec.group] !== "object") options[spec.group] = {};
-        target = options[spec.group];
-      } else {
-        target = options;
-      }
-
-      if (spec.dest !== name) {
-        target[spec.dest] = options[name];
-        delete options[name];
+        if (spec.dest !== name) {
+          target[spec.dest] = options[name];
+          delete options[name];
+        }
       }
     }
 
     return options;
   }
 
-  parse($el, options, multiple, inherit) {
+  parse($el, options, multiple, inherit, group_options = true) {
     if (!$el.jquery) {
       $el = jquery__WEBPACK_IMPORTED_MODULE_0___default()($el);
     }
@@ -23496,7 +23802,7 @@ class ArgumentParser {
 
     for (const provider of $possible_config_providers) {
       let frame;
-      const data = jquery__WEBPACK_IMPORTED_MODULE_0___default()(provider).attr(this.attribute);
+      const data = (jquery__WEBPACK_IMPORTED_MODULE_0___default()(provider).attr(this.attribute) || "").trim();
 
       if (!data) {
         continue;
@@ -23507,7 +23813,11 @@ class ArgumentParser {
       if (data.match(/&&/)) {
         frame = data.split(/\s*&&\s*/).map(_parse);
       } else {
-        frame = [_parse(data)];
+        frame = _parse(data);
+      }
+
+      if (!Array.isArray(frame)) {
+        frame = [frame];
       }
 
       final_length = Math.max(frame.length, final_length);
@@ -23518,14 +23828,16 @@ class ArgumentParser {
       if (Array.isArray(options)) {
         stack.push(options);
         final_length = Math.max(options.length, final_length);
-      } else stack.push([options]);
+      } else {
+        stack.push([options]);
+      }
     }
 
     if (!multiple) {
       final_length = 1;
     }
 
-    const results = _utils_js__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].removeDuplicateObjects(_utils_js__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].mergeStack(stack, final_length)).map(this._cleanupOptions.bind(this));
+    const results = _utils_js__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].removeDuplicateObjects(_utils_js__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].mergeStack(stack, final_length)).map(current_value => this._cleanupOptions(current_value, group_options));
     return multiple ? results : results[0];
   }
 
@@ -23537,20 +23849,20 @@ ArgumentParser.prototype.add_argument = ArgumentParser.prototype.addArgument;
 
 /***/ }),
 
-/***/ 30:
+/***/ 31:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* unused harmony export parser */
-/* harmony import */ var _core_jquery_ext__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(53);
-/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(19);
+/* harmony import */ var _core_jquery_ext__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(60);
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
 /* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var underscore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(10);
+/* harmony import */ var underscore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(15);
 /* harmony import */ var _ajax_ajax__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(59);
-/* harmony import */ var _core_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(20);
-/* harmony import */ var _core_logging__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(6);
+/* harmony import */ var _core_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(18);
+/* harmony import */ var _core_logging__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(5);
 /* harmony import */ var _core_parser__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(3);
 /* harmony import */ var _core_registry__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(9);
 /* harmony import */ var _core_utils__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(2);
@@ -24390,22 +24702,22 @@ const inject = {
 
     for (const [pattern_name, opts] of Object.entries(this._rebaseOptions)) {
       for (const el_ of _core_dom__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"].querySelectorAllAndMe($page[0], `[data-pat-${pattern_name}]`)) {
-        const val = el_.getAttribute(`data-pat-${pattern_name}`, false);
+        var _registry$patterns;
 
-        if (val) {
-          const pattern = _core_registry__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"].patterns[pattern_name];
-          const pattern_parser = pattern === null || pattern === void 0 ? void 0 : pattern.parser;
+        const pattern = (_registry$patterns = _core_registry__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"].patterns) === null || _registry$patterns === void 0 ? void 0 : _registry$patterns[pattern_name];
+        const pattern_parser = pattern === null || pattern === void 0 ? void 0 : pattern.parser;
 
-          if (!pattern_parser) {
-            continue;
-          }
+        if (!pattern_parser) {
+          continue;
+        } // parse: no default options, possibly multiple configs, no grouping.
 
-          let options = pattern_parser._parse(val);
 
-          let changed = false;
+        const options = pattern_parser.parse(el_, {}, true, false, false);
+        let changed = false;
 
+        for (const config of options) {
           for (const opt of opts) {
-            const val = options[opt];
+            const val = config[opt];
 
             if (!val) {
               continue;
@@ -24414,15 +24726,15 @@ const inject = {
             changed = true;
 
             if (Array.isArray(val)) {
-              options[opt] = val.map(it => _core_utils__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"].rebaseURL(base, it));
+              config[opt] = val.map(it => _core_utils__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"].rebaseURL(base, it));
             } else {
-              options[opt] = _core_utils__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"].rebaseURL(base, val);
+              config[opt] = _core_utils__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"].rebaseURL(base, val);
             }
           }
+        }
 
-          if (changed) {
-            el_.setAttribute(`data-pat-${pattern_name}`, JSON.stringify(options));
-          }
+        if (changed) {
+          el_.setAttribute(`data-pat-${pattern_name}`, JSON.stringify(options.length === 1 ? options[0] : options));
         }
       }
     } // XXX: IE8 changes the order of attributes in html. The following
@@ -24697,17 +25009,17 @@ _core_registry__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"].register(inject);
 "use strict";
 
 // EXTERNAL MODULE: ./node_modules/regenerator-runtime/runtime.js
-var runtime = __webpack_require__(19);
+var runtime = __webpack_require__(20);
 
-// EXTERNAL MODULE: ./node_modules/jquery/dist/jquery.js-exposed
-var jquery_js_exposed = __webpack_require__(0);
-var jquery_js_exposed_default = /*#__PURE__*/__webpack_require__.n(jquery_js_exposed);
+// EXTERNAL MODULE: ./node_modules/jquery/dist/jquery-exposed.js
+var jquery_exposed = __webpack_require__(0);
+var jquery_exposed_default = /*#__PURE__*/__webpack_require__.n(jquery_exposed);
 
 // EXTERNAL MODULE: ./src/core/registry.js
 var registry = __webpack_require__(9);
 
 // EXTERNAL MODULE: ./src/core/logging.js
-var logging = __webpack_require__(6);
+var logging = __webpack_require__(5);
 
 // CONCATENATED MODULE: ./src/core/mockup-parser.js
 
@@ -24723,7 +25035,7 @@ var parser = {
      */
     options = options || {}; // get options from parent element first, stop if element tag name is 'body'
 
-    if ($el.length !== 0 && !jquery_js_exposed_default.a.nodeName($el[0], "body")) {
+    if ($el.length !== 0 && !jquery_exposed_default.a.nodeName($el[0], "body")) {
       options = this.getOptions($el.parent(), patternName, options);
     } // collect all options from element
 
@@ -24737,7 +25049,7 @@ var parser = {
         // parse options if string
         if (typeof elOptions === "string") {
           const tmpOptions = {};
-          jquery_js_exposed_default.a.each(elOptions.split(";"), function (i, item) {
+          jquery_exposed_default.a.each(elOptions.split(";"), function (i, item) {
             item = item.split(":");
             item.reverse();
             let key = item.pop();
@@ -24754,7 +25066,7 @@ var parser = {
       }
     }
 
-    return jquery_js_exposed_default.a.extend(true, {}, options, elOptions);
+    return jquery_exposed_default.a.extend(true, {}, options, elOptions);
   }
 
 };
@@ -24783,7 +25095,7 @@ const log = logging["a" /* default */].getLogger("Patternslib Base");
 
 const initBasePattern = function ($el, options, trigger) {
   if (!$el.jquery) {
-    $el = jquery_js_exposed_default()($el);
+    $el = jquery_exposed_default()($el);
   }
 
   const name = this.prototype.name;
@@ -24806,12 +25118,12 @@ const initBasePattern = function ($el, options, trigger) {
 
 const Base = async function ($el, options, trigger) {
   if (!$el.jquery) {
-    $el = jquery_js_exposed_default()($el);
+    $el = jquery_exposed_default()($el);
   }
 
   this.$el = $el;
   this.el = $el[0];
-  this.options = jquery_js_exposed_default.a.extend(true, {}, this.defaults || {}, options || {});
+  this.options = jquery_exposed_default.a.extend(true, {}, this.defaults || {}, options || {});
   await this.init($el, options, trigger);
   this.emit("init");
 };
@@ -24871,7 +25183,7 @@ Base.extend = function (patternProps) {
   Surrogate.prototype = parent.prototype;
   child.prototype = new Surrogate(); // Add pattern's configuration properties (instance properties) to the subclass,
 
-  jquery_js_exposed_default.a.extend(true, child.prototype, patternProps); // Set a convenience property in case the parent's prototype is needed
+  jquery_exposed_default.a.extend(true, child.prototype, patternProps); // Set a convenience property in case the parent's prototype is needed
   // later.
 
   child.__super__ = parent.prototype; // Register the pattern in the Patternslib registry.
@@ -24891,34 +25203,7 @@ Base.extend = function (patternProps) {
 
 /***/ }),
 
-/***/ 41:
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || new Function("return this")();
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-
-/***/ 412:
+/***/ 427:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24926,20 +25211,23 @@ module.exports = g;
 __webpack_require__.r(__webpack_exports__);
 
 // EXTERNAL MODULE: ./src/public_path.js
-var public_path = __webpack_require__(169);
+var public_path = __webpack_require__(175);
 
 // EXTERNAL MODULE: ./src/core/registry.js
 var registry = __webpack_require__(9);
 
-// EXTERNAL MODULE: ./node_modules/jquery/dist/jquery.js-exposed
-var jquery_js_exposed = __webpack_require__(0);
-var jquery_js_exposed_default = /*#__PURE__*/__webpack_require__.n(jquery_js_exposed);
+// EXTERNAL MODULE: ./node_modules/jquery/dist/jquery-exposed.js
+var jquery_exposed = __webpack_require__(0);
+var jquery_exposed_default = /*#__PURE__*/__webpack_require__.n(jquery_exposed);
 
 // EXTERNAL MODULE: ./.modernizrrc.js
-var _modernizrrc = __webpack_require__(172);
+var _modernizrrc = __webpack_require__(178);
 
 // EXTERNAL MODULE: ./node_modules/regenerator-runtime/runtime.js
-var runtime = __webpack_require__(19);
+var runtime = __webpack_require__(20);
+
+// EXTERNAL MODULE: ./src/core/logging.js
+var logging = __webpack_require__(5);
 
 // CONCATENATED MODULE: ./src/core/push_kit.js
 /**
@@ -24966,75 +25254,90 @@ var runtime = __webpack_require__(19);
  * that way, users will only receive updates explicitly directed to them.
  *
  * This pattern expects the following meta tags to be available in the page to get the necessary configuration
- * - patterns-push-server-url containing a url pointing to a message queue server. Eg. ws://127.0.0.1:15674/ws
+ * - patterns-push-url containing a url pointing to a message queue server. Eg. ws://127.0.0.1:15674/ws
  * - patterns-push-exchange-base-name containing a text prefix. It will append _event and _notification to that prefix and attempt to contact these two message exchanges.
- * - patterns-push-user-id containing the user id of the currently logged in user. This is necessary to subscribe to updates only for this specific user.
+ * - patterns-push-filter containing a topic filter including dot-seperated namespaces and wildcards. A commonly used filter value would be the currently logged in user. This will subscribe only to updates for this specific user.
  * - patterns-push-login containing the name of a read only user on the message queue server used to connect.
  * - patterns-push-password containing the password of a read only user on the message queue server used to connect.
  */
  // needed for ``await`` support
 
 
+const logger = logging["a" /* default */].getLogger("core push kit");
 const push_kit = {
   async init() {
-    const push_url = jquery_js_exposed_default()("meta[name=patterns-push-server-url]").attr("content"); // prettier-ignore
+    var _document$querySelect, _document$querySelect2, _document$querySelect3, _document$querySelect4, _document$querySelect5, _document$querySelect6, _document$querySelect7;
 
-    const push_exchange = jquery_js_exposed_default()("meta[name=patterns-push-exchange-base-name]").attr("content"); // prettier-ignore
+    const url = (_document$querySelect = document.querySelector("meta[name=patterns-push-url]")) === null || _document$querySelect === void 0 ? void 0 : _document$querySelect.content;
+    const exchange = (_document$querySelect2 = document.querySelector("meta[name=patterns-push-exchange]")) === null || _document$querySelect2 === void 0 ? void 0 : _document$querySelect2.content; // prettier-ignore
 
-    if (!push_url || !push_exchange) {
+    const exchange_notification = (_document$querySelect3 = document.querySelector("meta[name=patterns-notification-exchange]")) === null || _document$querySelect3 === void 0 ? void 0 : _document$querySelect3.content; // prettier-ignore
+
+    if (!url || !exchange && !exchange_notification) {
       return;
     }
 
-    const push_user_id = jquery_js_exposed_default()("meta[name=patterns-push-user-id]").attr("content"); // prettier-ignore
+    const topicfilter = (_document$querySelect4 = document.querySelector("meta[name=patterns-push-filter]")) === null || _document$querySelect4 === void 0 ? void 0 : _document$querySelect4.content; // prettier-ignore
 
-    const push_login = jquery_js_exposed_default()("meta[name=patterns-push-login]").attr("content"); // prettier-ignore
+    const topicfilter_notification = (_document$querySelect5 = document.querySelector("meta[name=patterns-notification-filter]")) === null || _document$querySelect5 === void 0 ? void 0 : _document$querySelect5.content; // prettier-ignore
 
-    const push_pass = jquery_js_exposed_default()("meta[name=patterns-push-password]").attr("content"); // prettier-ignore
+    const user_login = (_document$querySelect6 = document.querySelector("meta[name=patterns-push-login]")) === null || _document$querySelect6 === void 0 ? void 0 : _document$querySelect6.content; // prettier-ignore
 
-    const StompJS = await __webpack_require__.e(/* import() */ 172).then(__webpack_require__.t.bind(null, 743, 7));
+    const user_pass = (_document$querySelect7 = document.querySelector("meta[name=patterns-push-password]")) === null || _document$querySelect7 === void 0 ? void 0 : _document$querySelect7.content; // prettier-ignore
+
+    const StompJS = await __webpack_require__.e(/* import() */ 172).then(__webpack_require__.bind(null, 777));
     const client = new StompJS.Client({
-      brokerURL: push_url,
+      brokerURL: url,
       connectHeaders: {
-        login: push_login,
-        passcode: push_pass
+        login: user_login,
+        passcode: user_pass
       },
       debug: function (str) {
-        console.log(str);
+        logger.debug(str);
       },
-      // reconnectDelay: 5000,
+      reconnectDelay: 5000,
       heartbeatIncoming: 0,
       heartbeatOutgoing: 20000
     });
 
     client.onConnect = () => {
-      client.subscribe("/exchange/" + push_exchange + "_event/" + push_user_id + ".#", this.on_push_marker.bind(this)); // Only one subscription per connection is allowed. Otherwise the connection will terminate right away again.
-      // client.subscribe(
-      //     "/exchange/" + push_exchange + "_notification/" + push_user_id + ".#",
-      //     this.on_desktop_notification.bind(this)
-      // );
+      if (exchange) {
+        client.subscribe(`/exchange/${exchange}/${topicfilter}.#`, this.on_push_marker.bind(this));
+      }
+
+      if (exchange_notification) {
+        // TODO: should we distinguish for desktop notifications via routing_key.
+        // TODO: check following:
+        //       Only one subscription per connection is allowed. Otherwise the connection will terminate right away again.
+        client.subscribe(`/exchange/${exchange_notification}/${topicfilter_notification}.#`, this.on_desktop_notification.bind(this));
+      }
     };
 
     client.onStompError = frame => {
-      console.log("Broker reported error: " + frame.headers["message"]);
-      console.log("Additional details: " + frame.body);
+      logger.error("Broker reported error: " + frame.headers["message"]);
+      logger.debug("Additional details: " + frame.body);
     };
 
     client.activate();
-    console.log("StompJS push support initialised on " + push_url);
+    logger.debug("StompJS push support initialised on " + url);
   },
 
   on_push_marker(message) {
-    console.log("Received push marker: ", message);
+    logger.debug("Received push marker: ", message);
 
     if (!message || !message.body) {
       return;
     }
 
-    jquery_js_exposed_default()("body").trigger("push", [message.body]);
+    document.body.dispatchEvent(new CustomEvent("push", {
+      detail: {
+        body: message.body
+      }
+    }));
   },
 
   on_desktop_notification(message) {
-    console.log("Received desktop notification: ", message);
+    logger.debug("Received desktop notification: ", message);
 
     if (!message || !message.body) {
       return;
@@ -25044,10 +25347,13 @@ const push_kit = {
   },
 
   create_notification(text) {
-    const img = jquery_js_exposed_default()("meta[name=desktop-notification-image]").attr("content"); // Let's check if the browser supports notifications
+    var _document$querySelect8;
+
+    const img = (_document$querySelect8 = document.querySelector("meta[name=desktop-notification-image]")) === null || _document$querySelect8 === void 0 ? void 0 : _document$querySelect8.content; // prettier-ignore
+    // Let's check if the browser supports notifications
 
     if (!("Notification" in window)) {
-      console.log("This browser does not support notifications.");
+      logger.error("This browser does not support notifications.");
       return;
     } // If not yet permitted, we need to ask the user for permission.
     // Note, Chrome does not implement the permission static property
@@ -25090,9 +25396,6 @@ var base = __webpack_require__(4);
 // EXTERNAL MODULE: ./src/core/parser.js
 var parser = __webpack_require__(3);
 
-// EXTERNAL MODULE: ./node_modules/underscore/modules/index-all.js + 159 modules
-var index_all = __webpack_require__(10);
-
 // EXTERNAL MODULE: ./src/core/utils.js
 var utils = __webpack_require__(2);
 
@@ -25103,7 +25406,6 @@ var utils = __webpack_require__(2);
  * Copyright 2012 Humberto Sermeno
  * Copyright 2013 Simplon B.V. - Wichert Akkerman
  */
-
 
 
 
@@ -25136,10 +25438,9 @@ auto_scale_parser.addArgument("max-height", 1000000);
       this.force_method = "scale";
     }
 
-    var scaler = index_all["a" /* default */].debounce(this.scale.bind(this), 250);
-
-    jquery_js_exposed_default()(window).on("resize.autoscale", scaler);
-    jquery_js_exposed_default()(document).on("pat-update.autoscale", scaler);
+    var scaler = utils["a" /* default */].debounce(this.scale.bind(this), 250);
+    jquery_exposed_default()(window).on("resize.autoscale", scaler);
+    jquery_exposed_default()(document).on("pat-update.autoscale", scaler);
     return this;
   },
   scale: function () {
@@ -25200,7 +25501,7 @@ auto_scale_parser.addArgument("max-height", 1000000);
       case "scale":
         this.$el.css("transform", "scale(" + scale + ")");
 
-        if (this.$el.parent().attr("class") === undefined || this.$el.parent().attr("class") != undefined && jquery_js_exposed_default.a.inArray("auto-scale-wrapper", this.$el.parent().attr("class").split(/\s+/)) === -1) {
+        if (this.$el.parent().attr("class") === undefined || this.$el.parent().attr("class") != undefined && jquery_exposed_default.a.inArray("auto-scale-wrapper", this.$el.parent().attr("class").split(/\s+/)) === -1) {
           this.$el.wrap("<div class='auto-scale-wrapper'></div>");
         }
 
@@ -25217,10 +25518,7 @@ auto_scale_parser.addArgument("max-height", 1000000);
   }
 }));
 // EXTERNAL MODULE: ./src/core/jquery-ext.js
-var jquery_ext = __webpack_require__(53);
-
-// EXTERNAL MODULE: ./src/core/logging.js
-var logging = __webpack_require__(6);
+var jquery_ext = __webpack_require__(60);
 
 // CONCATENATED MODULE: ./src/lib/input-change-events.js
 // helper functions to make all input elements
@@ -25245,7 +25543,7 @@ var _ = {
       _.setupInputHandlers($el);
 
       $el.on("patterns-injected." + namespace, function (event) {
-        _.setupInputHandlers(jquery_js_exposed_default()(event.target));
+        _.setupInputHandlers(jquery_exposed_default()(event.target));
       });
     }
 
@@ -25267,7 +25565,7 @@ var _ = {
     }
   },
   registerHandlersForElement: function () {
-    var $el = jquery_js_exposed_default()(this),
+    var $el = jquery_exposed_default()(this),
         isNumber = $el.is("input[type=number]"),
         isText = $el.is("input:text, input[type=search], textarea");
 
@@ -25387,16 +25685,16 @@ auto_submit_parser.addArgument("delay", "400ms");
      * that only the subform gets submitted if an element inside it
      * changes.
      */
-    const $el = typeof ev !== "undefined" ? jquery_js_exposed_default()(ev.target) : this.$el;
+    const $el = typeof ev !== "undefined" ? jquery_exposed_default()(ev.target) : this.$el;
     $el.find(".pat-subform").not(".pat-autosubmit").each((idx, el) => {
-      jquery_js_exposed_default()(el).on("input-change-delayed.pat-autosubmit", this.onInputChange);
+      jquery_exposed_default()(el).on("input-change-delayed.pat-autosubmit", this.onInputChange);
     });
   },
 
   refreshListeners(ev, cfg, el, injected) {
     this.registerSubformListeners(); // Register change event handlers for new inputs injected into this form
 
-    input_change_events.setup(jquery_js_exposed_default()(injected), "autosubmit");
+    input_change_events.setup(jquery_exposed_default()(injected), "autosubmit");
   },
 
   registerTriggers() {
@@ -25408,11 +25706,11 @@ auto_submit_parser.addArgument("delay", "400ms");
     }
 
     function trigger_event(ev) {
-      if (jquery_js_exposed_default()(ev.target).closest(".pat-autosubmit")[0] !== this) {
+      if (jquery_exposed_default()(ev.target).closest(".pat-autosubmit")[0] !== this) {
         return;
       }
 
-      jquery_js_exposed_default()(ev.target).trigger("input-change-delayed");
+      jquery_exposed_default()(ev.target).trigger("input-change-delayed");
     }
 
     if (this.options.delay === "defocus") {
@@ -25429,7 +25727,7 @@ auto_submit_parser.addArgument("delay", "400ms");
 
     if (this.$el.is("form")) {
       this.$el.find(".pat-subform").addBack(this.$el).each((idx, el) => {
-        jquery_js_exposed_default()(el).off(".pat-autosubmit");
+        jquery_exposed_default()(el).off(".pat-autosubmit");
       });
     } else {
       $el.off(".pat-autosubmit");
@@ -25438,7 +25736,7 @@ auto_submit_parser.addArgument("delay", "400ms");
 
   onInputChange(ev) {
     ev.stopPropagation();
-    jquery_js_exposed_default()(this).submit();
+    jquery_exposed_default()(this).submit();
     auto_submit_log.debug("triggered by " + ev.type);
   }
 
@@ -25487,10 +25785,10 @@ auto_suggest_parser.addAlias("pre-fill", "prefill");
 
   async init() {
     if (window.__patternslib_import_styles) {
-      __webpack_require__.e(/* import() */ 10).then(__webpack_require__.t.bind(null, 744, 7));
+      __webpack_require__.e(/* import() */ 10).then(__webpack_require__.bind(null, 755));
     }
 
-    await __webpack_require__.e(/* import() */ 315).then(__webpack_require__.t.bind(null, 745, 7));
+    await __webpack_require__.e(/* import() */ 315).then(__webpack_require__.t.bind(null, 756, 7));
     this.options = auto_suggest_parser.parse(this.el, this.options);
     let config = {
       tokenSeparators: [","],
@@ -25678,7 +25976,7 @@ auto_suggest_parser.addAlias("pre-fill", "prefill");
     }
 
     if ((_this$options$ajax = this.options.ajax) !== null && _this$options$ajax !== void 0 && _this$options$ajax.url) {
-      config = jquery_js_exposed_default.a.extend(true, {
+      config = jquery_exposed_default.a.extend(true, {
         minimumInputLength: this.options.minimumInputLength,
         ajax: {
           url: this.options.ajax.url,
@@ -25753,8 +26051,8 @@ let registered_event_handler = false;
 
     if (!registered_event_handler) {
       // Register the event handler only once.
-      jquery_js_exposed_default()(document).on("patterns-injected pat-update", e => {
-        this.setFocus(jquery_js_exposed_default()(e.target).find(this.trigger));
+      jquery_exposed_default()(document).on("patterns-injected pat-update", e => {
+        this.setFocus(jquery_exposed_default()(e.target).find(this.trigger));
       });
       registered_event_handler = true;
     }
@@ -25766,8 +26064,8 @@ let registered_event_handler = false;
       return;
     }
 
-    const $all = jquery_js_exposed_default()(target);
-    const visible = [...$all].filter(it => jquery_js_exposed_default()(it).is(":visible"));
+    const $all = jquery_exposed_default()(target);
+    const visible = [...$all].filter(it => jquery_exposed_default()(it).is(":visible"));
     const empty = visible.filter(it => it.value === "");
     const el = empty[0] || visible[0];
 
@@ -25795,14 +26093,14 @@ var breadcrumbs_ = {
   init: function ($el, opts) {
     if ($el.length > 1) {
       return $el.map(function () {
-        return breadcrumbs_.init(jquery_js_exposed_default()(this), opts);
+        return breadcrumbs_.init(jquery_exposed_default()(this), opts);
       });
     } // wrap elements in a DIV that will be shifted around
 
 
     var $content = $el.children().wrapAll("<div class='pat-breadcrumbs-content'></div>").parent(); // shift ctrl
 
-    var $ctrl = jquery_js_exposed_default()("<span class='button shift'>shift</span>").prependTo($el);
+    var $ctrl = jquery_exposed_default()("<span class='button shift'>shift</span>").prependTo($el);
     var shifted = false,
         shifting = false,
         difference = 0;
@@ -25861,7 +26159,7 @@ var breadcrumbs_ = {
       }
     };
 
-    jquery_js_exposed_default()(window).on("resize.pat-breadcrumbs", maybeshift);
+    jquery_exposed_default()(window).on("resize.pat-breadcrumbs", maybeshift);
 
     var recalculate = function () {
       // set fixed width on content
@@ -25869,7 +26167,7 @@ var breadcrumbs_ = {
         // outerWidth is buggy http://bugs.jquery.com/ticket/8443 so
         // add a magic buffer value of 5.
         // XXX: maybe make the buffer configurable.
-        return acc + jquery_js_exposed_default()(el).outerWidth(true) + 5;
+        return acc + jquery_exposed_default()(el).outerWidth(true) + 5;
       }, 0);
       $content.width(width);
       maybeshift();
@@ -25887,160 +26185,165 @@ registry["a" /* default */].register(breadcrumbs_);
 /* harmony default export */ var breadcrumbs = (breadcrumbs_);
 // CONCATENATED MODULE: ./src/pat/bumper/bumper.js
 /**
- * Patterns bumper - `bumper' handling for elements
- *
- * Copyright 2012 Humberto Sermeno
- * Copyright 2013 Florian Friesdorf
- * Copyright 2013-2014 Simplon B.V. - Wichert Akkerman
+ * Patterns bumper - Add bumping classes for sticky elements.
  */
 
 
 
 
-
-
+const bumper_logger = logging["a" /* default */].getLogger("tabs");
 const bumper_parser = new parser["a" /* default */]("bumper");
-bumper_parser.addArgument("margin", 0);
 bumper_parser.addArgument("selector");
 bumper_parser.addArgument("bump-add", "bumped");
 bumper_parser.addArgument("bump-remove");
 bumper_parser.addArgument("unbump-add");
 bumper_parser.addArgument("unbump-remove", "bumped");
-bumper_parser.addArgument("side", "top", ["all", "top", "right", "bottom", "left"]);
 /* harmony default export */ var bumper = (base["a" /* default */].extend({
   name: "bumper",
   trigger: ".pat-bumper",
-  init: function initBumper($el, opts) {
-    this.options = bumper_parser.parse(this.$el, opts);
-    this.$container = this._findScrollContainer();
 
-    if (utils["a" /* default */].checkCSSFeature("position", "sticky")) {
-      this.$el.addClass("sticky-supported");
+  async init() {
+    // Based on: https://davidwalsh.name/detect-sticky
+    if (!utils["a" /* default */].checkCSSFeature("position", "sticky")) {
+      // IE11
+      bumper_logger.warn("No position sticky support.");
+      return;
     }
 
-    this.$el[0].style.position = "relative";
+    this.options = bumper_parser.parse(this.el, this.options);
+    this.target_element = this.options.selector ? document.querySelector(this.options.selector) : this.el; // wait for next repaint for things to settle.
+    // e.g. CSS applied for injected content.
 
-    if (!this.$container.length) {
-      jquery_js_exposed_default()(window).on("scroll.bumper", this._updateStatus.bind(this));
-    } else {
-      this.$container.on("scroll.bumper", this._updateStatus.bind(this));
-    }
+    await utils["a" /* default */].timeout(1);
 
-    var bumpall = this.options.side.indexOf("all") > -1;
-    this.options.bumptop = bumpall || this.options.side.indexOf("top") > -1;
-    this.options.bumpright = bumpall || this.options.side.indexOf("right") > -1;
-    this.options.bumpbottom = bumpall || this.options.side.indexOf("bottom") > -1;
-    this.options.bumpleft = bumpall || this.options.side.indexOf("left") > -1;
-
-    this._updateStatus();
-
-    return this.$el;
+    this._init();
   },
-  _findScrollContainer: function findScrollContainer() {
-    var $parent = this.$el.parent(),
-        overflow;
 
-    while (!$parent.is(jquery_js_exposed_default()(document.body)) && $parent.length) {
-      if (index_all["a" /* default */].contains(["all", "top", "bottom"], this.options.side)) {
-        overflow = $parent.css("overflow-y");
-
-        if (overflow === "auto" || overflow === "scroll") {
-          return $parent;
-        }
-      }
-
-      if (index_all["a" /* default */].contains(["all", "left", "right"], this.options.side)) {
-        overflow = $parent.css("overflow-x");
-
-        if (overflow === "auto" || overflow === "scroll") {
-          return $parent;
-        }
-      }
-
-      $parent = $parent.parent();
-    }
-
-    return jquery_js_exposed_default()();
-  },
-  _markBumped: function markBumper(is_bumped) {
-    var $target = this.options.selector ? jquery_js_exposed_default()(this.options.selector) : this.$el,
-        todo = is_bumped ? this.options.bump : this.options.unbump;
-
-    if (todo.add) {
-      $target.addClass(todo.add);
-    }
-
-    if (todo.remove) {
-      $target.removeClass(todo.remove);
-    }
-  },
-  _updateStatus: function () {
-    const sticker = this.$el[0];
-    const margin = this.options ? this.options.margin : 0;
-
-    const box = this._getBoundingBox(this.$el, margin);
-
-    const delta = {};
-    let frame;
-
-    if (this.$container.length) {
-      frame = this._getBoundingBox(this.$container, 0); // Scrolling on a container
-    } else {
-      frame = this._getViewport(); // Scrolling on the window
-    }
-
-    delta.top = utils["a" /* default */].getCSSValue(sticker, "top", true) || 0;
-    delta.left = utils["a" /* default */].getCSSValue(sticker, "left", true) || 0;
-    box.top -= delta.top;
-    box.bottom -= delta.top;
-    box.left -= delta.left;
-    box.right -= delta.left;
-
-    if (frame.top > box.top && this.options.bumptop) {
-      sticker.style.top = frame.top - box.top + "px";
-    } else if (frame.bottom < box.bottom && this.options.bumpbottom) {
-      sticker.style.top = frame.bottom - box.bottom + "px";
-    } else {
-      sticker.style.top = "";
-    }
-
-    if (frame.left > box.left && this.options.bumpleft) {
-      sticker.style.left = frame.left - box.left + "px";
-    } else if (frame.right < box.right && this.options.bumpright) {
-      sticker.style.left = frame.right - box.right + "px";
-    } else {
-      sticker.style.left = "";
-    }
-
-    this._markBumped(!!(sticker.style.top || sticker.style.left));
-  },
-  _getViewport: function getViewport() {
-    /* Calculates the bounding box for the current viewport
-     */
-    const $win = jquery_js_exposed_default()(window);
-    let view = {
-      top: $win.scrollTop(),
-      left: $win.scrollLeft()
+  _init() {
+    const scroll_container_y = this.findScrollContainer("y");
+    const scroll_container_x = this.findScrollContainer("x");
+    const pos = {
+      top: utils["a" /* default */].getCSSValue(this.el, "top", true),
+      right: utils["a" /* default */].getCSSValue(this.el, "right", true),
+      bottom: utils["a" /* default */].getCSSValue(this.el, "bottom", true),
+      left: utils["a" /* default */].getCSSValue(this.el, "left", true)
     };
-    view.right = view.left + $win.width();
-    view.bottom = view.top + $win.height();
-    return view;
+    const intersection_observer_config_y = {
+      threshold: [1, 0.99, 0.97, 0.96, 0.95, 0.94, 0.93, 0.92, 0.91, 0.9],
+      root: scroll_container_y,
+      // add margin as inverted sticky positions.
+      rootMargin: `${-pos.top - 1}px ${-pos.right - 1}px ${-pos.bottom - 1}px ${-pos.left - 1}px` // prettier-ignore
+
+    };
+    const observer_y = new IntersectionObserver(this._intersection_observer_callback.bind(this), intersection_observer_config_y);
+    observer_y.observe(this.el);
+
+    if (scroll_container_x !== scroll_container_y) {
+      const intersection_observer_config_x = Object.assign({}, intersection_observer_config_y, {
+        root: scroll_container_x
+      });
+      const observer_x = new IntersectionObserver(this._intersection_observer_callback.bind(this), intersection_observer_config_x);
+      observer_x.observe(this.el);
+    }
   },
-  _getBoundingBox: function getBoundingBox($sticker, margin) {
-    /* Calculates the bounding box for a given element, taking margins
-     * into consideration
-     */
-    var box = $sticker.safeOffset();
-    margin = margin ? margin : 0;
-    box.top -= (parseFloat($sticker.css("margin-top")) || 0) + margin;
-    box.left -= (parseFloat($sticker.css("margin-left")) || 0) + margin;
-    box.right = box.left + $sticker.outerWidth(true) + 2 * margin;
-    box.bottom = box.top + $sticker.outerHeight(true) + 2 * margin;
-    return box;
+
+  _intersection_observer_callback(entries) {
+    const el = this.target_element;
+
+    for (const entry of entries) {
+      if (entry.intersectionRatio < 1) {
+        if (this.options.bump.add) {
+          el.classList.add(this.options.bump.add);
+        }
+
+        if (this.options.bump.remove) {
+          el.classList.remove(this.options.bump.remove);
+        }
+
+        const root = entry.rootBounds;
+
+        if (!root) {
+          // No root found - e.g. CSS not fully applied when scroll
+          // container was searched - as can happen as a corner case
+          // after injecting content and initializing this pattern in
+          // the same repaint cycle.
+          // This is actually prevented by the 1ms timeout in the
+          // init method.
+          return;
+        }
+
+        const bounds = entry.boundingClientRect;
+
+        if (bounds.left <= root.left) {
+          el.classList.add("bumped-left");
+        } else {
+          el.classList.remove("bumped-left");
+        }
+
+        if (bounds.top <= root.top) {
+          el.classList.add("bumped-top");
+        } else {
+          el.classList.remove("bumped-top");
+        }
+
+        if (bounds.right >= root.right) {
+          el.classList.add("bumped-right");
+        } else {
+          el.classList.remove("bumped-right");
+        }
+
+        if (bounds.bottom >= root.bottom) {
+          el.classList.add("bumped-bottom");
+        } else {
+          el.classList.remove("bumped-bottom");
+        }
+      } else {
+        if (this.options.unbump.add) {
+          el.classList.add(this.options.unbump.add);
+        }
+
+        if (this.options.unbump.remove) {
+          el.classList.remove(this.options.unbump.remove);
+        }
+
+        el.classList.remove("bumped-left");
+        el.classList.remove("bumped-top");
+        el.classList.remove("bumped-right");
+        el.classList.remove("bumped-bottom");
+      }
+    }
+  },
+
+  findScrollContainer(direction = null) {
+    let parent = this.el.parentElement;
+    let overflow;
+
+    while (parent && parent !== document.body) {
+      if (!direction || direction === "y") {
+        overflow = utils["a" /* default */].getCSSValue(parent, "overflow-y");
+
+        if (overflow === "auto" || overflow === "scroll") {
+          return parent;
+        }
+      }
+
+      if (!direction || direction === "x") {
+        overflow = utils["a" /* default */].getCSSValue(parent, "overflow-x");
+
+        if (overflow === "auto" || overflow === "scroll") {
+          return parent;
+        }
+      }
+
+      parent = parent.parentElement;
+    }
+
+    return null;
   }
+
 }));
 // EXTERNAL MODULE: ./src/pat/inject/inject.js
-var inject = __webpack_require__(30);
+var inject = __webpack_require__(31);
 
 // CONCATENATED MODULE: ./src/pat/modal/modal.js
 
@@ -26062,13 +26365,13 @@ modal_parser.addArgument("panel-header-content", ":first:not(.header)");
 
   init($el, opts, trigger) {
     if (window.__patternslib_import_styles) {
-      __webpack_require__.e(/* import() */ 17).then(__webpack_require__.t.bind(null, 750, 7));
+      __webpack_require__.e(/* import() */ 17).then(__webpack_require__.bind(null, 759));
     }
 
     this.options = modal_parser.parse(this.$el, opts);
 
     if (trigger && trigger.type === "injection") {
-      jquery_js_exposed_default.a.extend(this.options, modal_parser.parse(jquery_js_exposed_default()(trigger.element), {}, false, false));
+      jquery_exposed_default.a.extend(this.options, modal_parser.parse(jquery_exposed_default()(trigger.element), {}, false, false));
     }
 
     if (this.$el.is("div")) {
@@ -26095,20 +26398,20 @@ modal_parser.addArgument("panel-header-content", ":first:not(.header)");
 
 
     if (!this.$el.closest("#pat-modal")) {
-      jquery_js_exposed_default()("#pat-modal").detach();
+      jquery_exposed_default()("#pat-modal").detach();
     }
 
     this.$el.on("pat-inject-missingSource pat-inject-missingTarget", () => {
-      jquery_js_exposed_default()("#pat-modal").detach();
+      jquery_exposed_default()("#pat-modal").detach();
     });
     inject["a" /* default */].init(this.$el, opts);
   },
 
   _init_div1() {
-    const $header = jquery_js_exposed_default()("<div class='header' />");
+    const $header = jquery_exposed_default()("<div class='header' />");
 
     if (this.options.closing.indexOf("close-button") !== -1) {
-      jquery_js_exposed_default()("<button type='button' class='close-panel'>" + this.options.closeText + "</button>").appendTo($header);
+      jquery_exposed_default()("<button type='button' class='close-panel'>" + this.options.closeText + "</button>").appendTo($header);
     } // We cannot handle text nodes here
 
 
@@ -26139,24 +26442,24 @@ modal_parser.addArgument("panel-header-content", ":first:not(.header)");
 
     this.resize();
     this.setPosition();
-    jquery_js_exposed_default()("body").addClass("modal-active");
+    jquery_exposed_default()("body").addClass("modal-active");
   },
 
   _init_handlers() {
-    jquery_js_exposed_default()(document).on("click.pat-modal", "#pat-modal .close-panel[type!=submit]", this.destroy.bind(this));
-    jquery_js_exposed_default()(document).on("click.pat-modal", ".pat-modal .close-panel[type!=submit]", this.destroy.bind(this));
-    jquery_js_exposed_default()(document).on("click.pat-modal", "#pat-modal .close-panel[type=submit]", this.destroy_inject.bind(this));
-    jquery_js_exposed_default()(document).on("click.pat-modal", ".pat-modal .close-panel[type=submit]", this.destroy_inject.bind(this));
-    jquery_js_exposed_default()(document).on("keyup.pat-modal", this._onKeyUp.bind(this));
+    jquery_exposed_default()(document).on("click.pat-modal", "#pat-modal .close-panel[type!=submit]", this.destroy.bind(this));
+    jquery_exposed_default()(document).on("click.pat-modal", ".pat-modal .close-panel[type!=submit]", this.destroy.bind(this));
+    jquery_exposed_default()(document).on("click.pat-modal", "#pat-modal .close-panel[type=submit]", this.destroy_inject.bind(this));
+    jquery_exposed_default()(document).on("click.pat-modal", ".pat-modal .close-panel[type=submit]", this.destroy_inject.bind(this));
+    jquery_exposed_default()(document).on("keyup.pat-modal", this._onKeyUp.bind(this));
 
     if (this.options.closing.indexOf("outside") !== -1) {
-      jquery_js_exposed_default()(document).on("click.pat-modal", this._onPossibleOutsideClick.bind(this));
+      jquery_exposed_default()(document).on("click.pat-modal", this._onPossibleOutsideClick.bind(this));
     }
 
-    jquery_js_exposed_default()(window).on("resize.pat-modal-position", utils["a" /* default */].debounce(this.resize.bind(this), 400));
-    jquery_js_exposed_default()(document).on("pat-inject-content-loaded.pat-modal-position", "#pat-modal", utils["a" /* default */].debounce(this.resize.bind(this), 400));
-    jquery_js_exposed_default()(document).on("patterns-injected.pat-modal-position", "#pat-modal,div.pat-modal", utils["a" /* default */].debounce(this.resize.bind(this), 400));
-    jquery_js_exposed_default()(document).on("pat-update.pat-modal-position", "#pat-modal,div.pat-modal", utils["a" /* default */].debounce(this.resize.bind(this), 50));
+    jquery_exposed_default()(window).on("resize.pat-modal-position", utils["a" /* default */].debounce(this.resize.bind(this), 400));
+    jquery_exposed_default()(document).on("pat-inject-content-loaded.pat-modal-position", "#pat-modal", utils["a" /* default */].debounce(this.resize.bind(this), 400));
+    jquery_exposed_default()(document).on("patterns-injected.pat-modal-position", "#pat-modal,div.pat-modal", utils["a" /* default */].debounce(this.resize.bind(this), 400));
+    jquery_exposed_default()(document).on("pat-update.pat-modal-position", "#pat-modal,div.pat-modal", utils["a" /* default */].debounce(this.resize.bind(this), 50));
   },
 
   _onPossibleOutsideClick(ev) {
@@ -26174,8 +26477,8 @@ modal_parser.addArgument("panel-header-content", ":first:not(.header)");
   getTallestChild() {
     let $tallest_child;
 
-    for (const child of jquery_js_exposed_default()("*", this.$el)) {
-      const $child = jquery_js_exposed_default()(child);
+    for (const child of jquery_exposed_default()("*", this.$el)) {
+      const $child = jquery_exposed_default()(child);
 
       if (typeof $tallest_child === "undefined") {
         $tallest_child = $child;
@@ -26188,7 +26491,7 @@ modal_parser.addArgument("panel-header-content", ":first:not(.header)");
   },
 
   setPosition() {
-    this.$el.css("top", (jquery_js_exposed_default()(window).innerHeight() - this.$el.height()) / 2);
+    this.$el.css("top", (jquery_exposed_default()(window).innerHeight() - this.$el.height()) / 2);
   },
 
   resize() {
@@ -26218,10 +26521,10 @@ modal_parser.addArgument("panel-header-content", ":first:not(.header)");
 
   destroy() {
     // if working without injection, destroy right away.
-    jquery_js_exposed_default()(document).off(".pat-modal");
+    jquery_exposed_default()(document).off(".pat-modal");
     this.$el.remove();
-    jquery_js_exposed_default()("body").removeClass("modal-active");
-    jquery_js_exposed_default()("body").removeClass("modal-panel");
+    jquery_exposed_default()("body").removeClass("modal-active");
+    jquery_exposed_default()("body").removeClass("modal-panel");
   },
 
   destroy_inject() {
@@ -26229,20 +26532,20 @@ modal_parser.addArgument("panel-header-content", ":first:not(.header)");
       // if pat-inject in modal form, listen to patterns-inject-triggered and destroy first
       // once that has been triggered
       let destroy_handler = () => {
-        jquery_js_exposed_default()(document).off(".pat-modal");
+        jquery_exposed_default()(document).off(".pat-modal");
         this.$el.remove();
-        jquery_js_exposed_default()("body").removeClass("modal-active");
-        jquery_js_exposed_default()("body").removeClass("modal-panel");
-        jquery_js_exposed_default()("body").off("patterns-inject-triggered", destroy_handler);
+        jquery_exposed_default()("body").removeClass("modal-active");
+        jquery_exposed_default()("body").removeClass("modal-panel");
+        jquery_exposed_default()("body").off("patterns-inject-triggered", destroy_handler);
       };
 
-      jquery_js_exposed_default()("body").on("patterns-inject-triggered", destroy_handler);
+      jquery_exposed_default()("body").on("patterns-inject-triggered", destroy_handler);
     } else {
       // if working without injection, destroy right away.
-      jquery_js_exposed_default()(document).off(".pat-modal");
+      jquery_exposed_default()(document).off(".pat-modal");
       this.$el.remove();
-      jquery_js_exposed_default()("body").removeClass("modal-active");
-      jquery_js_exposed_default()("body").removeClass("modal-panel");
+      jquery_exposed_default()("body").removeClass("modal-active");
+      jquery_exposed_default()("body").removeClass("modal-panel");
     }
   }
 
@@ -26390,9 +26693,9 @@ try {
 
 const calendar_log = logging["a" /* default */].getLogger("calendar");
 const calendar_parser = new parser["a" /* default */]("calendar");
-calendar_parser.addArgument("calendar-controls", ""); // Calendar controls must have "id" attr set
+calendar_parser.addArgument("calendar-controls", null); // Calendar controls must have "id" attr set
 
-calendar_parser.addArgument("category-controls", "");
+calendar_parser.addArgument("category-controls", null);
 calendar_parser.addArgument("column-day", "dddd M/d");
 calendar_parser.addArgument("column-month", "ddd");
 calendar_parser.addArgument("column-week", "ddd M/d");
@@ -26455,72 +26758,71 @@ calendar_parser.addAlias("default-view", "initial-view");
   active_categories: null,
   parser: calendar_parser,
 
-  async init($el, opts) {
-    var _this$el_timezone;
+  async init() {
+    var _this$storage, _this$storage$get, _this$storage2, _this$storage2$get, _this$el_timezone;
 
-    const el = this.el;
-    const Calendar = (await Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(170)]).then(__webpack_require__.bind(null, 770))).Calendar;
-    const fcDayGrid = (await Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(3)]).then(__webpack_require__.bind(null, 718))).default;
-    const fcInteraction = (await Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(171)]).then(__webpack_require__.bind(null, 746))).default; // prettier-ignore
+    this.options = core_store.updateOptions(this.el, calendar_parser.parse(this.el, this.options));
+    const Calendar = (await Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(170)]).then(__webpack_require__.bind(null, 778))).Calendar;
+    const fcDayGrid = (await Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(3)]).then(__webpack_require__.bind(null, 751))).default;
+    const fcInteraction = (await Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(171)]).then(__webpack_require__.bind(null, 757))).default;
+    const fcList = (await Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(19)]).then(__webpack_require__.bind(null, 779))).default;
+    const fcLuxon = (await Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(20)]).then(__webpack_require__.bind(null, 758))).default;
+    const fcTimeGrid = (await Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(3), __webpack_require__.e(21)]).then(__webpack_require__.bind(null, 780))).default; // Save some UI elements for reuse.
 
-    const fcList = (await Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(18)]).then(__webpack_require__.bind(null, 747))).default;
-    const fcLuxon = (await Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(21)]).then(__webpack_require__.bind(null, 748))).default;
-    const fcTimeGrid = (await Promise.all(/* import() */[__webpack_require__.e(1), __webpack_require__.e(3), __webpack_require__.e(19)]).then(__webpack_require__.bind(null, 749))).default; // Save some UI elements for reuse.
-
-    this.el_jump_next = el.querySelector(".jump-next");
-    this.el_jump_prev = el.querySelector(".jump-prev");
-    this.el_jump_today = el.querySelector(".jump-today");
-    this.el_view_month = el.querySelector(".view-month");
-    this.el_view_week = el.querySelector(".view-week");
-    this.el_view_day = el.querySelector(".view-day");
-    this.el_view_list_year = el.querySelector(".view-listYear");
-    this.el_view_list_month = el.querySelector(".view-listMonth");
-    this.el_view_list_week = el.querySelector(".view-listWeek");
-    this.el_view_list_day = el.querySelector(".view-listDay");
-    this.el_timezone = el.querySelector("select[name='timezone']");
-    this.el_title = el.querySelector(".cal-title");
-    const config = {};
-    opts = this.options = core_store.updateOptions(el, calendar_parser.parse(el, opts));
+    const calendar_controls = this.options.calendarControls ? document.querySelector(this.options.calendarControls) : this.el;
+    this.el_jump_next = calendar_controls.querySelector(".jump-next");
+    this.el_jump_prev = calendar_controls.querySelector(".jump-prev");
+    this.el_jump_today = calendar_controls.querySelector(".jump-today");
+    this.el_view_month = calendar_controls.querySelector(".view-month");
+    this.el_view_week = calendar_controls.querySelector(".view-week");
+    this.el_view_day = calendar_controls.querySelector(".view-day");
+    this.el_view_list_year = calendar_controls.querySelector(".view-listYear");
+    this.el_view_list_month = calendar_controls.querySelector(".view-listMonth");
+    this.el_view_list_week = calendar_controls.querySelector(".view-listWeek");
+    this.el_view_list_day = calendar_controls.querySelector(".view-listDay");
+    this.el_timezone = calendar_controls.querySelector("select[name='timezone']");
+    this.el_title = this.el.querySelector(".cal-title") || calendar_controls.querySelector(".cal-title");
     const storage_prefix = `${this.name}-${window.location.pathname}`;
-    const storage = this.storage = opts.store === "none" ? null : core_store[opts.store](storage_prefix);
+    this.storage = this.options.store === "none" ? null : core_store[this.options.store](storage_prefix);
     const query_string = new URLSearchParams(window.location.search);
+    const config = {};
     config.headerToolbar = false;
-    config.initialDate = query_string.get("date") || storage && storage.get("date") || opts.initial.date;
-    config.initialView = query_string.get("view") || storage && storage.get("view") || opts.initial.view;
+    config.initialDate = query_string.get("date") || ((_this$storage = this.storage) === null || _this$storage === void 0 ? void 0 : (_this$storage$get = _this$storage.get) === null || _this$storage$get === void 0 ? void 0 : _this$storage$get.call(_this$storage, "date")) || this.options.initial.date;
+    config.initialView = query_string.get("view") || ((_this$storage2 = this.storage) === null || _this$storage2 === void 0 ? void 0 : (_this$storage2$get = _this$storage2.get) === null || _this$storage2$get === void 0 ? void 0 : _this$storage2$get.call(_this$storage2, "view")) || this.options.initial.view;
     config.initialView = this.viewMap[config.initialView] || config.initialView;
-    config.editable = opts.editable || false;
+    config.editable = this.options.editable || false;
     config.plugins = [fcDayGrid, fcInteraction, fcList, fcLuxon, fcTimeGrid];
-    config.eventColor = opts.eventColor;
-    let lang = opts.lang || document.querySelector("html").getAttribute("lang") || "en"; // we don't support any country-specific language variants, always use first 2 letters
+    config.eventColor = this.options.eventColor;
+    let lang = this.options.lang || document.querySelector("html").getAttribute("lang") || "en"; // we don't support any country-specific language variants, always use first 2 letters
 
     lang = lang.substr(0, 2).toLowerCase();
 
     if (lang !== "en") {
-      const locale = await __webpack_require__(173)(`./${lang}.js`);
+      const locale = await __webpack_require__(179)(`./${lang}.js`);
       config.locale = locale.default;
       console.log("loaded cal locale for " + lang);
     }
 
-    if (opts.first.day !== null) {
-      config.firstDay = opts.first.day;
+    if (this.options.first.day !== null) {
+      config.firstDay = this.options.first.day;
 
-      if (this.dayNames.indexOf(opts.first.day) >= 0) {
+      if (this.dayNames.indexOf(this.options.first.day) >= 0) {
         // Set firstDay as string
-        config.firstDay = this.dayNames.indexOf(opts.first.day);
+        config.firstDay = this.dayNames.indexOf(this.options.first.day);
       }
     }
 
-    let timezone = ((_this$el_timezone = this.el_timezone) === null || _this$el_timezone === void 0 ? void 0 : _this$el_timezone.value) || opts.timezone || null;
+    let timezone = ((_this$el_timezone = this.el_timezone) === null || _this$el_timezone === void 0 ? void 0 : _this$el_timezone.value) || this.options.timezone || null;
 
     if (timezone) {
       config.timeZone = timezone;
     }
 
-    const sources = [...(opts.event.sources || [])];
+    const sources = [...(this.options.event.sources || [])];
 
-    if (opts.url && !sources.includes(opts.url)) {
+    if (this.options.url && !sources.includes(this.options.url)) {
       // add, but do not re-add same source twice.
-      sources.push(opts.url);
+      sources.push(this.options.url);
     }
 
     config.eventSources = [];
@@ -26543,14 +26845,14 @@ calendar_parser.addAlias("default-view", "initial-view");
 
     const cal_el = document.createElement("div");
     cal_el.setAttribute("class", "pat-calendar__fc");
-    el.appendChild(cal_el);
+    this.el.appendChild(cal_el);
 
-    if (opts.addUrl) {
+    if (this.options.addUrl) {
       config.dateClick = this.addNewEvent.bind(this); // Create a element for modals/injections
 
       this.mod_el = document.createElement("section");
       this.mod_el.setAttribute("class", "pat-calendar__modal");
-      el.appendChild(this.mod_el);
+      this.el.appendChild(this.mod_el);
     }
 
     let calendar = this.calendar = new Calendar(cal_el, config);
@@ -27002,11 +27304,11 @@ carousel_parser.addArgument("infinite", false);
 
   async init() {
     if (window.__patternslib_import_styles) {
-      __webpack_require__.e(/* import() */ 14).then(__webpack_require__.t.bind(null, 751, 7));
+      __webpack_require__.e(/* import() */ 14).then(__webpack_require__.bind(null, 760));
     }
 
-    await __webpack_require__.e(/* import() */ 317).then(__webpack_require__.t.bind(null, 752, 7));
-    const ImagesLoaded = (await __webpack_require__.e(/* import() */ 2).then(__webpack_require__.t.bind(null, 753, 7))).default;
+    await __webpack_require__.e(/* import() */ 317).then(__webpack_require__.t.bind(null, 761, 7));
+    const ImagesLoaded = (await __webpack_require__.e(/* import() */ 2).then(__webpack_require__.t.bind(null, 578, 7))).default;
     this.options = carousel_parser.parse(this.el, this.options);
     this.settings = {
       autoplay: this.options.auto.play,
@@ -27028,14 +27330,14 @@ carousel_parser.addArgument("infinite", false);
   },
 
   setup() {
-    const $carousel = jquery_js_exposed_default()(this.el).slick(this.settings);
-    let $panel_links = jquery_js_exposed_default()();
+    const $carousel = jquery_exposed_default()(this.el).slick(this.settings);
+    let $panel_links = jquery_exposed_default()();
     $carousel.children().each((index, obj) => {
       if (!obj.id) {
         return;
       }
 
-      var $links = jquery_js_exposed_default()("a[href=#" + obj.id + "]"); // TODO: fix this.
+      var $links = jquery_exposed_default()("a[href=#" + obj.id + "]"); // TODO: fix this.
       // eslint-disable-next-line no-undef
 
       if (index === control.currentPage) {
@@ -27058,7 +27360,7 @@ carousel_parser.addArgument("infinite", false);
     let $img;
     carousel_log.info("Loading lazy images on panel " + page);
     slider.$items.eq(page).find("img").addBack().filter("[data-src]").each((idx, img) => {
-      $img = jquery_js_exposed_default()(img);
+      $img = jquery_exposed_default()(img);
       this.src = $img.attr("data-src");
       $img.removeAttr("data-src");
     });
@@ -27089,7 +27391,7 @@ carousel_parser.addArgument("infinite", false);
   }
 }));
 // EXTERNAL MODULE: ./src/core/dom.js
-var dom = __webpack_require__(20);
+var dom = __webpack_require__(18);
 
 // CONCATENATED MODULE: ./src/pat/checklist/checklist.js
 
@@ -27274,7 +27576,7 @@ clone_parser.addAlias("remove-behavior", "remove-behaviour");
     this.options = clone_parser.parse(this.el, this.options);
 
     if (this.options.template.lastIndexOf(":", 0) === 0) {
-      this.template = jquery_js_exposed_default()(this.options.template, this.el)[0];
+      this.template = jquery_exposed_default()(this.options.template, this.el)[0];
     } else {
       this.template = document.querySelector(this.options.template);
     }
@@ -27295,10 +27597,10 @@ clone_parser.addAlias("remove-behavior", "remove-behaviour");
     }
 
     this.num_clones += 1;
-    let $clone = this.template.nodeName === "TEMPLATE" ? jquery_js_exposed_default()([...this.template.content.children]).clone() : jquery_js_exposed_default()(this.template).safeClone();
+    let $clone = this.template.nodeName === "TEMPLATE" ? jquery_exposed_default()([...this.template.content.children]).clone() : jquery_exposed_default()(this.template).safeClone();
     const ids = ($clone.attr("id") || "").split(" ").filter(it => it);
     $clone.removeAttr("id").removeClass("cant-touch-this");
-    jquery_js_exposed_default.a.each(ids, function (idx, id) {
+    jquery_exposed_default.a.each(ids, function (idx, id) {
       // Re-add all ids that have the substring #{1} in them, while
       // also replacing that substring with the number of clones.
       if (id.indexOf("#{1}") !== -1) {
@@ -27325,7 +27627,7 @@ clone_parser.addAlias("remove-behavior", "remove-behaviour");
   },
 
   incrementValues(idx, el) {
-    const $el = jquery_js_exposed_default()(el);
+    const $el = jquery_exposed_default()(el);
     $el.children().addBack().contents().filter(this.incrementValues.bind(this));
 
     const callback = function (idx, attr) {
@@ -27341,7 +27643,7 @@ clone_parser.addAlias("remove-behavior", "remove-behaviour");
     };
 
     if (el.nodeType !== TEXT_NODE) {
-      jquery_js_exposed_default.a.each(el.attributes, callback.bind(this));
+      jquery_exposed_default.a.each(el.attributes, callback.bind(this));
     } else if (el.data.length) {
       el.data = el.data.replace("#{1}", this.num_clones);
     }
@@ -27378,7 +27680,7 @@ clone_parser.addAlias("remove-behavior", "remove-behaviour");
       this.$el.trigger("pat-update", {
         pattern: "clone",
         action: "remove",
-        $el: jquery_js_exposed_default()(node) // used by pat-sortable only.
+        $el: jquery_exposed_default()(node) // used by pat-sortable only.
 
       });
     }
@@ -27410,6 +27712,7 @@ clone_parser.addAlias("remove-behavior", "remove-behaviour");
 
 
 
+
 const collapsible_log = logging["a" /* default */].getLogger("pat.collapsible");
 const collapsible_parser = new parser["a" /* default */]("collapsible");
 collapsible_parser.addArgument("load-content");
@@ -27420,7 +27723,13 @@ collapsible_parser.addArgument("effect-easing", "swing");
 collapsible_parser.addArgument("closed", false);
 collapsible_parser.addArgument("trigger", "::first");
 collapsible_parser.addArgument("close-trigger");
-collapsible_parser.addArgument("open-trigger");
+collapsible_parser.addArgument("open-trigger"); // pat-scroll support
+
+collapsible_parser.addArgument("scroll-selector");
+collapsible_parser.addArgument("scroll-offset", 0);
+const debounce_scroll_timer = {
+  timer: null
+};
 /* harmony default export */ var collapsible = (base["a" /* default */].extend({
   name: "collapsible",
   trigger: ".pat-collapsible",
@@ -27452,7 +27761,7 @@ collapsible_parser.addArgument("open-trigger");
       this.$trigger = $el.children(":first");
       $content = $el.children(":gt(0)");
     } else {
-      this.$trigger = jquery_js_exposed_default()(this.options.trigger);
+      this.$trigger = jquery_exposed_default()(this.options.trigger);
       $content = $el.children();
     }
 
@@ -27467,7 +27776,7 @@ collapsible_parser.addArgument("open-trigger");
       if ($content.length) {
         this.$panel = $content.wrapAll("<div class='panel-content' />").parent();
       } else {
-        this.$panel = jquery_js_exposed_default()("<div class='panel-content' />").insertAfter(this.$trigger);
+        this.$panel = jquery_exposed_default()("<div class='panel-content' />").insertAfter(this.$trigger);
       }
     }
 
@@ -27492,12 +27801,14 @@ collapsible_parser.addArgument("open-trigger");
     this.$trigger.off(".pat-collapsible").on("click.pat-collapsible", null, $el, this._onClick.bind(this)).on("keypress.pat-collapsible", null, $el, this._onKeyPress.bind(this));
 
     if (this.options.closeTrigger) {
-      jquery_js_exposed_default()(document).on("click", this.options.closeTrigger, this.close.bind(this));
+      jquery_exposed_default()(document).on("click", this.options.closeTrigger, this.close.bind(this));
     }
 
     if (this.options.openTrigger) {
-      jquery_js_exposed_default()(document).on("click", this.options.openTrigger, this.open.bind(this));
+      jquery_exposed_default()(document).on("click", this.options.openTrigger, this.open.bind(this));
     }
+
+    this.debounce_scroll = utils["a" /* default */].debounce(() => this._scroll(), 10, debounce_scroll_timer); // scroll debouncer for later use.
 
     return $el;
   },
@@ -27531,7 +27842,7 @@ collapsible_parser.addArgument("open-trigger");
   // jQuery method to force loading of content.
   loadContent: function ($el) {
     return $el.each(function (idx, el) {
-      if (this.options.loadContent) this._loadContent(jquery_js_exposed_default()(el), this.options.loadContent, this.$panel);
+      if (this.options.loadContent) this._loadContent(jquery_exposed_default()(el), this.options.loadContent, this.$panel);
     }.bind(this));
   },
   toggle: function () {
@@ -27546,6 +27857,8 @@ collapsible_parser.addArgument("open-trigger");
       this.$el.trigger("patterns-collapsible-open");
 
       this._transit(this.$el, "closed", "open");
+
+      this.debounce_scroll();
     } else {
       this.$el.trigger("patterns-collapsible-close");
 
@@ -27554,7 +27867,26 @@ collapsible_parser.addArgument("open-trigger");
 
     return this.$el; // allow chaining
   },
-  _transit: function ($el, from_cls, to_cls) {
+
+  async _scroll() {
+    var _this$options$scroll;
+
+    const scroll_selector = (_this$options$scroll = this.options.scroll) === null || _this$options$scroll === void 0 ? void 0 : _this$options$scroll.selector;
+
+    if (scroll_selector) {
+      var _this$options$scroll2;
+
+      const pat_scroll = (await Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 183))).default;
+      const scroll = new pat_scroll(this.el, {
+        trigger: "manual",
+        selector: scroll_selector,
+        offset: (_this$options$scroll2 = this.options.scroll) === null || _this$options$scroll2 === void 0 ? void 0 : _this$options$scroll2.offset
+      });
+      await scroll.smoothScroll();
+    }
+  },
+
+  _transit: async function ($el, from_cls, to_cls) {
     if (to_cls === "open" && this.options.loadContent) {
       this._loadContent($el, this.options.loadContent, this.$panel);
     }
@@ -27574,13 +27906,13 @@ collapsible_parser.addArgument("open-trigger");
         transition: "start"
       });
       this.$trigger.addClass("collapsible-in-progress");
-      this.$panel[t[to_cls]](duration, this.options.effect.easing, function () {
+      await this.$panel[t[to_cls]](duration, this.options.effect.easing, function () {
         this.$trigger.removeClass("collapsible-" + from_cls).removeClass("collapsible-in-progress").addClass("collapsible-" + to_cls);
         $el.removeClass(from_cls).removeClass("in-progress").addClass(to_cls).trigger("pat-update", {
           pattern: "collapsible",
           transition: "complete"
         });
-      }.bind(this));
+      }.bind(this)).promise();
     }
   }
 }));
@@ -27599,7 +27931,7 @@ var colour_picker_ = {
   trigger: "input.pat-colour-picker,input.pat-color-picker",
 
   async init($el) {
-    await __webpack_require__.e(/* import() */ 319).then(__webpack_require__.t.bind(null, 754, 7));
+    await __webpack_require__.e(/* import() */ 319).then(__webpack_require__.t.bind(null, 762, 7));
     return $el.spectrum({
       preferredFormat: "hex"
     });
@@ -27609,7 +27941,7 @@ var colour_picker_ = {
 registry["a" /* default */].register(colour_picker_);
 /* harmony default export */ var colour_picker = (colour_picker_);
 // EXTERNAL MODULE: ./src/pat/date-picker/date-picker.js
-var date_picker = __webpack_require__(174);
+var date_picker = __webpack_require__(180);
 
 // CONCATENATED MODULE: ./src/pat/datetime-picker/datetime-picker.js
 /* pat-datetime-picker  - Polyfill for input type=datetime-local */
@@ -27643,10 +27975,10 @@ datetime_picker_parser.addArgument("first-day", 0);
     }
 
     if (window.__patternslib_import_styles) {
-      __webpack_require__.e(/* import() */ 16).then(__webpack_require__.t.bind(null, 755, 7));
+      __webpack_require__.e(/* import() */ 16).then(__webpack_require__.bind(null, 763));
     }
 
-    const DatePicker = (await Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 174))).default;
+    const DatePicker = (await Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 180))).default;
     const value = this.el.value.split("T");
     const date_value = value[0] || "";
     const time_value = value[1] || "";
@@ -27756,7 +28088,7 @@ depends_parser.addArgument("effect-easing", "swing");
   jquery_plugin: true,
 
   async init($el, opts) {
-    const DependsHandler = (await __webpack_require__.e(/* import() */ 173).then(__webpack_require__.bind(null, 771))).default; // prettier-ignore
+    const DependsHandler = (await __webpack_require__.e(/* import() */ 173).then(__webpack_require__.bind(null, 781))).default; // prettier-ignore
 
     const dependent = this.$el[0];
     const options = depends_parser.parse(this.$el, opts);
@@ -27804,7 +28136,7 @@ depends_parser.addArgument("effect-easing", "swing");
 
     for (let input of handler.getAllInputs()) {
       if (input.form) {
-        let $form = jquery_js_exposed_default()(input.form);
+        let $form = jquery_exposed_default()(input.form);
         let dependents = $form.data("patDepends.dependents");
 
         if (!dependents) {
@@ -27815,13 +28147,13 @@ depends_parser.addArgument("effect-easing", "swing");
         $form.data("patDepends.dependents", dependents);
       }
 
-      jquery_js_exposed_default()(input).on("change.pat-depends", null, data, this.onChange.bind(this));
-      jquery_js_exposed_default()(input).on("keyup.pat-depends", null, data, this.onChange.bind(this));
+      jquery_exposed_default()(input).on("change.pat-depends", null, data, this.onChange.bind(this));
+      jquery_exposed_default()(input).on("keyup.pat-depends", null, data, this.onChange.bind(this));
     }
   },
 
   async onReset(event) {
-    const dependents = jquery_js_exposed_default()(event.target).data("patDepends.dependents");
+    const dependents = jquery_exposed_default()(event.target).data("patDepends.dependents");
     await utils["a" /* default */].timeout(50);
 
     for (let dependent of dependents) {
@@ -27833,7 +28165,7 @@ depends_parser.addArgument("effect-easing", "swing");
   updateModal() {
     // If we're in a modal, make sure that it gets resized.
     if (this.$modal.length) {
-      jquery_js_exposed_default()(document).trigger("pat-update", {
+      jquery_exposed_default()(document).trigger("pat-update", {
         pattern: "depends"
       });
     }
@@ -27877,7 +28209,7 @@ depends_parser.addArgument("effect-easing", "swing");
     const handler = event.data.handler;
     const options = event.data.options;
     const dependent = event.data.dependent;
-    const $depdendent = jquery_js_exposed_default()(dependent);
+    const $depdendent = jquery_exposed_default()(dependent);
     const state = handler.evaluate();
 
     switch (options.action) {
@@ -27911,7 +28243,7 @@ depends_parser.addArgument("effect-easing", "swing");
 
 }));
 // EXTERNAL MODULE: ./src/pat/display-time/display-time.js
-var display_time = __webpack_require__(127);
+var display_time = __webpack_require__(129);
 
 // CONCATENATED MODULE: ./src/pat/equaliser/equaliser.js
 /**
@@ -27934,9 +28266,9 @@ var equaliser = {
   trigger: ".pat-equaliser, .pat-equalizer",
 
   async init($el, opts) {
-    const ImagesLoaded = (await __webpack_require__.e(/* import() */ 2).then(__webpack_require__.t.bind(null, 753, 7))).default;
+    const ImagesLoaded = (await __webpack_require__.e(/* import() */ 2).then(__webpack_require__.t.bind(null, 578, 7))).default;
     return $el.each(function () {
-      var $container = jquery_js_exposed_default()(this),
+      var $container = jquery_exposed_default()(this),
           options = equaliser_parser.parse($container, opts);
       $container.data("pat-equaliser", options);
       /* Assumotion, we don't need this anymore if we use Mutation observers
@@ -27945,8 +28277,8 @@ var equaliser = {
       // $container.parents('.pat-stacks').on("pat-update", null, this, utils.debounce(equaliser._onEvent, 100));
       */
 
-      jquery_js_exposed_default()(window).on("resize.pat-equaliser", null, this, utils["a" /* default */].debounce(equaliser._onEvent, 100));
-      ImagesLoaded(this, jquery_js_exposed_default.a.proxy(function () {
+      jquery_exposed_default()(window).on("resize.pat-equaliser", null, this, utils["a" /* default */].debounce(equaliser._onEvent, 100));
+      ImagesLoaded(this, jquery_exposed_default.a.proxy(function () {
         equaliser._update(this);
       }, this));
       const callback = utils["a" /* default */].debounce(equaliser._update.bind(this), 100);
@@ -27962,7 +28294,7 @@ var equaliser = {
   },
 
   _update: function (container) {
-    var $container = jquery_js_exposed_default()(container),
+    var $container = jquery_exposed_default()(container),
         options = $container.data("pat-equaliser"),
         $children = $container.children(),
         max_height = 0;
@@ -27988,7 +28320,7 @@ var equaliser = {
 
       case "grow":
         $children.animate(new_css, options.effect.duration, options.effect.easing, function () {
-          jquery_js_exposed_default()(this).addClass("equalised");
+          jquery_exposed_default()(this).addClass("equalised");
         });
         break;
     }
@@ -28030,7 +28362,7 @@ var expandable_tree_ = {
 
     var $ctrls = $el.find("span.toggle");
     $ctrls.each(function () {
-      var $ctrl = jquery_js_exposed_default()(this),
+      var $ctrl = jquery_exposed_default()(this),
           $folder = $ctrl.parent();
       $ctrl.on("click.pat-expandable", function () {
         $folder.toggleClass("open closed").filter(".open[data-pat-expandable]").patExpandable("loadContent");
@@ -28040,7 +28372,7 @@ var expandable_tree_ = {
   },
   loadContent: function ($el) {
     return $el.each(function () {
-      var $el = jquery_js_exposed_default()(this),
+      var $el = jquery_exposed_default()(this),
           url = expandable_tree_parser.parse($el).loadContent,
           components = url.split("#"),
           base_url = components[0],
@@ -28070,7 +28402,7 @@ registry["a" /* default */].register(expandable_tree_);
 var focus_focus = {
   name: "focus",
   onNewContent: function () {
-    if (jquery_js_exposed_default()(document.activeElement).is(":input")) focus_focus._doFocus(document.activeElement);
+    if (jquery_exposed_default()(document.activeElement).is(":input")) focus_focus._doFocus(document.activeElement);
   },
   transform: function ($root) {
     $root.find(":input[placeholder]").each(function (ix, el) {
@@ -28090,7 +28422,7 @@ var focus_focus = {
       $relatives.addClass("has-value").attr("data-value", el.value);
     } else {
       $relatives.filter(function (ix, e) {
-        const inputs = jquery_js_exposed_default()(":input", e);
+        const inputs = jquery_exposed_default()(":input", e);
 
         for (var i = 0; i < inputs.length; i++) if (utils["a" /* default */].hasValue(inputs[i])) return false;
 
@@ -28106,7 +28438,7 @@ var focus_focus = {
   },
   onBlur: function () {
     var $relatives = utils["a" /* default */].findRelatives(this);
-    jquery_js_exposed_default()(document).one("mouseup keyup", function () {
+    jquery_exposed_default()(document).one("mouseup keyup", function () {
       $relatives.filter(":not(:has(:input:focus))").removeClass("focus");
     });
   },
@@ -28114,7 +28446,7 @@ var focus_focus = {
     focus_focus._updateHasValue(this);
   }
 };
-jquery_js_exposed_default()(document).on("focus.patterns", ":input", focus_focus.onFocus).on("blur.patterns", ":input", focus_focus.onBlur).on("newContent", focus_focus.onNewContent).on("change.pat-focus keyup.pat-focus", ":input", focus_focus.onChange).on("input.pat-focus", ":input[type=range]", utils["a" /* default */].debounce(focus_focus.onChange, 50));
+jquery_exposed_default()(document).on("focus.patterns", ":input", focus_focus.onFocus).on("blur.patterns", ":input", focus_focus.onBlur).on("newContent", focus_focus.onNewContent).on("change.pat-focus keyup.pat-focus", ":input", focus_focus.onChange).on("input.pat-focus", ":input[type=range]", utils["a" /* default */].debounce(focus_focus.onChange, 50));
 registry["a" /* default */].register(focus_focus);
 /* harmony default export */ var pat_focus_focus = (focus_focus);
 // CONCATENATED MODULE: ./src/pat/form-state/form-state.js
@@ -28129,7 +28461,7 @@ var form_state_ = {
   trigger: "form.pat-form-state",
   init: function ($form) {
     if ($form.length > 1) return $form.each(function () {
-      form_state_.init(jquery_js_exposed_default()(this));
+      form_state_.init(jquery_exposed_default()(this));
     });
     input_change_events.setup($form, form_state_.name); // XXX: hide reset buttons until we have proper handling for them
 
@@ -28144,20 +28476,20 @@ var form_state_ = {
     return $form;
   },
   saveState: function () {
-    var $form = jquery_js_exposed_default()(this);
+    var $form = jquery_exposed_default()(this);
     $form.data("pat-ajax.previous-state", $form.data("pat-ajax.state"));
     $form.data("pat-ajax.state", $form.serializeArray());
     $form.trigger("pat-form-state-saved");
   },
   setModified: function () {
-    var $form = jquery_js_exposed_default()(this);
+    var $form = jquery_exposed_default()(this);
     $form.find("[type=reset]").prop("disabled", false);
     $form.find("[type=submit]").prop("disabled", false);
     $form.addClass("modified").off(".pat-form-state").one("reset.pat-form-state", form_state_.setReset).one("pat-ajax-error.pat-form-state", form_state_.setError).one("pat-ajax-success.pat-form-state", form_state_.setSaved);
     form_state_log.debug("modified");
   },
   setReset: function () {
-    var $form = jquery_js_exposed_default()(this); // hide only if form has changeable inputs
+    var $form = jquery_exposed_default()(this); // hide only if form has changeable inputs
 
     if ($form.find(':input[type!="hidden"][type!="submit"]' + '[type!="reset"][type!=button]').not("button").length) {
       $form.find("[type=reset]").prop("disabled", true);
@@ -28169,11 +28501,11 @@ var form_state_ = {
   },
   setError: function (event) {
     var msg = [event.jqxhr.status, event.jqxhr.statusText].join(" ");
-    modal.init(jquery_js_exposed_default()("<div class='pat-modal small'>" + "<h3>Error</h3>" + "<div class='wizard-box'>" + "<div class='panel-body'>" + "<p>A server error has occured.</p>" + "<p>The error message is: <strong>" + msg + "</strong>.</p>" + "</div>" + "<div class='buttons panel-footer'>" + "<button class='close-panel'>Ok</button>" + "</div>" + "</div>" + "</div>").appendTo(jquery_js_exposed_default()("body")));
+    modal.init(jquery_exposed_default()("<div class='pat-modal small'>" + "<h3>Error</h3>" + "<div class='wizard-box'>" + "<div class='panel-body'>" + "<p>A server error has occured.</p>" + "<p>The error message is: <strong>" + msg + "</strong>.</p>" + "</div>" + "<div class='buttons panel-footer'>" + "<button class='close-panel'>Ok</button>" + "</div>" + "</div>" + "</div>").appendTo(jquery_exposed_default()("body")));
   },
   setSaved: function (event) {
     if (event.target !== this) return;
-    var $form = jquery_js_exposed_default()(this);
+    var $form = jquery_exposed_default()(this);
 
     form_state_.setReset.call($form);
 
@@ -28205,6 +28537,10 @@ forward_parser.addArgument("delay");
 
     if (!this.options.selector) {
       return;
+    }
+
+    if (this.options.delay) {
+      this.options.delay = utils["a" /* default */].parseTime(this.options.delay);
     }
 
     this.el.addEventListener("click", this.on_click.bind(this));
@@ -28257,7 +28593,7 @@ forward_parser.addArgument("delay");
   trigger: ".close-fullscreen",
 
   async init() {
-    const Screenfull = (await __webpack_require__.e(/* import() */ 4).then(__webpack_require__.t.bind(null, 756, 7))).default;
+    const Screenfull = (await __webpack_require__.e(/* import() */ 4).then(__webpack_require__.t.bind(null, 764, 7))).default;
     this.$el[0].addEventListener("click", function () {
       // no prevent-default nor stop propagation to let
       // the button also do other stuff.
@@ -28291,7 +28627,7 @@ class Fullscreen extends Base {
   trigger: ".pat-fullscreen",
 
   async init($el, opts) {
-    Screenfull = (await __webpack_require__.e(/* import() */ 4).then(__webpack_require__.t.bind(null, 756, 7))).default;
+    Screenfull = (await __webpack_require__.e(/* import() */ 4).then(__webpack_require__.t.bind(null, 764, 7))).default;
     this.options = fullscreen_parser.parse(this.$el, opts); //const el = this.$el[0];
     //el.addEventListener('click', function (e) {  // TODO: doesn't work in karma for href links
 
@@ -28346,6 +28682,9 @@ class Fullscreen extends Base {
   }
 
 }));
+// EXTERNAL MODULE: ./node_modules/underscore/modules/index-all.js + 159 modules
+var index_all = __webpack_require__(15);
+
 // CONCATENATED MODULE: ./src/pat/gallery/gallery.js
 /**
  * Patterns gallery - A simple gallery
@@ -28372,18 +28711,18 @@ gallery_parser.addArgument("effect-duration", 250);
 
   async init($el, opts) {
     if (window.__patternslib_import_styles) {
-      __webpack_require__.e(/* import() */ 12).then(__webpack_require__.t.bind(null, 757, 7));
-      __webpack_require__.e(/* import() */ 9).then(__webpack_require__.t.bind(null, 758, 7));
+      __webpack_require__.e(/* import() */ 12).then(__webpack_require__.bind(null, 765));
+      __webpack_require__.e(/* import() */ 9).then(__webpack_require__.bind(null, 766));
     }
 
-    const PhotoSwipe = (await __webpack_require__.e(/* import() */ 312).then(__webpack_require__.t.bind(null, 759, 7))).default;
-    const PhotoSwipeUI = (await __webpack_require__.e(/* import() */ 311).then(__webpack_require__.t.bind(null, 760, 7))).default; // prettier-ignore
+    const PhotoSwipe = (await __webpack_require__.e(/* import() */ 312).then(__webpack_require__.t.bind(null, 767, 7))).default;
+    const PhotoSwipeUI = (await __webpack_require__.e(/* import() */ 311).then(__webpack_require__.t.bind(null, 768, 7))).default; // prettier-ignore
 
     this.options = gallery_parser.parse(this.$el, opts);
 
-    if (jquery_js_exposed_default()("#photoswipe-template").length === 0) {
-      const Template = (await __webpack_require__.e(/* import() */ 314).then(__webpack_require__.bind(null, 761))).default;
-      jquery_js_exposed_default()("body").append(index_all["a" /* default */].template(Template)());
+    if (jquery_exposed_default()("#photoswipe-template").length === 0) {
+      const Template = (await __webpack_require__.e(/* import() */ 314).then(__webpack_require__.bind(null, 769))).default;
+      jquery_exposed_default()("body").append(index_all["a" /* default */].template(Template)());
     } // Search for itemSelector including the current node
     // See: https://stackoverflow.com/a/17538213/1337474
 
@@ -28394,7 +28733,7 @@ gallery_parser.addArgument("effect-duration", 250);
         w: 0,
         h: 0,
         src: this.src || this.href,
-        title: this.title || jquery_js_exposed_default()(this).find("img").attr("title")
+        title: this.title || jquery_exposed_default()(this).find("img").attr("title")
       };
     });
     var pswpElement = document.querySelectorAll(".pswp")[0];
@@ -28409,7 +28748,7 @@ gallery_parser.addArgument("effect-duration", 250);
       closeOnScroll: false
     };
     image_wrapper.click(function (ev) {
-      if (this.tagName.toLowerCase() === "img" && jquery_js_exposed_default()(this).closest("a").length !== 0) {
+      if (this.tagName.toLowerCase() === "img" && jquery_exposed_default()(this).closest("a").length !== 0) {
         // Do not open auto-added images in gallery if they are wrapped in an anchor element.
         return;
       }
@@ -28443,12 +28782,12 @@ gallery_parser.addArgument("effect-duration", 250);
       });
       gallery.listen("initialZoomInEnd", function () {
         // don't show body scrollbars when overlay is open
-        this.origBodyOverflow = jquery_js_exposed_default()("body").css("overflow");
-        jquery_js_exposed_default()("body").css("overflow", "hidden");
+        this.origBodyOverflow = jquery_exposed_default()("body").css("overflow");
+        jquery_exposed_default()("body").css("overflow", "hidden");
       });
       gallery.listen("destroy", function () {
         // show original overlay value on body after closing
-        jquery_js_exposed_default()("body").css("overflow", this.origBodyOverflow);
+        jquery_exposed_default()("body").css("overflow", this.origBodyOverflow);
       });
       gallery.init();
     });
@@ -28480,16 +28819,16 @@ var image_crop_ = {
   inputNames: ["x1", "y1", "x2", "y2", "w", "h"],
 
   async init($el, options) {
-    await __webpack_require__.e(/* import() */ 175).then(__webpack_require__.t.bind(null, 762, 7)); // initialize the elements
+    await __webpack_require__.e(/* import() */ 175).then(__webpack_require__.t.bind(null, 770, 7)); // initialize the elements
 
     return $el.each(function () {
-      var $this = jquery_js_exposed_default()(this),
+      var $this = jquery_exposed_default()(this),
           opts = image_crop_parser.parse($this, options),
           data = {}; // Initialize the preview parameters
 
       if (opts.preview.id.length === 0) data.preview = false;else {
         data.preview = {};
-        data.preview.element = jquery_js_exposed_default()(opts.preview.id);
+        data.preview.element = jquery_exposed_default()(opts.preview.id);
 
         if (data.preview.element.length === 0) {
           image_crop_log.error("Invalid preview element ID supplied: " + opts.preview.id);
@@ -28514,7 +28853,7 @@ var image_crop_ = {
           return;
         }
       } else {
-        data.form = jquery_js_exposed_default()(opts.formId);
+        data.form = jquery_exposed_default()(opts.formId);
 
         if (data.form.length === 0) {
           image_crop_log.error("Invalid form ID supplied: " + opts.formId);
@@ -28559,7 +28898,7 @@ var image_crop_ = {
 
   _setupInput: function ($form, prefix, name) {
     var input = $form.find("input[name=" + prefix + name + "]");
-    if (input.length === 0) input = jquery_js_exposed_default()('<input type="hidden" name="' + prefix + name + '" />').appendTo($form);
+    if (input.length === 0) input = jquery_exposed_default()('<input type="hidden" name="' + prefix + name + '" />').appendTo($form);
     return input;
   },
   _parseOpt: function (val) {
@@ -28612,8 +28951,8 @@ var legend = {
   trigger: "legend",
   _convertToIframes: function ($root) {
     $root.findInclusive("object[type='text/html']").each(function () {
-      var $object = jquery_js_exposed_default()(this),
-          $iframe = jquery_js_exposed_default()("<iframe allowtransparency='true'/>");
+      var $object = jquery_exposed_default()(this),
+          $iframe = jquery_exposed_default()("<iframe allowtransparency='true'/>");
       $iframe.attr("id", $object.attr("id")).attr("class", $object.attr("class")).attr("src", $object.attr("data")).attr("frameborder", "0").attr("style", "background-color:transparent");
       $object.replaceWith($iframe);
     });
@@ -28623,14 +28962,14 @@ var legend = {
     const all = dom["a" /* default */].querySelectorAllAndMe(root, "legend:not(.cant-touch-this)");
 
     for (const el of all) {
-      jquery_js_exposed_default()(el).replaceWith("<p class='legend'>" + jquery_js_exposed_default()(el).html() + "</p>");
+      jquery_exposed_default()(el).replaceWith("<p class='legend'>" + jquery_exposed_default()(el).html() + "</p>");
     }
   }
 };
 registry["a" /* default */].register(legend);
 /* harmony default export */ var legend_legend = (legend);
 // EXTERNAL MODULE: ./src/pat/markdown/markdown.js
-var markdown = __webpack_require__(176);
+var markdown = __webpack_require__(182);
 
 // CONCATENATED MODULE: ./src/pat/masonry/masonry.js
 /**
@@ -28677,8 +29016,8 @@ masonry_parser.addAlias("resize", "is-resize");
   trigger: ".pat-masonry",
 
   async init($el, opts) {
-    Masonry = (await __webpack_require__.e(/* import() */ 11).then(__webpack_require__.t.bind(null, 763, 7))).default;
-    const ImagesLoaded = (await __webpack_require__.e(/* import() */ 2).then(__webpack_require__.t.bind(null, 753, 7))).default;
+    Masonry = (await __webpack_require__.e(/* import() */ 11).then(__webpack_require__.t.bind(null, 771, 7))).default;
+    const ImagesLoaded = (await __webpack_require__.e(/* import() */ 2).then(__webpack_require__.t.bind(null, 578, 7))).default;
     this.options = masonry_parser.parse(this.$el, opts); // Initialize
 
     this.initMasonry();
@@ -28757,7 +29096,7 @@ masonry_parser.addAlias("resize", "is-resize");
 
 
     this.$el.find(".pat-masonry").each(function (idx, child) {
-      jquery_js_exposed_default()(child).patMasonry("quicklayout");
+      jquery_exposed_default()(child).patMasonry("quicklayout");
     });
     this.msnry.layout();
   },
@@ -28789,7 +29128,7 @@ menu_parser.addArgument("nav-item-selector", "li"); // CSS Selector for navigati
     this.options = menu_parser.parse(this.$el, opts);
     var self = this;
     $el.find(this.options.navItemSelector).each(function () {
-      var $it = jquery_js_exposed_default()(this);
+      var $it = jquery_exposed_default()(this);
       $it.addClass("closed").on("mouseover", self.mouseOverHandler.bind(self)).on("mouseout", self.mouseOutHandler.bind(self));
 
       if ($it.children(self.options.navItemSelector).length > 0) {
@@ -28803,7 +29142,7 @@ menu_parser.addArgument("nav-item-selector", "li"); // CSS Selector for navigati
       this.timer = null;
     }
 
-    it = jquery_js_exposed_default()(it);
+    it = jquery_exposed_default()(it);
 
     if (!it.hasClass("open")) {
       it.siblings(".open").each(function () {
@@ -28813,7 +29152,7 @@ menu_parser.addArgument("nav-item-selector", "li"); // CSS Selector for navigati
     }
   },
   closeMenu: function (it) {
-    jquery_js_exposed_default()(it).find(".open").addBack().removeClass("open").addClass("closed");
+    jquery_exposed_default()(it).find(".open").addBack().removeClass("open").addClass("closed");
   },
   mouseOverHandler: function (ev) {
     this.openMenu(ev.target);
@@ -28850,7 +29189,7 @@ navigation_parser.addArgument("current-class", "current");
       $el.find("a." + current, "." + current + " a").click(); // check for current elements injected here
 
       $el.on("patterns-injected-scanned", function (ev) {
-        var $target = jquery_js_exposed_default()(ev.target);
+        var $target = jquery_exposed_default()(ev.target);
         if ($target.is("a." + current)) $target.click();
         if ($target.is("." + current)) $target.find("a").click();
 
@@ -28860,7 +29199,7 @@ navigation_parser.addArgument("current-class", "current");
 
 
     $el.on("patterns-inject-triggered", "a", function (ev) {
-      var $target = jquery_js_exposed_default()(ev.target); // remove all set current classes
+      var $target = jquery_exposed_default()(ev.target); // remove all set current classes
 
       $el.find("." + current).removeClass(current); // set current class on target
 
@@ -28888,7 +29227,7 @@ navigation_parser.addArgument("current-class", "current");
       var ael = $el[0].querySelectorAll("a");
 
       for (var cnt = 0; cnt < ael.length; cnt++) {
-        var $a = jquery_js_exposed_default()(ael[cnt]),
+        var $a = jquery_exposed_default()(ael[cnt]),
             $li = $a.parents(this.options.itemWrapper).first(),
             url = $a.attr("href"),
             path;
@@ -28910,7 +29249,7 @@ navigation_parser.addArgument("current-class", "current");
 
 
     if (this.options.itemWrapper && $el[0].querySelectorAll("." + current).length > 0 && $el[0].querySelectorAll(this.options.itemWrapper + "." + current).length === 0) {
-      jquery_js_exposed_default()("." + current, $el).parents(this.options.itemWrapper).first().addClass(current);
+      jquery_exposed_default()("." + current, $el).parents(this.options.itemWrapper).first().addClass(current);
     }
 
     this._updatenavpath($el);
@@ -29049,10 +29388,10 @@ notification_parser.addArgument("close-text", "Close");
     }
 
     if (options.type === "banner") {
-      var $container = jquery_js_exposed_default()("#pat-notification-banners");
+      var $container = jquery_exposed_default()("#pat-notification-banners");
 
       if (!$container.length) {
-        $container = jquery_js_exposed_default()("<div/>").attr("id", "pat-notification-banners").addClass("pat-notification-container").appendTo("body");
+        $container = jquery_exposed_default()("<div/>").attr("id", "pat-notification-banners").addClass("pat-notification-container").appendTo("body");
       }
 
       $container.append($el);
@@ -29073,11 +29412,11 @@ notification_parser.addArgument("close-text", "Close");
       target: "#pat-notification-temp"
     };
     $el.on("pat-inject-success.pat-notification", e => {
-      var $trigger = jquery_js_exposed_default()(e.target),
+      var $trigger = jquery_exposed_default()(e.target),
           cfg = notification_parser.parse($trigger, {
         type: "banner"
       });
-      var $el = jquery_js_exposed_default()("#pat-notification-temp").contents().wrapAll("<div/>").parent().addClass("pat-notification");
+      var $el = jquery_exposed_default()("#pat-notification-temp").contents().wrapAll("<div/>").parent().addClass("pat-notification");
 
       if ($trigger.is("a")) {
         $trigger.after($el);
@@ -29090,7 +29429,7 @@ notification_parser.addArgument("close-text", "Close");
 
 
       setTimeout(() => {
-        jquery_js_exposed_default()("#pat-notification-temp").remove();
+        jquery_exposed_default()("#pat-notification-temp").remove();
       }, 0);
     });
     inject["a" /* default */].init($el, inject_opts);
@@ -29108,17 +29447,17 @@ notification_parser.addArgument("close-text", "Close");
   },
 
   onMouseEnter(e) {
-    jquery_js_exposed_default()(e.target).data("persistent", true);
+    jquery_exposed_default()(e.target).data("persistent", true);
   },
 
   onMouseLeave(e) {
-    var $this = jquery_js_exposed_default()(e.target);
+    var $this = jquery_exposed_default()(e.target);
     $this.data("persistent", false);
     this.initRemoveTimer($this);
   },
 
   onClick(e) {
-    var $this = jquery_js_exposed_default()(e.delegateTarget);
+    var $this = jquery_exposed_default()(e.delegateTarget);
     $this.data("persistent", false);
     this.remove($this);
   },
@@ -29145,7 +29484,7 @@ notification_parser.addArgument("close-text", "Close");
       },
 
       complete() {
-        var $this = jquery_js_exposed_default()(this);
+        var $this = jquery_exposed_default()(this);
         $this.off(".pat-notification");
         $this.slideUp("slow", () => {
           $this.remove();
@@ -29157,54 +29496,47 @@ notification_parser.addArgument("close-text", "Close");
 
 }));
 // CONCATENATED MODULE: ./src/pat/push/push.js
+ // needed for ``await`` support
 
 
 
 
-const logger = logging["a" /* default */].getLogger("push");
+const push_logger = logging["a" /* default */].getLogger("push");
 const push_parser = new parser["a" /* default */]("push");
 push_parser.addArgument("url", null);
 push_parser.addArgument("push-id", null);
 /* harmony default export */ var push = (base["a" /* default */].extend({
   name: "push",
   trigger: ".pat-push",
-  init: function ($el, opts) {
-    this.options = push_parser.parse($el, opts);
-    jquery_js_exposed_default()(document.body).on("push", function (e, data) {
-      logger.debug("received push marker");
+
+  init() {
+    this.options = push_parser.parse(this.el, this.options);
+    document.body.addEventListener("push", e => {
+      var _e$detail;
+
+      push_logger.debug("received push marker");
+      const data = e === null || e === void 0 ? void 0 : (_e$detail = e.detail) === null || _e$detail === void 0 ? void 0 : _e$detail.body;
 
       if (data === this.options.pushId) {
-        // TODO: use async / await in here in the future and simplify code
-        if (this.$el.is("form")) {
-          this.$el.submit(); // var url = this.options.url || this.$el.attr("action") || false;
-          // if (url) {
-          //   var action = this.$el.attr("method") && this.$el.attr("method").toLowerCase() === "post" ? "post" : "get";
-          //   $[action]({
-          //     url: url,
-          //     data: $(this).serializeArray()
-          //   }).success(() => this.perform_inject());
-          //   // injection already done in case of successful submit.
-          //   // return now.
-          //   return;
-          // }
+        if (this.el.tagName === "FORM") {
+          this.el.submit();
         } else {
           this.perform_inject();
         }
       }
-    }.bind(this));
-  },
-  perform_inject: function () {
-    let el = this.$el[0];
-    jquery_js_exposed_default.a.ajax({
-      cache: false,
-      dataType: "html",
-      url: this.options.url
-    }).done(data => {
-      el.innerHTML = data;
-    }).fail(() => {
-      logger.error("Could not fetch from " + this.options.url + " on push-id " + this.options.pushId);
     });
+  },
+
+  async perform_inject() {
+    try {
+      const response = await fetch(this.options.url);
+      const data = await response.text();
+      this.el.innerHTML = data;
+    } catch (e) {
+      push_logger.error(`Could not fetch from ${this.options.url} on push-id ${this.options.pushId}.`);
+    }
   }
+
 }));
 // CONCATENATED MODULE: ./src/pat/scroll-box/scroll-box.js
 
@@ -29263,7 +29595,7 @@ push_parser.addArgument("push-id", null);
       }, this.timeout);
     }); // Set initial state
 
-    jquery_js_exposed_default()().ready(() => set_scroll_classes(this.get_scroll_y(scroll_listener)));
+    jquery_exposed_default()().ready(() => set_scroll_classes(this.get_scroll_y(scroll_listener)));
   },
   get_scroll_y: el => {
     if (el === window) {
@@ -29275,214 +29607,9 @@ push_parser.addArgument("push-id", null);
     return el.scrollTop;
   }
 }));
-// CONCATENATED MODULE: ./src/pat/scroll/scroll.js
- // needed for ``await`` support
+// EXTERNAL MODULE: ./src/pat/scroll/scroll.js
+var scroll_scroll = __webpack_require__(183);
 
-
-
-
-
-
-
-const scroll_parser = new parser["a" /* default */]("scroll");
-scroll_parser.addArgument("trigger", "click", ["click", "auto"]);
-scroll_parser.addArgument("direction", "top", ["top", "left"]);
-scroll_parser.addArgument("selector");
-scroll_parser.addArgument("offset");
-/* harmony default export */ var scroll_scroll = (base["a" /* default */].extend({
-  name: "scroll",
-  trigger: ".pat-scroll",
-  jquery_plugin: true,
-
-  async init($el, opts) {
-    this.options = scroll_parser.parse(this.$el, opts);
-
-    if (this.options.trigger == "auto") {
-      const ImagesLoaded = (await __webpack_require__.e(/* import() */ 2).then(__webpack_require__.t.bind(null, 753, 7))).default; // Only calculate the offset when all images are loaded
-
-      ImagesLoaded(document.body, () => this.smoothScroll());
-    }
-
-    this.el.addEventListener("click", this.onClick.bind(this));
-    this.$el.on("pat-update", this.onPatternsUpdate.bind(this));
-    this.markBasedOnFragment();
-    this.on("hashchange", this.clearIfHidden.bind(this));
-    jquery_js_exposed_default()(window).scroll(index_all["a" /* default */].debounce(this.markIfVisible.bind(this), 50));
-  },
-
-  onClick() {
-    //ev.preventDefault();
-    history.pushState({}, null, this.$el.attr("href"));
-    this.smoothScroll();
-    this.markBasedOnFragment(); // manually trigger the hashchange event on all instances of pat-scroll
-
-    jquery_js_exposed_default()("a.pat-scroll").trigger("hashchange");
-  },
-
-  markBasedOnFragment() {
-    // Get the fragment from the URL and set the corresponding this.$el as current
-    const fragment = window.location.hash.substr(1);
-
-    if (fragment) {
-      const $target = jquery_js_exposed_default()("#" + fragment);
-      this.$el.addClass("current"); // the element that was clicked on
-
-      $target.addClass("current");
-    }
-  },
-
-  clearIfHidden() {
-    const active_target = "#" + window.location.hash.substr(1);
-    const $active_target = jquery_js_exposed_default()(active_target);
-    const target = "#" + this.$el[0].href.split("#").pop();
-
-    if ($active_target.length > 0) {
-      if (active_target != target) {
-        // if the element does not match the one listed in the url #,
-        // clear the current class from it.
-        const $target = jquery_js_exposed_default()("#" + this.$el[0].href.split("#").pop());
-        $target.removeClass("current");
-        this.$el.removeClass("current");
-      }
-    }
-  },
-
-  markIfVisible() {
-    if (this.$el.hasClass("pat-scroll-animated")) {
-      // this section is triggered when the scrolling is a result of the animate function
-      // ie. automatic scrolling as opposed to the user manually scrolling
-      this.$el.removeClass("pat-scroll-animated");
-    } else if (this.$el[0].nodeName === "A") {
-      const href = this.$el[0].href;
-      const fragment = href.indexOf("#") !== -1 && href.split("#").pop() || undefined;
-
-      if (fragment) {
-        const $target = jquery_js_exposed_default()("#" + fragment);
-
-        if ($target.length) {
-          if (utils["a" /* default */].isElementInViewport($target[0], true, this.options.offset)) {
-            // check that the anchor's target is visible
-            // if so, mark both the anchor and the target element
-            $target.addClass("current");
-            this.$el.addClass("current");
-          }
-
-          jquery_js_exposed_default()(this.$el).trigger("pat-update", {
-            pattern: "scroll"
-          });
-        }
-      }
-    }
-  },
-
-  onPatternsUpdate(ev, data) {
-    if (data.pattern === "stacks") {
-      if (data.originalEvent && data.originalEvent.type === "click") {
-        this.smoothScroll();
-      }
-    } else if (data.pattern === "scroll") {
-      const href = this.$el[0].href;
-      const fragment = href.indexOf("#") !== -1 && href.split("#").pop() || undefined;
-
-      if (fragment) {
-        const $target = jquery_js_exposed_default()("#" + fragment);
-
-        if ($target.length) {
-          if (utils["a" /* default */].isElementInViewport($target[0], true, this.options.offset) === false) {
-            // if the anchor's target is invisible, remove current class from anchor and target.
-            $target.removeClass("current");
-            jquery_js_exposed_default()(this.$el).removeClass("current");
-          }
-        }
-      }
-    }
-  },
-
-  findScrollContainer(el) {
-    const direction = this.options.direction;
-    let scrollable = jquery_js_exposed_default()(el).parents().filter((idx, el) => {
-      return ["auto", "scroll"].indexOf(jquery_js_exposed_default()(el).css("overflow")) > -1 || direction === "top" && ["auto", "scroll"].indexOf(jquery_js_exposed_default()(el).css("overflow-y")) > -1 || direction === "left" && ["auto", "scroll"].indexOf(jquery_js_exposed_default()(el).css("overflow-x")) > -1;
-    }).first();
-
-    if (typeof scrollable[0] === "undefined") {
-      scrollable = jquery_js_exposed_default()("body");
-    }
-
-    return scrollable;
-  },
-
-  smoothScroll() {
-    const scroll = this.options.direction == "top" ? "scrollTop" : "scrollLeft";
-    const options = {};
-    let scrollable;
-
-    if (typeof this.options.offset != "undefined") {
-      // apply scroll options directly
-      scrollable = this.options.selector ? jquery_js_exposed_default()(this.options.selector) : this.$el;
-      options[scroll] = this.options.offset;
-    } else if (this.options.selector === "top") {
-      // Just scroll up or left, period.
-      scrollable = this.findScrollContainer(this.$el);
-      options[scroll] = 0;
-    } else if (this.options.selector === "bottom") {
-      // Just scroll down or right, period.
-      scrollable = this.findScrollContainer(this.$el);
-
-      if (scroll === "scrollTop") {
-        options.scrollTop = scrollable[0].scrollHeight;
-      } else {
-        options.scrollLeft = scrollable[0].scrollWidth;
-      }
-    } else {
-      // Get the first element with overflow (the scroll container)
-      // starting from the *target*
-      // The intent is to move target into view within scrollable
-      // if the scrollable has no scrollbar, do not scroll body
-      let fragment;
-
-      if (this.options.selector) {
-        fragment = this.options.selector;
-      } else {
-        const href = this.$el.attr("href");
-        fragment = href.indexOf("#") !== -1 ? "#" + href.split("#").pop() : undefined;
-      }
-
-      const target = jquery_js_exposed_default()(fragment);
-
-      if (target.length === 0) {
-        return;
-      }
-
-      scrollable = this.findScrollContainer(target);
-
-      if (scrollable[0] === document.body) {
-        // positioning context is document
-        if (scroll === "scrollTop") {
-          options[scroll] = Math.floor(target.safeOffset().top);
-        } else {
-          options[scroll] = Math.floor(target.safeOffset().left);
-        }
-      } else if (scroll === "scrollTop") {
-        // difference between target top and scrollable top becomes 0
-        options[scroll] = Math.floor(scrollable.scrollTop() + target.safeOffset().top - scrollable.safeOffset().top);
-      } else {
-        options[scroll] = Math.floor(scrollable.scrollLeft() + target.safeOffset().left - scrollable.safeOffset().left);
-      }
-    } // Fix scrolling on body - need to scroll on HTML, howsoever.
-
-
-    if (scrollable[0] === document.body) {
-      scrollable = jquery_js_exposed_default()("html");
-    } // execute the scroll
-
-
-    scrollable.animate(options, {
-      duration: 500,
-      start: () => jquery_js_exposed_default()(".pat-scroll").addClass("pat-scroll-animated")
-    });
-  }
-
-}));
 // CONCATENATED MODULE: ./src/pat/selectbox/selectbox.js
 /* Patterns selectbox - Expose select option for (un)checking. */
 
@@ -29498,7 +29625,7 @@ const KEY_RESET = "__patternslib__pat_selectbox__reset";
     const el = this.el;
 
     if (el.form && !el[KEY_RESET]) {
-      jquery_js_exposed_default()(el.form).on("reset.pat-selectbox", () => this.form_reset());
+      jquery_exposed_default()(el.form).on("reset.pat-selectbox", () => this.form_reset());
       el[KEY_RESET] = true;
     }
 
@@ -29511,7 +29638,7 @@ const KEY_RESET = "__patternslib__pat_selectbox__reset";
       }
 
       this.change_select(sel);
-      jquery_js_exposed_default()(sel).on("change.pat-selectbox", () => this.change_select(sel));
+      jquery_exposed_default()(sel).on("change.pat-selectbox", () => this.change_select(sel));
     }
   },
 
@@ -29601,12 +29728,12 @@ var url_parser = new UrlArgumentParser();
  * Copyright 2012 Simplon B.V. - Wichert Akkerman
  */
 
-var real_cleanData = jquery_js_exposed_default.a.cleanData;
+var real_cleanData = jquery_exposed_default.a.cleanData;
 
-jquery_js_exposed_default.a.cleanData = function remove_cleanData(elems) {
+jquery_exposed_default.a.cleanData = function remove_cleanData(elems) {
   var i, el;
 
-  for (i = 0; (el = elems[i]) !== undefined; i++) jquery_js_exposed_default()(el).triggerHandler("destroy");
+  for (i = 0; (el = elems[i]) !== undefined; i++) jquery_exposed_default()(el).triggerHandler("destroy");
 
   real_cleanData.call(this, arguments);
 };
@@ -29627,7 +29754,7 @@ var slides = {
   name: "slides",
   trigger: ".pat-slides",
   setup: function () {
-    jquery_js_exposed_default()(document).on("patterns-injected", utils["a" /* default */].debounce(slides._reset, 100));
+    jquery_exposed_default()(document).on("patterns-injected", utils["a" /* default */].debounce(slides._reset, 100));
   },
 
   async init($el) {
@@ -29636,7 +29763,7 @@ var slides = {
       return;
     }
 
-    await __webpack_require__.e(/* import() */ 318).then(__webpack_require__.t.bind(null, 764, 7)); // loads ``Presentation`` globally.
+    await __webpack_require__.e(/* import() */ 318).then(__webpack_require__.t.bind(null, 772, 7)); // loads ``Presentation`` globally.
 
     var parameters = core_url.parameters();
 
@@ -29648,7 +29775,7 @@ var slides = {
 
     $el.each(function () {
       var presentation = new window.Presentation(this),
-          $container = jquery_js_exposed_default()(this);
+          $container = jquery_exposed_default()(this);
       $container.data("pat-slide", presentation).on("SlideDisplay", slides._onSlideDisplay).on("SlideHide", slides._onSlideHide);
     });
     return slides._hook($el);
@@ -29656,7 +29783,7 @@ var slides = {
 
   _onSlideDisplay: function (event) {
     var slide = event.originalEvent.detail.slide.element,
-        $videos = jquery_js_exposed_default()("video", slide);
+        $videos = jquery_exposed_default()("video", slide);
     $videos.each(function () {
       if (this.paused) {
         this.currentTime = 0;
@@ -29666,7 +29793,7 @@ var slides = {
   },
   _onSlideHide: function (event) {
     var slide = event.originalEvent.detail.slide.element,
-        $videos = jquery_js_exposed_default()("video", slide);
+        $videos = jquery_exposed_default()("video", slide);
     $videos.each(function () {
       if (!this.paused) this.pause();
     });
@@ -29695,11 +29822,11 @@ var slides = {
     return $el.off("destroy.pat-slide").on("destroy.pat-slide", utils["a" /* default */].debounce(slides._reset, 100));
   },
   _reset: function () {
-    var $container = jquery_js_exposed_default()(this).closest(".pat-slides"),
+    var $container = jquery_exposed_default()(this).closest(".pat-slides"),
         presentation = $container.data("pat-slide");
     if (presentation) presentation.scan();
 
-    slides._hook(jquery_js_exposed_default()(this.trigger));
+    slides._hook(jquery_exposed_default()(this.trigger));
   }
 };
 slides.setup();
@@ -29742,7 +29869,7 @@ sortable_parser.addAlias("dragClass", "drag-class");
     // use only direct descendants to support nested lists
     this.$sortables = this.$el.children().filter(this.options.selector);
     this.$sortables.each(function (idx) {
-      jquery_js_exposed_default()(this).data("patterns.sortable", {
+      jquery_exposed_default()(this).data("patterns.sortable", {
         position: idx
       });
     });
@@ -29753,9 +29880,9 @@ sortable_parser.addAlias("dragClass", "drag-class");
      * it has to be an "a" tag (or img) to make it draggable in IE8/9
      */
     var $sortables_without_handles = this.$sortables.filter(function () {
-      return jquery_js_exposed_default()(this).find(".sortable-handle").length === 0;
+      return jquery_exposed_default()(this).find(".sortable-handle").length === 0;
     });
-    var $handles = jquery_js_exposed_default()('<a href="#" class="sortable-handle">⇕</a>').appendTo($sortables_without_handles);
+    var $handles = jquery_exposed_default()('<a href="#" class="sortable-handle">⇕</a>').appendTo($sortables_without_handles);
 
     if ("draggable" in document.createElement("span")) {
       $handles.attr("draggable", true);
@@ -29771,9 +29898,9 @@ sortable_parser.addAlias("dragClass", "drag-class");
   },
   initScrolling: function () {
     // invisible scroll activation areas
-    var scrollup = jquery_js_exposed_default()('<div id="pat-scroll-up">&nbsp;</div>'),
-        scrolldn = jquery_js_exposed_default()('<div id="pat-scroll-dn">&nbsp;</div>'),
-        scroll = jquery_js_exposed_default()().add(scrollup).add(scrolldn);
+    var scrollup = jquery_exposed_default()('<div id="pat-scroll-up">&nbsp;</div>'),
+        scrolldn = jquery_exposed_default()('<div id="pat-scroll-dn">&nbsp;</div>'),
+        scroll = jquery_exposed_default()().add(scrollup).add(scrolldn);
     scrollup.css({
       top: 0
     });
@@ -29790,24 +29917,24 @@ sortable_parser.addAlias("dragClass", "drag-class");
     scroll.on("dragover", function (ev) {
       ev.preventDefault();
 
-      if (jquery_js_exposed_default()("html,body").is(":animated")) {
+      if (jquery_exposed_default()("html,body").is(":animated")) {
         return;
       }
 
-      var newpos = jquery_js_exposed_default()(window).scrollTop() + (jquery_js_exposed_default()(this).attr("id") === "pat-scroll-up" ? -32 : 32);
-      jquery_js_exposed_default()("html,body").animate({
+      var newpos = jquery_exposed_default()(window).scrollTop() + (jquery_exposed_default()(this).attr("id") === "pat-scroll-up" ? -32 : 32);
+      jquery_exposed_default()("html,body").animate({
         scrollTop: newpos
       }, 50, "linear");
     });
     return this;
   },
   onDragEnd: function (ev) {
-    var $dragged = jquery_js_exposed_default()(ev.target).parent();
+    var $dragged = jquery_exposed_default()(ev.target).parent();
     $dragged.removeClass(this.options.dragClass);
     this.$sortables.off(".pat-sortable");
     this.$el.off(".pat-sortable");
-    jquery_js_exposed_default()("#pat-scroll-up, #pat-scroll-dn").detach();
-    var change = this.submitChangedAmount(jquery_js_exposed_default()(ev.target).closest(".sortable")); // Call the optionally passed-in callback function
+    jquery_exposed_default()("#pat-scroll-up, #pat-scroll-dn").detach();
+    var change = this.submitChangedAmount(jquery_exposed_default()(ev.target).closest(".sortable")); // Call the optionally passed-in callback function
 
     if (this.options.drop) {
       this.options.drop($dragged, change);
@@ -29842,7 +29969,7 @@ sortable_parser.addAlias("dragClass", "drag-class");
     return change;
   },
   onDragStart: function (ev) {
-    var $handle = jquery_js_exposed_default()(ev.target),
+    var $handle = jquery_exposed_default()(ev.target),
         $dragged = $handle.parent(),
         that = this;
 
@@ -29861,7 +29988,7 @@ sortable_parser.addAlias("dragClass", "drag-class");
     this.$el.on("dragover.pat-sortable", function (ev) {
       ev.preventDefault();
       if (this.$el.is(":animated")) return;
-      var pos = ev.originalEvent.clientY + jquery_js_exposed_default()("body").scrollTop();
+      var pos = ev.originalEvent.clientY + jquery_exposed_default()("body").scrollTop();
       if (pos - this.$el.safeOffset().top < 32) this.$el.animate({
         scrollTop: this.$el.scrollTop() - 32
       }, 50, "linear");else if (this.$el.safeOffset().top + this.$el.height() - pos < 32) this.$el.animate({
@@ -29871,8 +29998,8 @@ sortable_parser.addAlias("dragClass", "drag-class");
     this.$sortables.on("dragover.pat-sortable", function (ev) {
       // list elements are only drop targets when one element of the
       // list is being dragged. avoids dragging between lists.
-      var $dropTarget = jquery_js_exposed_default()(ev.target).closest(that.options.selector),
-          midlineY = $dropTarget.safeOffset().top - jquery_js_exposed_default()(document).scrollTop() + $dropTarget.height() / 2;
+      var $dropTarget = jquery_exposed_default()(ev.target).closest(that.options.selector),
+          midlineY = $dropTarget.safeOffset().top - jquery_exposed_default()(document).scrollTop() + $dropTarget.height() / 2;
 
       if ($dropTarget.is($dragged)) {
         return;
@@ -29886,7 +30013,7 @@ sortable_parser.addAlias("dragClass", "drag-class");
       this.$sortables.removeClass("drop-target-above drop-target-below");
     }.bind(this));
     this.$sortables.on("drop.pat-sortable", function (ev) {
-      var $dropTarget = jquery_js_exposed_default()(ev.target).closest(that.options.selector);
+      var $dropTarget = jquery_exposed_default()(ev.target).closest(that.options.selector);
 
       if ($dropTarget.is($dragged)) {
         return;
@@ -29929,7 +30056,7 @@ stacks_parser.addArgument("effect-easing", "swing");
 
     this._setupStack();
 
-    jquery_js_exposed_default()(this.document).on("click", "a", this._onClick.bind(this));
+    jquery_exposed_default()(this.document).on("click", "a", this._onClick.bind(this));
     return $el;
   },
   _setupStack: function () {
@@ -29997,7 +30124,7 @@ stacks_parser.addArgument("effect-easing", "swing");
 
     this._switch(href_parts[1]);
 
-    jquery_js_exposed_default()(e.target).trigger("pat-update", {
+    jquery_exposed_default()(e.target).trigger("pat-update", {
       pattern: "stacks",
       originalEvent: e
     });
@@ -30011,7 +30138,7 @@ stacks_parser.addArgument("effect-easing", "swing");
       // original href of an anchor as it appeared in the document
       // source, but when you access the href property you always get
       // the fully qualified version.
-      var $anchors = jquery_js_exposed_default()('a[href="' + base_url + "#" + sheet.id + '"],a[href="#' + sheet.id + '"]');
+      var $anchors = jquery_exposed_default()('a[href="' + base_url + "#" + sheet.id + '"],a[href="#' + sheet.id + '"]');
 
       if (sheet.id === selected) {
         $anchors.addClass("current");
@@ -30030,51 +30157,6 @@ stacks_parser.addArgument("effect-easing", "swing");
     var $invisible = this.$el.find(this.options.selector).not($sheet);
     utils["a" /* default */].hideOrShow($invisible, false, this.options, this.name);
     utils["a" /* default */].hideOrShow($sheet, true, this.options, this.name);
-  }
-}));
-// CONCATENATED MODULE: ./src/pat/sticky/sticky.js
-/* pat-sticky - A pattern for a sticky polyfill */
- // needed for ``await`` support
-
-
-
-
- // Lazy loading modules.
-
-let Stickyfill;
-const sticky_parser = new parser["a" /* default */]("sticky");
-sticky_parser.addArgument("selector", "");
-/* harmony default export */ var sticky = (base["a" /* default */].extend({
-  name: "sticky",
-  trigger: ".pat-sticky",
-
-  async init() {
-    Stickyfill = (await __webpack_require__.e(/* import() */ 320).then(__webpack_require__.t.bind(null, 765, 7))).default;
-    this.options = sticky_parser.parse(this.$el);
-    this.makeSticky();
-    jquery_js_exposed_default()("body").on("pat-update", utils["a" /* default */].debounce(this.onPatternUpdate.bind(this), 500));
-    /* recalc if the DOM changes. Should fix positioning issues when parts of the page get injected */
-
-    return this.$el;
-  },
-
-  onPatternUpdate: function () {
-    /* Handler which gets called when pat-update is triggered within
-     * the .pat-sticky element.
-     */
-    Stickyfill.refreshAll();
-    return true;
-  },
-  makeSticky: function () {
-    if (this.options.selector === "") {
-      this.$stickies = this.$el;
-    } else {
-      this.$stickies = this.$el.find(this.options.selector);
-    }
-
-    this.$stickies.each(function (idx, elem) {
-      Stickyfill.add(elem);
-    }.bind(this));
   }
 }));
 // CONCATENATED MODULE: ./src/pat/subform/subform.js
@@ -30106,16 +30188,16 @@ const subform_log = logging["a" /* default */].getLogger("subform");
   scopedSubmit($el) {
     var $form = $el.parents("form"),
         $exclude = $form.find(":input").filter(function () {
-      return !jquery_js_exposed_default()(this).is($el.find("*"));
+      return !jquery_exposed_default()(this).is($el.find("*"));
     }); // make other controls "unsuccessful"
 
     subform_log.debug("Hiding unwanted elements from submission.");
     var names = $exclude.map(function () {
-      var name = jquery_js_exposed_default()(this).attr("name");
+      var name = jquery_exposed_default()(this).attr("name");
       return name ? name : 0;
     });
     $exclude.each(function () {
-      jquery_js_exposed_default()(this).attr("name", "");
+      jquery_exposed_default()(this).attr("name", "");
     });
 
     if ($el.is(".pat-inject") || $el.is(".pat-modal")) {
@@ -30130,14 +30212,14 @@ const subform_log = logging["a" /* default */].getLogger("subform");
     subform_log.debug("Restoring previous state.");
     $exclude.each(function (i) {
       if (names[i]) {
-        jquery_js_exposed_default()(this).attr("name", names[i]);
+        jquery_exposed_default()(this).attr("name", names[i]);
       }
     });
   },
 
   submit(ev) {
     ev.stopPropagation();
-    var $this = jquery_js_exposed_default()(ev.target),
+    var $this = jquery_exposed_default()(ev.target),
         $button = $this.find("button[type=submit][formaction]").first();
 
     if ($button.length) {
@@ -30154,7 +30236,7 @@ const subform_log = logging["a" /* default */].getLogger("subform");
       return;
     }
 
-    var $subform = jquery_js_exposed_default()(ev.target).parents(".pat-subform");
+    var $subform = jquery_exposed_default()(ev.target).parents(".pat-subform");
 
     if (!$subform.is(".pat-autosubmit")) {
       return;
@@ -30168,7 +30250,7 @@ const subform_log = logging["a" /* default */].getLogger("subform");
     ev.stopPropagation();
     ajax["a" /* default */].onClickSubmit(ev); // make sure the submitting button is sent with the form
 
-    var $button = jquery_js_exposed_default()(ev.target),
+    var $button = jquery_exposed_default()(ev.target),
         $sub = $button.parents(".pat-subform").first(),
         formaction = $button.attr("formaction");
 
@@ -30182,7 +30264,7 @@ const subform_log = logging["a" /* default */].getLogger("subform");
         this.scopedSubmit($sub);
         $sub.data("pat-inject", previousValue);
       } else if ($sub.is(".pat-modal")) {
-        $sub.data("pat-inject", [jquery_js_exposed_default.a.extend($sub.data("pat-inject")[0], {
+        $sub.data("pat-inject", [jquery_exposed_default.a.extend($sub.data("pat-inject")[0], {
           url: formaction
         })]);
         this.scopedSubmit($sub);
@@ -30222,7 +30304,7 @@ var switcher = {
   jquery_plugin: true,
   init: function ($el, defaults) {
     return $el.each(function () {
-      var $trigger = jquery_js_exposed_default()(this),
+      var $trigger = jquery_exposed_default()(this),
           options = switch_parser.parse($trigger, defaults, true);
       options = switcher._validateOptions(options);
 
@@ -30245,21 +30327,21 @@ var switcher = {
   },
   destroy: function ($el) {
     return $el.each(function () {
-      jquery_js_exposed_default()(this).removeData("patternSwitch").off("click.patternSwitch");
+      jquery_exposed_default()(this).removeData("patternSwitch").off("click.patternSwitch");
     });
   },
   // jQuery API to toggle a switch
   execute: function ($el) {
     return $el.each(function () {
-      switcher._go(jquery_js_exposed_default()(this));
+      switcher._go(jquery_exposed_default()(this));
     });
   },
   _onClick: function (ev) {
-    if (jquery_js_exposed_default()(ev.currentTarget).is("a")) {
+    if (jquery_exposed_default()(ev.currentTarget).is("a")) {
       ev.preventDefault();
     }
 
-    switcher._go(jquery_js_exposed_default()(this));
+    switcher._go(jquery_exposed_default()(this));
   },
   _go: function ($trigger) {
     var options = $trigger.data("patternSwitch"),
@@ -30295,7 +30377,7 @@ var switcher = {
     return correct;
   },
   _update: function (selector, remove, add) {
-    var $targets = jquery_js_exposed_default()(selector);
+    var $targets = jquery_exposed_default()(selector);
     if (!$targets.length) return;
     if (remove) utils["a" /* default */].removeWildcardClass($targets, remove);
     if (add) $targets.addClass(add);
@@ -30316,7 +30398,7 @@ registry["a" /* default */].register(switcher);
   trigger: ".pat-syntax-highlight",
 
   async init() {
-    const Prettify = (await __webpack_require__.e(/* import() */ 174).then(__webpack_require__.t.bind(null, 766, 7))).default; // prettier-ignore
+    const Prettify = (await __webpack_require__.e(/* import() */ 174).then(__webpack_require__.t.bind(null, 773, 7))).default; // prettier-ignore
 
     this.$el.addClass("prettyprint");
     utils["a" /* default */].debounce(Prettify.prettyPrint, 50)();
@@ -30327,99 +30409,177 @@ registry["a" /* default */].register(switcher);
 
 
 
+
+
+const tabs_logger = logging["a" /* default */].getLogger("tabs");
+const DEBOUNCE_TIMEOUT = 10; //logger.setLevel(logging.Level.DEBUG);
+
 /* harmony default export */ var tabs = (base["a" /* default */].extend({
   name: "tabs",
   trigger: ".pat-tabs",
   jquery_plugin: true,
-  skip_adjust: false,
-  // do not run into an resize/adjust loop
   allowed_update_patterns: ["stacks", "switch", "auto-scale", "grid", "equaliser", "masonry", "zoom"],
 
   init() {
-    const debounced_resize = utils["a" /* default */].debounce(() => this.adjust_tabs(), 50);
-    const resize_observer = new ResizeObserver(() => {
-      if (!this.skip_adjust) {
+    // debounce_resize to cancel previous runs of adjust_tabs
+    const debounced_resize = utils["a" /* default */].debounce(this.adjust_tabs.bind(this), DEBOUNCE_TIMEOUT); // ResizeObserver allows for calling the adjust_tabs method after an
+    // animation is done, e.g. a menu is slided in. At the end of the
+    // animation the calculation is done with the final layout.
+
+    let previous_parent_width = utils["a" /* default */].get_bounds(this.el.parentElement).width;
+    this.resize_observer = new ResizeObserver(entry => {
+      const width = parseInt(entry[0].contentRect.width, 10); // Only run the resize callback for changes in width.
+      // Apply a threshold of 3 pixels to compensate for rounding errors
+      // and not run this adjust_tabs for very small layout changes.
+
+      if (Math.abs(width - previous_parent_width) > 3) {
+        tabs_logger.debug("Entering resize observer");
+        previous_parent_width = width;
         debounced_resize();
       }
-
-      this.skip_adjust = false;
     });
-    resize_observer.observe(this.el); // Also listen for ``pat-update`` event for cases where no resize but
+    this.resize_observer.observe(this.el.parentElement); // observe on size changes of parent.
+    // Also listen for ``pat-update`` event for cases where no resize but
     // an immediate display of the element is done.
 
-    jquery_js_exposed_default()("body").on("pat-update", (e, data) => {
+    jquery_exposed_default()("body").on("pat-update", (e, data) => {
       if (this.allowed_update_patterns.includes(data.pattern)) {
+        tabs_logger.debug("pat-update received.");
         debounced_resize();
       }
     });
     debounced_resize();
   },
 
-  adjust_tabs() {
-    this.skip_adjust = true;
-    const container_width = this.$el.width() * 0.95; // here we want to gather all tabs including those that may be in a special 'extra-tabs'
-    // span and place them all as equal children, before we recalculate which tabs are
-    // visible and which are potentially fully or partially obscured.
+  async adjust_tabs() {
+    tabs_logger.debug("Entering adjust_tabs");
+    tabs_logger.debug("Element:");
+    tabs_logger.debug(this.el);
+    this.el.classList.remove("tabs-ready");
+    this.el.classList.remove("tabs-wrapped");
 
-    let extratabs = [];
-    let children = [...this.el.children].filter(it => {
-      if (it.classList.contains("extra-tabs")) {
-        extratabs.push(...it.children);
-        return false;
-      }
+    this._flatten_tabs();
 
-      return true;
-    });
-    children.push(...extratabs);
+    this.dimensions = this._get_dimensions();
+    await this._adjust_tabs();
+    this.el.classList.add("tabs-ready");
+  },
 
-    if (children.length === 0) {
+  _flatten_tabs() {
+    // Remove the extra-tabs structure and place all tabs directly under .pat-tabs
+    const extra_wrapper = this.el.querySelector(".extra-tabs");
+
+    if (extra_wrapper) {
+      this.el.append(...extra_wrapper.children);
+      extra_wrapper.remove();
+    }
+  },
+
+  _get_dimensions() {
+    const bounds = utils["a" /* default */].get_bounds(this.el);
+    const x = bounds.x;
+    const width = bounds.width;
+    const border_left = utils["a" /* default */].getCSSValue(this.el, "border-left", true);
+    const padding_left = utils["a" /* default */].getCSSValue(this.el, "padding-left", true);
+    const border_right = utils["a" /* default */].getCSSValue(this.el, "border-right", true);
+    const padding_right = utils["a" /* default */].getCSSValue(this.el, "padding-right", true);
+    const max_width = width - border_left - padding_left - padding_right - border_right;
+    const max_x = bounds.x + max_width + border_left + padding_left;
+    const dimensions = {
+      x: x,
+      max_x: max_x,
+      width: width,
+      max_width: max_width,
+      border_left: border_left,
+      border_right: border_right,
+      padding_left: padding_left,
+      padding_right: padding_right
+    };
+    tabs_logger.debug("dimensions:");
+    tabs_logger.debug(dimensions);
+    return dimensions;
+  },
+
+  async _adjust_tabs() {
+    tabs_logger.debug("Entering _adjust_tabs");
+    const children = [...this.el.children].filter(it => dom["a" /* default */].is_visible(it) && utils["a" /* default */].getCSSValue(it, "position") !== "absolute"); // remove elements, which do not count against available width.
+
+    const children_no_extra = children.filter(it => !it.classList.contains("extra-tabs"));
+
+    if (children_no_extra.length === 0) {
       // nothing to do.
+      tabs_logger.debug("no children, exit _adjust_tabs.");
       return;
+    } // Check if tabs fit into one line by checking their start position not
+    // exceeding the available inner width or if they are not broken to a
+    // new line.
+    // This also takes whitespace between elements into account.
+
+
+    let last_x;
+    let tabs_fit = true; // iterate over all children excluding absolutely positioned or invisible elements.
+
+    for (const it of children) {
+      const bounds = utils["a" /* default */].get_bounds(it);
+      const it_x = bounds.x;
+      const it_w = bounds.width + utils["a" /* default */].getCSSValue(this.el, "margin-right", true);
+      tabs_logger.debug("Item:");
+      tabs_logger.debug(it);
+      tabs_logger.debug(`
+                item dimensions: x: ${it_x},
+                width: ${it_w},
+                max x: ${it_x + it_w},
+                last_x: ${last_x}
+            `);
+
+      if (last_x && last_x - 3 > it_x || it_x + it_w - 3 > this.dimensions.max_x // -3 pixel to compensate for rounding errors (x, width, margin-right).
+      ) {
+          // this tab exceeds initial available width or
+          // breaks into a new line when width
+          tabs_fit = false;
+          break;
+        } // Next position-left must be greater than last position-left plus element width.
+
+
+      last_x = it_x + it_w;
     }
 
-    this.el.innerHTML = "";
-    this.el.append(...children); // precalculate the collective size of all the tabs
-
-    let total_width = [...this.el.children].reduce((val, it) => {
-      return val + jquery_js_exposed_default()(it).outerWidth(true);
-    }, 0);
-
-    if (total_width <= container_width) {
+    if (tabs_fit) {
       // allright, nothing to do
+      tabs_logger.debug("tabs fit, exit _adjust_tabs.");
       return;
     }
 
-    const extra_el = document.createElement("span");
-    extra_el.setAttribute("class", "extra-tabs");
-    this.el.classList.add("closed");
-    extra_el.addEventListener("click", () => {
-      // Toggle opened/closed class on extra-tabs
-      if (this.el.classList.contains("open")) {
-        this.el.classList.remove("open");
-        this.el.classList.add("closed");
-      } else {
-        this.el.classList.remove("closed");
-        this.el.classList.add("open");
-      }
-    });
-    this.el.append(extra_el);
-    const extra_width = jquery_js_exposed_default()(extra_el).width();
-    extratabs = [];
-    total_width = extra_width;
+    tabs_logger.debug("Breaks into new line.");
+    let extra_tabs = this.el.querySelector(".extra-tabs");
 
-    for (const [idx, it] of [...children].entries()) {
-      total_width += jquery_js_exposed_default()(it).outerWidth(true);
+    if (!extra_tabs) {
+      tabs_logger.debug("Creating .extra-tabs element.");
+      extra_tabs = document.createElement("span");
+      extra_tabs.classList.add("extra-tabs");
+      this.el.classList.add("closed");
+      this.el.classList.add("tabs-wrapped");
+      extra_tabs.addEventListener("click", () => {
+        // Toggle opened/closed class on extra-tabs
+        if (this.el.classList.contains("open")) {
+          this.el.classList.remove("open");
+          this.el.classList.add("closed");
+        } else {
+          this.el.classList.remove("closed");
+          this.el.classList.add("open");
+        }
+      });
+      this.el.append(extra_tabs);
+      await utils["a" /* default */].animation_frame(); // Wait for CSS to be applied.
 
-      if (total_width > container_width) {
-        extratabs = children.splice(idx);
-        break;
-      }
+      this.dimensions = this._get_dimensions(); // Update dimensions after CSS was applied
     }
 
-    this.el.innerHTML = "";
-    this.el.append(...children);
-    extra_el.append(...extratabs);
-    this.el.append(extra_el);
+    tabs_logger.debug("Prepend last tab to .extra_tabs."); // ... but exclude `.extra-tabs` if it is part of children.
+
+    extra_tabs.prepend(children_no_extra.pop());
+    await utils["a" /* default */].animation_frame();
+    await this._adjust_tabs();
   }
 
 }));
@@ -30473,7 +30633,7 @@ ClassToggler.prototype = {
     }
 
     el.className = classes.join(" ");
-    jquery_js_exposed_default()(el).trigger("pat-update", {
+    jquery_exposed_default()(el).trigger("pat-update", {
       pattern: "toggle"
     });
   },
@@ -30512,7 +30672,7 @@ var toggle = {
   _AttributeToggler: AttributeToggler,
   init: function toggle_init($el) {
     return $el.each(function toggle_init_el() {
-      var $trigger = jquery_js_exposed_default()(this),
+      var $trigger = jquery_exposed_default()(this),
           event_name,
           options = toggle._validateOptions(this, toggle_parser.parse($trigger, true));
 
@@ -30523,7 +30683,7 @@ var toggle = {
       for (var i = 0; i < options.length; i++) {
         if (options[i].value_storage) {
           var victims, state, last_state;
-          victims = jquery_js_exposed_default()(options[i].selector);
+          victims = jquery_exposed_default()(options[i].selector);
 
           if (!victims.length) {
             continue;
@@ -30617,7 +30777,7 @@ var toggle = {
 
     for (var i = 0; i < options.length; i++) {
       option = options[i];
-      victims = jquery_js_exposed_default()(option.selector);
+      victims = jquery_exposed_default()(option.selector);
 
       if (!victims.length) {
         continue;
@@ -30640,7 +30800,7 @@ var toggle = {
     if (updated) {
       // XXX: Is this necessary? pat-update gets called on changed
       // element above.
-      jquery_js_exposed_default()(this).trigger("pat-update", {
+      jquery_exposed_default()(this).trigger("pat-update", {
         pattern: "toggle"
       });
     }
@@ -30651,7 +30811,7 @@ var toggle = {
     var keycode = event.keyCode ? event.keyCode : event.which;
 
     if (keycode === "13") {
-      jquery_js_exposed_default()(this).trigger("click", event);
+      jquery_exposed_default()(this).trigger("click", event);
     }
   }
 };
@@ -30695,10 +30855,10 @@ tooltip_parser.addArgument("arrow-padding", null);
     const el = this.el;
 
     if (window.__patternslib_import_styles) {
-      __webpack_require__.e(/* import() */ 15).then(__webpack_require__.t.bind(null, 767, 7));
+      __webpack_require__.e(/* import() */ 15).then(__webpack_require__.bind(null, 774));
     }
 
-    const Tippy = (await __webpack_require__.e(/* import() */ 321).then(__webpack_require__.bind(null, 769))).default;
+    const Tippy = (await __webpack_require__.e(/* import() */ 320).then(__webpack_require__.bind(null, 776))).default;
     this.options = tooltip_parser.parse(el, opts);
     this.tippy_options = this.parseOptionsForTippy(this.options);
     const defaultProps = {
@@ -30816,7 +30976,7 @@ tooltip_parser.addArgument("arrow-padding", null);
           // Tooltip content from title attribute
           content = this.el.getAttribute("title");
         } else if (opts.source === "content") {
-          // Tooltiop content from trigger child content.
+          // Tooltip content from trigger childs.
           content = this.el.innerHTML;
           tippy_options.allowHTML = true;
         } else if (opts.source === "ajax") {
@@ -30872,7 +31032,9 @@ tooltip_parser.addArgument("arrow-padding", null);
     const close_buttons = this.tippy.popper.querySelectorAll(".pat-tooltip--close-button");
 
     for (let close_el of close_els) {
-      close_el.addEventListener("click", () => {
+      close_el.addEventListener("click", async () => {
+        await utils["a" /* default */].timeout(1); // wait a tick for event being processed by other handlers.
+
         for (let close_button of close_buttons) {
           // Also remove the close button
           close_button.parentNode.removeChild(close_button);
@@ -30896,7 +31058,7 @@ tooltip_parser.addArgument("arrow-padding", null);
     // initialization after injection is done here.
 
 
-    jquery_js_exposed_default()(this.tippy.popper).trigger("patterns-injected", [{
+    jquery_exposed_default()(this.tippy.popper).trigger("patterns-injected", [{
       skipPatInjectHandler: true
     }, this.el, this.tippy.popper]);
   },
@@ -31028,8 +31190,8 @@ tooltip_parser.addArgument("arrow-padding", null);
     },
 
     async markdown(text, url, selector) {
-      const pat_markdown = await Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 176));
-      const pat = pat_markdown.default.init(jquery_js_exposed_default()("<div/>"));
+      const pat_markdown = await Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 182));
+      const pat = pat_markdown.default.init(jquery_exposed_default()("<div/>"));
       const cfg = {
         url
       };
@@ -31089,13 +31251,13 @@ const VALIDATION_TYPE_MAP = {
   trigger: "form.pat-validation",
 
   async init($el, opts) {
-    Validate = (await __webpack_require__.e(/* import() */ 20).then(__webpack_require__.t.bind(null, 768, 7))).default;
-    Moment = (await __webpack_require__.e(/* import() */ 0).then(__webpack_require__.t.bind(null, 414, 7))).default;
+    Validate = (await __webpack_require__.e(/* import() */ 18).then(__webpack_require__.t.bind(null, 775, 7))).default;
+    Moment = (await __webpack_require__.e(/* import() */ 0).then(__webpack_require__.t.bind(null, 429, 7))).default;
     this.extend_validate();
     this.errors = 0;
     this.options = validation_parser.parse(this.$el, opts);
     this.$inputs = this.$el.find("input[name], select[name], textarea[name]");
-    this.$el.find("input[type=number]").on("keyup mouseup", index_all["a" /* default */].debounce(function (ev) {
+    this.$el.find("input[type=number]").on("keyup mouseup", utils["a" /* default */].debounce(function (ev) {
       this.validateElement(ev.target);
     }.bind(this), 500));
     this.$inputs.on("change.pat-validation", function (ev) {
@@ -31107,7 +31269,7 @@ const VALIDATION_TYPE_MAP = {
     this.$el.on("submit.pat-validation", this.validateForm.bind(this));
     this.$el.on("pat-update.pat-validation", this.onPatternUpdate.bind(this));
     this.$el.on("click.pat-validation", ".close-panel", function (ev) {
-      if (!jquery_js_exposed_default()(ev.target).hasClass("validate-ignore")) {
+      if (!jquery_exposed_default()(ev.target).hasClass("validate-ignore")) {
         this.validateForm(ev);
       }
     }.bind(this));
@@ -31132,7 +31294,7 @@ const VALIDATION_TYPE_MAP = {
   },
 
   getFieldType: function (input) {
-    var opts = validation_parser.parse(jquery_js_exposed_default()(input));
+    var opts = validation_parser.parse(jquery_exposed_default()(input));
     var type = input.getAttribute("type");
 
     if (index_all["a" /* default */].contains(["datetime", "date"], opts.type)) {
@@ -31170,7 +31332,7 @@ const VALIDATION_TYPE_MAP = {
         c[relative_constraint] = relative;
       } else {
         try {
-          $ref = jquery_js_exposed_default()(relative);
+          $ref = jquery_exposed_default()(relative);
         } catch (e) {
           console.log(e);
         }
@@ -31199,7 +31361,7 @@ const VALIDATION_TYPE_MAP = {
      */
     var name = input.getAttribute("name").replace(/\./g, "\\."),
         type = this.getFieldType(input),
-        opts = validation_parser.parse(jquery_js_exposed_default()(input)),
+        opts = validation_parser.parse(jquery_exposed_default()(input)),
         constraint = constraints[name];
 
     if (index_all["a" /* default */].contains(["datetime", "date"], type)) {
@@ -31370,7 +31532,7 @@ const VALIDATION_TYPE_MAP = {
      * number and is bigger than 5), we need to customize the messages
      * after validation. We do that here.
      */
-    var opts = validation_parser.parse(jquery_js_exposed_default()(input));
+    var opts = validation_parser.parse(jquery_exposed_default()(input));
 
     if (msg.indexOf("must be greater than or equal to") != -1) {
       return Validate.format(opts.message.min, {
@@ -31425,7 +31587,7 @@ const VALIDATION_TYPE_MAP = {
     }
 
     if (!no_recurse) {
-      index_all["a" /* default */].each(jquery_js_exposed_default()(input).data("pat-validation-refs") || [], index_all["a" /* default */].partial(this.validateElement.bind(this), index_all["a" /* default */], true));
+      index_all["a" /* default */].each(jquery_exposed_default()(input).data("pat-validation-refs") || [], index_all["a" /* default */].partial(this.validateElement.bind(this), index_all["a" /* default */], true));
     }
 
     return error;
@@ -31452,7 +31614,7 @@ const VALIDATION_TYPE_MAP = {
     return true;
   },
   findErrorMessages: function (el) {
-    var $el = jquery_js_exposed_default()(el),
+    var $el = jquery_exposed_default()(el),
         selector = "em.validation.message",
         $messages = $el.next(selector);
 
@@ -31470,15 +31632,15 @@ const VALIDATION_TYPE_MAP = {
     utils["a" /* default */].findRelatives(input).removeClass("is-invalid").addClass("is-valid");
 
     if (this.errors < 1 && this.options.disableSelector) {
-      jquery_js_exposed_default()(this.options.disableSelector).prop("disabled", false).removeClass("disabled");
+      jquery_exposed_default()(this.options.disableSelector).prop("disabled", false).removeClass("disabled");
     }
   },
   showError: function (error, input) {
-    var $el = jquery_js_exposed_default()(input),
+    var $el = jquery_exposed_default()(input),
         $relatives = utils["a" /* default */].findRelatives(input),
         $position = $el,
         strategy = "after",
-        $message = jquery_js_exposed_default()("<em/>", {
+        $message = jquery_exposed_default()("<em/>", {
       class: "validation warning message"
     }),
         $fieldset;
@@ -31509,7 +31671,7 @@ const VALIDATION_TYPE_MAP = {
     this.errors += 1;
 
     if (this.options.disableSelector) {
-      jquery_js_exposed_default()(this.options.disableSelector).prop("disabled", true).addClass("disabled");
+      jquery_exposed_default()(this.options.disableSelector).prop("disabled", true).addClass("disabled");
     }
 
     $position.trigger("pat-update", {
@@ -31529,9 +31691,9 @@ var zoom = {
   trigger: ".pat-zoom",
   init: function ($el, opts) {
     return $el.each(function () {
-      var $block = jquery_js_exposed_default()(this),
+      var $block = jquery_exposed_default()(this),
           options = zoom_parser.parse($block, opts);
-      let $slider = jquery_js_exposed_default()("<input/>", {
+      let $slider = jquery_exposed_default()("<input/>", {
         type: "range",
         step: "any",
         value: 1,
@@ -31633,15 +31795,41 @@ minimalpattern_parser.addArgument("background-color", "green");
 
 
 
-
  // example pattern
 
  // Importing pattern styles in JavaScript
 // Set to ``true`` to include core styles via JavaScript
 
 window.__patternslib_import_styles = false;
-window.jQuery = jquery_js_exposed_default.a;
+window.jQuery = jquery_exposed_default.a;
 registry["a" /* default */].init();
+
+/***/ }),
+
+/***/ 47:
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
 
 /***/ }),
 
@@ -31649,75 +31837,340 @@ registry["a" /* default */].init();
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(global) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return VERSION; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return root; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ArrayProto; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return ObjProto; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return SymbolProto; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return push; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return slice; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return toString; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return hasOwnProperty; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return supportsArrayBuffer; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return supportsDataView; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return nativeIsArray; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return nativeKeys; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return nativeCreate; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return nativeIsView; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return _isNaN; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return _isFinite; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return hasEnumBug; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return nonEnumerableProps; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MAX_ARRAY_INDEX; });
-// Current version.
-var VERSION = '1.13.1';
+/**
+ * Patterns logging - minimal logging framework
+ *
+ * Copyright 2012 Simplon B.V.
+ */
+// source: https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/bind
+if (!Function.prototype.bind) {
+  Function.prototype.bind = function (oThis) {
+    if (typeof this !== "function") {
+      // closest thing possible to the ECMAScript 5 internal IsCallable function
+      throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");
+    }
 
-// Establish the root object, `window` (`self`) in the browser, `global`
-// on the server, or `this` in some virtual machines. We use `self`
-// instead of `window` for `WebWorker` support.
-var root = typeof self == 'object' && self.self === self && self ||
-          typeof global == 'object' && global.global === global && global ||
-          Function('return this')() ||
-          {};
+    var aArgs = Array.prototype.slice.call(arguments, 1),
+        fToBind = this,
+        fNOP = function () {},
+        fBound = function () {
+      return fToBind.apply(this instanceof fNOP && oThis ? this : oThis, aArgs.concat(Array.prototype.slice.call(arguments)));
+    };
 
-// Save bytes in the minified (but not gzipped) version:
-var ArrayProto = Array.prototype, ObjProto = Object.prototype;
-var SymbolProto = typeof Symbol !== 'undefined' ? Symbol.prototype : null;
+    fNOP.prototype = this.prototype;
+    fBound.prototype = new fNOP();
+    return fBound;
+  };
+}
 
-// Create quick reference variables for speed access to core prototypes.
-var push = ArrayProto.push,
-    slice = ArrayProto.slice,
-    toString = ObjProto.toString,
-    hasOwnProperty = ObjProto.hasOwnProperty;
+var root, // root logger instance
+writer; // writer instance, used to output log entries
 
-// Modern feature detection.
-var supportsArrayBuffer = typeof ArrayBuffer !== 'undefined',
-    supportsDataView = typeof DataView !== 'undefined';
+var Level = {
+  DEBUG: 10,
+  INFO: 20,
+  WARN: 30,
+  ERROR: 40,
+  FATAL: 50
+};
 
-// All **ECMAScript 5+** native function implementations that we hope to use
-// are declared here.
-var nativeIsArray = Array.isArray,
-    nativeKeys = Object.keys,
-    nativeCreate = Object.create,
-    nativeIsView = supportsArrayBuffer && ArrayBuffer.isView;
+function IEConsoleWriter() {}
 
-// Create references to these builtin functions because we override them.
-var _isNaN = isNaN,
-    _isFinite = isFinite;
+IEConsoleWriter.prototype = {
+  output: function (log_name, level, messages) {
+    // console.log will magically appear in IE8 when the user opens the
+    // F12 Developer Tools, so we have to test for it every time.
+    if (typeof window.console === "undefined" || typeof console.log === "undefined") return;
+    if (log_name) messages.unshift(log_name + ":");
+    var message = messages.join(" "); // Under some conditions console.log will be available but the
+    // other functions are missing.
 
-// Keys in IE < 9 that won't be iterated by `for key in ...` and thus missed.
-var hasEnumBug = !{toString: null}.propertyIsEnumerable('toString');
-var nonEnumerableProps = ['valueOf', 'isPrototypeOf', 'toString',
-  'propertyIsEnumerable', 'hasOwnProperty', 'toLocaleString'];
+    if (typeof console.info === undefined) {
+      var level_name;
+      if (level <= Level.DEBUG) level_name = "DEBUG";else if (level <= Level.INFO) level_name = "INFO";else if (level <= Level.WARN) level_name = "WARN";else if (level <= Level.ERROR) level_name = "ERROR";else level_name = "FATAL";
+      console.log("[" + level_name + "] " + message);
+    } else {
+      if (level <= Level.DEBUG) {
+        // console.debug exists but is deprecated
+        message = "[DEBUG] " + message;
+        console.log(message);
+      } else if (level <= Level.INFO) console.info(message);else if (level <= Level.WARN) console.warn(message);else console.error(message);
+    }
+  }
+};
 
-// The largest integer that can be represented exactly.
-var MAX_ARRAY_INDEX = Math.pow(2, 53) - 1;
+function ConsoleWriter() {}
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(41)))
+ConsoleWriter.prototype = {
+  output: function (log_name, level, messages) {
+    if (log_name) messages.unshift(log_name + ":");
+
+    if (level <= Level.DEBUG) {
+      // console.debug exists but is deprecated
+      messages.unshift("[DEBUG]");
+      console.log.apply(console, messages);
+    } else if (level <= Level.INFO) console.info.apply(console, messages);else if (level <= Level.WARN) console.warn.apply(console, messages);else console.error.apply(console, messages);
+  }
+};
+
+function Logger(name, parent) {
+  this._loggers = {};
+  this.name = name || "";
+  this._parent = parent || null;
+
+  if (!parent) {
+    this._enabled = true;
+    this._level = Level.WARN;
+  }
+}
+
+Logger.prototype = {
+  getLogger: function (name) {
+    var path = name.split("."),
+        root = this,
+        route = this.name ? [this.name] : [];
+
+    while (path.length) {
+      var entry = path.shift();
+      route.push(entry);
+      if (!(entry in root._loggers)) root._loggers[entry] = new Logger(route.join("."), root);
+      root = root._loggers[entry];
+    }
+
+    return root;
+  },
+  _getFlag: function (flag) {
+    var context = this;
+    flag = "_" + flag;
+
+    while (context !== null) {
+      if (context[flag] !== undefined) return context[flag];
+      context = context._parent;
+    }
+
+    return null;
+  },
+  setEnabled: function (state) {
+    this._enabled = !!state;
+  },
+  isEnabled: function () {
+    this._getFlag("enabled");
+  },
+  setLevel: function (level) {
+    if (typeof level === "number") this._level = level;else if (typeof level === "string") {
+      level = level.toUpperCase();
+      if (level in Level) this._level = Level[level];
+    }
+  },
+  getLevel: function () {
+    return this._getFlag("level");
+  },
+  log: function (level, messages) {
+    if (!messages.length || !this._getFlag("enabled") || level < this._getFlag("level")) return;
+    messages = Array.prototype.slice.call(messages);
+    writer.output(this.name, level, messages);
+  },
+  debug: function () {
+    this.log(Level.DEBUG, arguments);
+  },
+  info: function () {
+    this.log(Level.INFO, arguments);
+  },
+  warn: function () {
+    this.log(Level.WARN, arguments);
+  },
+  error: function () {
+    this.log(Level.ERROR, arguments);
+  },
+  fatal: function () {
+    this.log(Level.FATAL, arguments);
+  }
+};
+
+function getWriter() {
+  return writer;
+}
+
+function setWriter(w) {
+  writer = w;
+}
+
+if (!window.console || !window.console.log || typeof window.console.log.apply !== "function") {
+  setWriter(new IEConsoleWriter());
+} else {
+  setWriter(new ConsoleWriter());
+}
+
+root = new Logger();
+var logconfig = /loglevel(|-[^=]+)=([^&]+)/g,
+    match;
+
+while ((match = logconfig.exec(window.location.search)) !== null) {
+  var logger = match[1] === "" ? root : root.getLogger(match[1].slice(1));
+  logger.setLevel(match[2].toUpperCase());
+}
+
+var api = {
+  Level: Level,
+  getLogger: root.getLogger.bind(root),
+  setEnabled: root.setEnabled.bind(root),
+  isEnabled: root.isEnabled.bind(root),
+  setLevel: root.setLevel.bind(root),
+  getLevel: root.getLevel.bind(root),
+  debug: root.debug.bind(root),
+  info: root.info.bind(root),
+  warn: root.warn.bind(root),
+  error: root.error.bind(root),
+  fatal: root.fatal.bind(root),
+  getWriter: getWriter,
+  setWriter: setWriter
+};
+/* harmony default export */ __webpack_exports__["a"] = (api);
 
 /***/ }),
 
-/***/ 53:
+/***/ 59:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* unused harmony export parser */
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_logging__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+/* harmony import */ var _core_parser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
+/* harmony import */ var _core_registry__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9);
+/**
+ * Patterns ajax - AJAX injection for forms and anchors
+ *
+ * Copyright 2012-2013 Florian Friesdorf
+ * Copyright 2012-2013 Marko Durkovic
+ */
+
+
+
+
+const log = _core_logging__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].getLogger("pat.ajax");
+const parser = new _core_parser__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"]("ajax");
+parser.addArgument("url", function ($el) {
+  return ($el.is("a") ? $el.attr("href") : $el.is("form") ? $el.attr("action") : "").split("#")[0];
+});
+jquery__WEBPACK_IMPORTED_MODULE_0___default.a.ajaxSetup({
+  // Disable caching of AJAX responses
+  cache: false
+});
+var xhrCount = {};
+
+xhrCount.get = function (a) {
+  return this[a] !== undefined ? this[a] : 0;
+};
+
+xhrCount.inc = function (a) {
+  this[a] = this.get(a) + 1;
+  return this.get(a);
+};
+
+var _ = {
+  name: "ajax",
+  trigger: ".pat-ajax",
+  parser: parser,
+  init: function ($el) {
+    $el.off(".pat-ajax");
+    $el.filter("a").on("click.pat-ajax", _.onTriggerEvents);
+    $el.filter("form").on("submit.pat-ajax", _.onTriggerEvents).on("click.pat-ajax", "[type=submit]", _.onClickSubmit);
+    $el.filter(":not(form,a)").each(function () {
+      log.warn("Unsupported element:", this);
+    });
+    return $el;
+  },
+  destroy: function ($el) {
+    $el.off(".pat-ajax");
+  },
+  onClickSubmit: function (event) {
+    var $form = jquery__WEBPACK_IMPORTED_MODULE_0___default()(event.target).parents("form").first(),
+        name = event.target.name,
+        value = jquery__WEBPACK_IMPORTED_MODULE_0___default()(event.target).val(),
+        data = {};
+
+    if (name) {
+      data[name] = value;
+    }
+
+    $form.data("pat-ajax.clicked-data", data);
+  },
+  onTriggerEvents: function (event) {
+    if (event) {
+      event.preventDefault();
+    }
+
+    _.request(jquery__WEBPACK_IMPORTED_MODULE_0___default()(this));
+  },
+  request: function ($el, opts) {
+    return $el.each(function () {
+      _._request(jquery__WEBPACK_IMPORTED_MODULE_0___default()(this), opts);
+    });
+  },
+  _request: function ($el, opts) {
+    var cfg = _.parser.parse($el, opts),
+        onError = function (jqxhr, status, error) {
+      // error can also stem from a javascript
+      // exception, not only errors described in the
+      // jqxhr.
+      log.error("load error for " + cfg.url + ":", error, jqxhr);
+      $el.trigger({
+        type: "pat-ajax-error",
+        jqxhr: jqxhr
+      });
+    },
+        seqNumber = xhrCount.inc(cfg.url),
+        onSuccess = function (data, status, jqxhr) {
+      log.debug("success: jqxhr:", jqxhr);
+
+      if (seqNumber === xhrCount.get(cfg.url)) {
+        // if this url is requested multiple time, only return the last result
+        $el.trigger({
+          type: "pat-ajax-success",
+          jqxhr: jqxhr
+        });
+      } else {// ignore
+      }
+    },
+        temp = $el.data("pat-ajax.clicked-data"),
+        clickedData = temp ? jquery__WEBPACK_IMPORTED_MODULE_0___default.a.param(temp) : "",
+        args = {
+      context: $el,
+      data: [$el.serialize(), clickedData].filter(Boolean).join("&"),
+      url: cfg.url,
+      method: $el.attr("method") ? $el.attr("method") : "GET"
+    };
+
+    if ($el.is("form") && $el.attr("method") && $el.attr("method").toUpperCase() == "POST") {
+      var formdata = new FormData($el[0]);
+
+      for (var key in temp) {
+        formdata.append(key, temp[key]);
+      }
+
+      args["method"] = "POST";
+      args["data"] = formdata;
+      args["cache"] = false;
+      args["contentType"] = false;
+      args["processData"] = false;
+      args["type"] = "POST";
+    }
+
+    $el.removeData("pat-ajax.clicked-data");
+    log.debug("request:", args, $el[0]); // Make it happen
+
+    var ajax_deferred = jquery__WEBPACK_IMPORTED_MODULE_0___default.a.ajax(args);
+    if (ajax_deferred) ajax_deferred.done(onSuccess).fail(onError);
+  }
+};
+_core_registry__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"].register(_);
+/* harmony default export */ __webpack_exports__["a"] = (_);
+
+/***/ }),
+
+/***/ 60:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -32007,340 +32460,75 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default.a.fn.scopedFind = function (selector
 
 /***/ }),
 
-/***/ 59:
+/***/ 7:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony export parser */
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_logging__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
-/* harmony import */ var _core_parser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
-/* harmony import */ var _core_registry__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9);
-/**
- * Patterns ajax - AJAX injection for forms and anchors
- *
- * Copyright 2012-2013 Florian Friesdorf
- * Copyright 2012-2013 Marko Durkovic
- */
+/* WEBPACK VAR INJECTION */(function(global) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return VERSION; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "p", function() { return root; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ArrayProto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return ObjProto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return SymbolProto; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "o", function() { return push; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "q", function() { return slice; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "t", function() { return toString; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return hasOwnProperty; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "r", function() { return supportsArrayBuffer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s", function() { return supportsDataView; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "k", function() { return nativeIsArray; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "m", function() { return nativeKeys; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return nativeCreate; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "l", function() { return nativeIsView; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return _isNaN; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return _isFinite; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return hasEnumBug; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "n", function() { return nonEnumerableProps; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return MAX_ARRAY_INDEX; });
+// Current version.
+var VERSION = '1.13.1';
 
+// Establish the root object, `window` (`self`) in the browser, `global`
+// on the server, or `this` in some virtual machines. We use `self`
+// instead of `window` for `WebWorker` support.
+var root = typeof self == 'object' && self.self === self && self ||
+          typeof global == 'object' && global.global === global && global ||
+          Function('return this')() ||
+          {};
 
+// Save bytes in the minified (but not gzipped) version:
+var ArrayProto = Array.prototype, ObjProto = Object.prototype;
+var SymbolProto = typeof Symbol !== 'undefined' ? Symbol.prototype : null;
 
+// Create quick reference variables for speed access to core prototypes.
+var push = ArrayProto.push,
+    slice = ArrayProto.slice,
+    toString = ObjProto.toString,
+    hasOwnProperty = ObjProto.hasOwnProperty;
 
-const log = _core_logging__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"].getLogger("pat.ajax");
-const parser = new _core_parser__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"]("ajax");
-parser.addArgument("url", function ($el) {
-  return ($el.is("a") ? $el.attr("href") : $el.is("form") ? $el.attr("action") : "").split("#")[0];
-});
-jquery__WEBPACK_IMPORTED_MODULE_0___default.a.ajaxSetup({
-  // Disable caching of AJAX responses
-  cache: false
-});
-var xhrCount = {};
+// Modern feature detection.
+var supportsArrayBuffer = typeof ArrayBuffer !== 'undefined',
+    supportsDataView = typeof DataView !== 'undefined';
 
-xhrCount.get = function (a) {
-  return this[a] !== undefined ? this[a] : 0;
-};
+// All **ECMAScript 5+** native function implementations that we hope to use
+// are declared here.
+var nativeIsArray = Array.isArray,
+    nativeKeys = Object.keys,
+    nativeCreate = Object.create,
+    nativeIsView = supportsArrayBuffer && ArrayBuffer.isView;
 
-xhrCount.inc = function (a) {
-  this[a] = this.get(a) + 1;
-  return this.get(a);
-};
+// Create references to these builtin functions because we override them.
+var _isNaN = isNaN,
+    _isFinite = isFinite;
 
-var _ = {
-  name: "ajax",
-  trigger: ".pat-ajax",
-  parser: parser,
-  init: function ($el) {
-    $el.off(".pat-ajax");
-    $el.filter("a").on("click.pat-ajax", _.onTriggerEvents);
-    $el.filter("form").on("submit.pat-ajax", _.onTriggerEvents).on("click.pat-ajax", "[type=submit]", _.onClickSubmit);
-    $el.filter(":not(form,a)").each(function () {
-      log.warn("Unsupported element:", this);
-    });
-    return $el;
-  },
-  destroy: function ($el) {
-    $el.off(".pat-ajax");
-  },
-  onClickSubmit: function (event) {
-    var $form = jquery__WEBPACK_IMPORTED_MODULE_0___default()(event.target).parents("form").first(),
-        name = event.target.name,
-        value = jquery__WEBPACK_IMPORTED_MODULE_0___default()(event.target).val(),
-        data = {};
+// Keys in IE < 9 that won't be iterated by `for key in ...` and thus missed.
+var hasEnumBug = !{toString: null}.propertyIsEnumerable('toString');
+var nonEnumerableProps = ['valueOf', 'isPrototypeOf', 'toString',
+  'propertyIsEnumerable', 'hasOwnProperty', 'toLocaleString'];
 
-    if (name) {
-      data[name] = value;
-    }
+// The largest integer that can be represented exactly.
+var MAX_ARRAY_INDEX = Math.pow(2, 53) - 1;
 
-    $form.data("pat-ajax.clicked-data", data);
-  },
-  onTriggerEvents: function (event) {
-    if (event) {
-      event.preventDefault();
-    }
-
-    _.request(jquery__WEBPACK_IMPORTED_MODULE_0___default()(this));
-  },
-  request: function ($el, opts) {
-    return $el.each(function () {
-      _._request(jquery__WEBPACK_IMPORTED_MODULE_0___default()(this), opts);
-    });
-  },
-  _request: function ($el, opts) {
-    var cfg = _.parser.parse($el, opts),
-        onError = function (jqxhr, status, error) {
-      // error can also stem from a javascript
-      // exception, not only errors described in the
-      // jqxhr.
-      log.error("load error for " + cfg.url + ":", error, jqxhr);
-      $el.trigger({
-        type: "pat-ajax-error",
-        jqxhr: jqxhr
-      });
-    },
-        seqNumber = xhrCount.inc(cfg.url),
-        onSuccess = function (data, status, jqxhr) {
-      log.debug("success: jqxhr:", jqxhr);
-
-      if (seqNumber === xhrCount.get(cfg.url)) {
-        // if this url is requested multiple time, only return the last result
-        $el.trigger({
-          type: "pat-ajax-success",
-          jqxhr: jqxhr
-        });
-      } else {// ignore
-      }
-    },
-        temp = $el.data("pat-ajax.clicked-data"),
-        clickedData = temp ? jquery__WEBPACK_IMPORTED_MODULE_0___default.a.param(temp) : "",
-        args = {
-      context: $el,
-      data: [$el.serialize(), clickedData].filter(Boolean).join("&"),
-      url: cfg.url,
-      method: $el.attr("method") ? $el.attr("method") : "GET"
-    };
-
-    if ($el.is("form") && $el.attr("method") && $el.attr("method").toUpperCase() == "POST") {
-      var formdata = new FormData($el[0]);
-
-      for (var key in temp) {
-        formdata.append(key, temp[key]);
-      }
-
-      args["method"] = "POST";
-      args["data"] = formdata;
-      args["cache"] = false;
-      args["contentType"] = false;
-      args["processData"] = false;
-      args["type"] = "POST";
-    }
-
-    $el.removeData("pat-ajax.clicked-data");
-    log.debug("request:", args, $el[0]); // Make it happen
-
-    var ajax_deferred = jquery__WEBPACK_IMPORTED_MODULE_0___default.a.ajax(args);
-    if (ajax_deferred) ajax_deferred.done(onSuccess).fail(onError);
-  }
-};
-_core_registry__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"].register(_);
-/* harmony default export */ __webpack_exports__["a"] = (_);
-
-/***/ }),
-
-/***/ 6:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/**
- * Patterns logging - minimal logging framework
- *
- * Copyright 2012 Simplon B.V.
- */
-// source: https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/bind
-if (!Function.prototype.bind) {
-  Function.prototype.bind = function (oThis) {
-    if (typeof this !== "function") {
-      // closest thing possible to the ECMAScript 5 internal IsCallable function
-      throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");
-    }
-
-    var aArgs = Array.prototype.slice.call(arguments, 1),
-        fToBind = this,
-        fNOP = function () {},
-        fBound = function () {
-      return fToBind.apply(this instanceof fNOP && oThis ? this : oThis, aArgs.concat(Array.prototype.slice.call(arguments)));
-    };
-
-    fNOP.prototype = this.prototype;
-    fBound.prototype = new fNOP();
-    return fBound;
-  };
-}
-
-var root, // root logger instance
-writer; // writer instance, used to output log entries
-
-var Level = {
-  DEBUG: 10,
-  INFO: 20,
-  WARN: 30,
-  ERROR: 40,
-  FATAL: 50
-};
-
-function IEConsoleWriter() {}
-
-IEConsoleWriter.prototype = {
-  output: function (log_name, level, messages) {
-    // console.log will magically appear in IE8 when the user opens the
-    // F12 Developer Tools, so we have to test for it every time.
-    if (typeof window.console === "undefined" || typeof console.log === "undefined") return;
-    if (log_name) messages.unshift(log_name + ":");
-    var message = messages.join(" "); // Under some conditions console.log will be available but the
-    // other functions are missing.
-
-    if (typeof console.info === undefined) {
-      var level_name;
-      if (level <= Level.DEBUG) level_name = "DEBUG";else if (level <= Level.INFO) level_name = "INFO";else if (level <= Level.WARN) level_name = "WARN";else if (level <= Level.ERROR) level_name = "ERROR";else level_name = "FATAL";
-      console.log("[" + level_name + "] " + message);
-    } else {
-      if (level <= Level.DEBUG) {
-        // console.debug exists but is deprecated
-        message = "[DEBUG] " + message;
-        console.log(message);
-      } else if (level <= Level.INFO) console.info(message);else if (level <= Level.WARN) console.warn(message);else console.error(message);
-    }
-  }
-};
-
-function ConsoleWriter() {}
-
-ConsoleWriter.prototype = {
-  output: function (log_name, level, messages) {
-    if (log_name) messages.unshift(log_name + ":");
-
-    if (level <= Level.DEBUG) {
-      // console.debug exists but is deprecated
-      messages.unshift("[DEBUG]");
-      console.log.apply(console, messages);
-    } else if (level <= Level.INFO) console.info.apply(console, messages);else if (level <= Level.WARN) console.warn.apply(console, messages);else console.error.apply(console, messages);
-  }
-};
-
-function Logger(name, parent) {
-  this._loggers = {};
-  this.name = name || "";
-  this._parent = parent || null;
-
-  if (!parent) {
-    this._enabled = true;
-    this._level = Level.WARN;
-  }
-}
-
-Logger.prototype = {
-  getLogger: function (name) {
-    var path = name.split("."),
-        root = this,
-        route = this.name ? [this.name] : [];
-
-    while (path.length) {
-      var entry = path.shift();
-      route.push(entry);
-      if (!(entry in root._loggers)) root._loggers[entry] = new Logger(route.join("."), root);
-      root = root._loggers[entry];
-    }
-
-    return root;
-  },
-  _getFlag: function (flag) {
-    var context = this;
-    flag = "_" + flag;
-
-    while (context !== null) {
-      if (context[flag] !== undefined) return context[flag];
-      context = context._parent;
-    }
-
-    return null;
-  },
-  setEnabled: function (state) {
-    this._enabled = !!state;
-  },
-  isEnabled: function () {
-    this._getFlag("enabled");
-  },
-  setLevel: function (level) {
-    if (typeof level === "number") this._level = level;else if (typeof level === "string") {
-      level = level.toUpperCase();
-      if (level in Level) this._level = Level[level];
-    }
-  },
-  getLevel: function () {
-    return this._getFlag("level");
-  },
-  log: function (level, messages) {
-    if (!messages.length || !this._getFlag("enabled") || level < this._getFlag("level")) return;
-    messages = Array.prototype.slice.call(messages);
-    writer.output(this.name, level, messages);
-  },
-  debug: function () {
-    this.log(Level.DEBUG, arguments);
-  },
-  info: function () {
-    this.log(Level.INFO, arguments);
-  },
-  warn: function () {
-    this.log(Level.WARN, arguments);
-  },
-  error: function () {
-    this.log(Level.ERROR, arguments);
-  },
-  fatal: function () {
-    this.log(Level.FATAL, arguments);
-  }
-};
-
-function getWriter() {
-  return writer;
-}
-
-function setWriter(w) {
-  writer = w;
-}
-
-if (!window.console || !window.console.log || typeof window.console.log.apply !== "function") {
-  setWriter(new IEConsoleWriter());
-} else {
-  setWriter(new ConsoleWriter());
-}
-
-root = new Logger();
-var logconfig = /loglevel(|-[^=]+)=([^&]+)/g,
-    match;
-
-while ((match = logconfig.exec(window.location.search)) !== null) {
-  var logger = match[1] === "" ? root : root.getLogger(match[1].slice(1));
-  logger.setLevel(match[2].toUpperCase());
-}
-
-var api = {
-  Level: Level,
-  getLogger: root.getLogger.bind(root),
-  setEnabled: root.setEnabled.bind(root),
-  isEnabled: root.isEnabled.bind(root),
-  setLevel: root.setLevel.bind(root),
-  getLevel: root.getLevel.bind(root),
-  debug: root.debug.bind(root),
-  info: root.info.bind(root),
-  warn: root.warn.bind(root),
-  error: root.error.bind(root),
-  fatal: root.fatal.bind(root),
-  getWriter: getWriter,
-  setWriter: setWriter
-};
-/* harmony default export */ __webpack_exports__["a"] = (api);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(47)))
 
 /***/ }),
 
@@ -32350,8 +32538,8 @@ var api = {
 "use strict";
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(20);
-/* harmony import */ var _logging__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
+/* harmony import */ var _dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18);
+/* harmony import */ var _logging__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5);
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2);
 /**
  * Patterns registry - Central registry and scan logic for patterns
@@ -32484,6 +32672,10 @@ const registry = {
   },
 
   scan(content, patterns, trigger) {
+    if (!content) {
+      return;
+    }
+
     if (typeof content === "string") {
       content = document.querySelector(content);
     } else if (content.jquery) {
